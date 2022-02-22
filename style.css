@@ -1,22 +1,81 @@
 
 /* efekty dla menu  --------------------------------------------------------- */
 
+.main-header
+{
+  width: 100% !important;
+}
+
 .navbar-brand
 {
-  padding-left: 2rem;
+  padding-left: 0;
+  margin-right: 0;
 }
 
 .navbar
 {
 	min-height: 100px;
   border-bottom: 1px solid white;
+  padding: 0 15% 0 15%;
 }
+
+.nav-item
+{
+  margin-right: 2rem;
+}
+
+@media (max-width: 1200px)
+{
+  .nav-item
+  {
+    font-size: 17px;
+    margin-right: 1.4rem;
+  }
+
+  .navbar-brand
+  {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 992px)
+{
+  .navbar
+  {
+    padding: 0 8% 0 8% !important;
+  }
+}
+
+
+@media (max-width: 384px)
+{
+  .logo
+  {
+    width: 24px;
+    height: 24px;
+  }
+
+  .navbar-brand
+  {
+    font-size: 14px;
+  }
+
+  .navbar-toggler
+  {
+    font-size: 0.8rem !important;
+  }
+}
+
 
 .navbar-nav:hover
 {
   color: #ffffff;
 }
 
+.navbar-collapse
+{
+  margin-right: 0;
+}
 /* efekty przyciskow w menu ------------------------------------------------ */
 
 ul a:hover
@@ -60,6 +119,7 @@ body
   font-weight: 500;
   font-size: 19px;
   padding: 0;
+  width: 100% !important;
 
   /* height:100%;
   background: -moz-linear-gradient(left, #DB2B39 50%, #2B303A 50%);
@@ -75,20 +135,36 @@ body
 
 h1
 {
-	font-size: 48px;
+	font-size: 58px;
 	font-weight: 400;
 	color: #ffffff;
   font-family: Arial !important;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0;
+  margin: 0;
   text-align: center;
-  vertical-align: middle;
   line-height: 150%;
+}
+
+.home-page
+{
+  padding: 0 15%;
 }
 
 .home-page-content
 {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
+  padding: 0;
+}
+
+.container
+{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100% !important;
+  min-width: auto !important;
 }
 
 .con-1
@@ -96,26 +172,240 @@ h1
   margin-bottom: 6rem;
 }
 
-/* --------------| 1 SEKCJA : POWITANIE / WELCOME |------------------------- */
-
-.btn
+@media (min-width: 1200px)
 {
-  padding: 0.8rem 0rem 0.8rem 0rem;
-  border-radius: 36px;
-  width: 160px;
+  .container
+  {
+    max-width: 100% !important;
+  }
+
 }
+
+@media (max-width: 992px)
+{
+  .container
+  {
+    max-width: 100% !important;
+  }
+
+  .home-page
+  {
+    padding: 0 8% !important;
+  }
+}
+
+@media (max-width: 768px)
+{
+ 
+  .home-page-content
+  {
+    margin-top: 2rem;
+  }
+
+  .container
+  {
+    max-width: 100% !important;
+  }
+
+  .home-page
+  {
+    padding: 0 8% !important;
+  }
+
+  .con-1
+  {
+    margin-bottom: 2rem !important;
+  }
+
+}
+
+@media (max-width: 576px)
+{
+  
+  .home-page-content
+  {
+    margin-top: 2rem;
+  }
+
+  .container
+  {
+    max-width: 100% !important;
+  }
+
+  .home-page
+  {
+    padding: 0 8% !important;
+  }
+
+  .con-1
+  {
+    margin-bottom: 2rem !important;
+  }
+
+}
+
+@media (max-width: 384px)
+{
+  
+  .home-page-content
+  {
+    margin-top: 1rem;
+  }
+
+  .con-1
+  {
+    margin-bottom: 2rem !important;
+  }
+}
+
+
+/* --------------| 1 SEKCJA : POWITANIE / WELCOME |------------------------- */
 
 .motto
 {
-  height: 70%;
+  height: 60%;
+  padding: 2rem 0;
 }
 
 .two-buttons
 {
-  height: 30%;
-  padding-left: 15%;
-  padding-right: 15%;
+  height: 40%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
+
+.btn
+{
+  padding: 0.6rem 0 0.6rem 0;
+  border-radius: 36px;
+  width: 160px;
+}
+
+@media (max-width: 1600px)
+{
+  .headline
+  {
+    font-size: 48px;
+  }
+
+}
+
+@media (max-width: 1400px)
+{
+  .headline
+  {
+    font-size: 40px;
+  }
+
+}
+
+@media (max-width: 1200px)
+{
+  .headline
+  {
+    font-size: 38px;
+  } 
+  
+  .btn
+  {
+    width: 140px;
+  }
+
+  .text
+{
+  font-size: 17px !important;
+}
+
+}
+
+@media (max-width: 1054px)
+{
+  .headline
+  {
+    font-size: 32px;
+  }
+
+  .text
+  {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 992px)
+{
+  
+  .headline
+  {
+    font-size: 28px;
+  }
+  
+  .btn
+  {
+    width: 120px;
+    font-size: 0.9rem !important;
+  }
+
+  .two-buttons
+  {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 768px)
+{
+
+  .headline
+  {
+    font-size: 28px;
+  }
+
+  .btn
+  {
+    width: 120px;
+    font-size: 0.9rem !important;
+  }
+
+  .img-fluid
+  {
+    width: 70%;
+    height: auto;
+    margin-top: 2rem !important;
+  }
+
+}
+
+@media (max-width: 576px)
+{
+ 
+  .headline
+  {
+    font-size: 24px;
+  } 
+
+  .btn
+  {
+    width: 120px;
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 384px)
+{
+  .btn
+  {
+    width: 120px;
+    font-size: 0.8rem !important;
+    margin-bottom: 0.6rem;
+    padding: 0.1rem 0 0.1rem 0;
+  }
+
+  .headline
+  {
+    font-size: 18px;
+  } 
+}
+
 
 /* --------------| 2 SEKCJA : KLIENCI / CUSTOMERS |------------------------- */
 
@@ -166,22 +456,47 @@ h1
 }
 
 /* ---------------| STOPKA / FOOTER |----------------------------- */
-
-.row-end
+h5
 {
-  min-height: 20rem;
-  background-color: rgb(6, 6, 44);
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.row-end-end
+.row
 {
-  min-height: 3rem;
-  background-color: rgb(1, 1, 8);
+  width: 100% !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  
+}
+
+.main-footer
+{
+background-color: rgb(11, 11, 68);
+}
+
+.footer-content
+{
+  padding: 0 15%;
+}
+
+.footer-menu
+{
+  min-height: 16rem;
+  width: 100% !important;
+}
+
+.footer-language, .footer-bottom
+{
+  background-color: rgb(11, 11, 68);
   text-align: center;
-  font-size: 12px;
-  vertical-align: auto;
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: middle !important;
+  border-top: 1px solid #0e4a97;
+  padding: 2rem 0 2rem 0;
+  color: #0e4a97 !important;
 }
 
 .f-col
