@@ -85,28 +85,28 @@ ul a:hover
 
 nav li
 {
-    text-align: center;
+  text-align: center;
 }
 
 li > a:after
 {
-    content: '';
-    display: block;
-    height: 1.5px;
-    background: #ffffff ;
-    transform: scaleX(0);
-    transition: transform .3s;
+  content: '';
+  display: block;
+  height: 1.5px;
+  background: #ffffff ;
+  transform: scaleX(0);
+  transition: transform .2s;
 }
 
 li > a:hover:after
 {
-    transform: scaleX(1);
-    transition: transform .3s;
+  transform: scaleX(1);
+  transition: transform .2s;
 }
 
 .active
 {
-    color: #ffffff  !important;
+  color: #ffffff  !important;
 }
 
 /* tu koniec stylizowania menu ---------------------------------------------- */
@@ -145,12 +145,12 @@ h1
   line-height: 150%;
 }
 
-.home-page
+.home-page, .services-page, .about-us-page, .blog-page
 {
   padding: 0 15%;
 }
 
-.home-page-content
+.home-page-content, .services-page-content, .about-us-page-content, .blog-page-content
 {
   text-align: center;
   margin-top: 5rem;
@@ -289,6 +289,14 @@ h1
   }
 
 }
+
+/* @media (max-width: 1440px)
+{
+  .navbar-toggler
+  {
+    
+  }
+} */
 
 @media (max-width: 1400px)
 {
@@ -495,7 +503,7 @@ background-color: rgb(11, 11, 68);
   font-weight: 400;
   vertical-align: middle !important;
   border-top: 1px solid #0e4a97;
-  padding: 2rem 0 2rem 0;
+  padding: 1.2rem 0 1.2rem 0;
   color: #0e4a97 !important;
 }
 
@@ -509,10 +517,76 @@ ul
 {
   padding-inline-start: 1.5rem;
 }
-/* FOOTER - END |------------------------------------------------- */
+/* ------------- | FOOTER - END | ---------------------- */
 
+/* ============== | MOBILE FIRST METHOD | ============== */
 
-/* .motto, .two-buttons, img, .col-md-3, .col-md-9, .text, .read, .col-md-12, .col-md-4, con-1, .f-col
+/*
+
+// [xs] Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// [sm] Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// [md] Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// [lg] Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// [xl] Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// [xxl] Extra extra large devices (large desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+
+// [xxl-1440] Extra large devices (large desktops, 1440px and up)
+@media (min-width: 1440px) { ... }
+
+*/
+
+.language
 {
-  border: 1px solid white;
-}   */
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.language-label
+{
+  margin-right: 1.2rem;
+}
+
+.globe
+{
+  opacity: 0.5;
+}
+
+.social-icon
+{
+  margin-right: 3.2rem;
+}
+
+.footer-button-center
+{
+  margin-left: 6.2rem;
+}
+
+.text-label
+{
+  margin-right: 1.6rem;
+}
+
+/* Social media icons */
+
+
+.footer-button-right
+{
+  margin-left: 18.0rem;
+}
+
+/* ----------- USLUGI - SERVICES -------------- */
+
+
+
+
