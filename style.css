@@ -1,5 +1,5 @@
 
-/* efekty dla menu  --------------------------------------------------------- */
+/* ----|  MENU  |--- */
 
 .main-header
 {
@@ -66,7 +66,6 @@
   }
 }
 
-
 .navbar-nav:hover
 {
   color: #ffffff;
@@ -76,7 +75,8 @@
 {
   margin-right: 0;
 }
-/* efekty przyciskow w menu ------------------------------------------------ */
+
+/* ---| buttons in MENU |--- */
 
 ul a:hover
 {
@@ -88,7 +88,7 @@ nav li
   text-align: center;
 }
 
-li > a:after
+.main-header li > a:after
 {
   content: '';
   display: block;
@@ -109,7 +109,7 @@ li > a:hover:after
   color: #ffffff  !important;
 }
 
-/* tu koniec stylizowania menu ---------------------------------------------- */
+/* ---| BODY |--- */
 
 body
 {
@@ -127,9 +127,9 @@ body
   background: linear-gradient(to right, #DB2B39 50%,#2B303A 50%); */
 
   height:100%;
-  background: -moz-linear-gradient(top, #215aaf 50%, #007bff 50%);
-  background: -webkit-linear-gradient(top, #145dca 50%,#007bff 50%);
-  background: linear-gradient(to bottom, #0e4a97 50%,#007bff 50%);
+  background: -moz-linear-gradient(top, #215aaf 100%, #007bff 0%);
+  background: -webkit-linear-gradient(top, #145dca 100%,#007bff 0%);
+  background: linear-gradient(to bottom, #0e4a97 100%,#007bff 0%);
 
 }
 
@@ -139,21 +139,23 @@ h1
 	font-weight: 400;
 	color: #ffffff;
   font-family: Arial !important;
-  padding: 0;
+  padding: 0 0 2rem 0;
   margin: 0;
   text-align: center;
   line-height: 150%;
 }
 
-.home-page, .services-page, .about-us-page, .blog-page
+/* ---| pages in BODY |--- */
+
+.home-page, .services-page, .about-us-page, .blog-page, .contact-page
 {
   padding: 0 15%;
 }
 
-.home-page-content, .services-page-content, .about-us-page-content, .blog-page-content
+.home-page-content, .services-page-content, .about-us-page-content, .blog-page-content, .contact-page-content
 {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 0;
 }
 
@@ -167,9 +169,13 @@ h1
   min-width: auto !important;
 }
 
-.con-1
-{
+.con-1 {
+  margin-bottom: 3rem;
+}
+
+.con-2 {
   margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 
 @media (min-width: 1200px)
@@ -259,7 +265,7 @@ h1
 }
 
 
-/* --------------| 1 SEKCJA : POWITANIE / WELCOME |------------------------- */
+/* ---| 1 SEKCJA : POWITANIE / WELCOME |--- */
 
 .motto
 {
@@ -289,14 +295,6 @@ h1
   }
 
 }
-
-/* @media (max-width: 1440px)
-{
-  .navbar-toggler
-  {
-    
-  }
-} */
 
 @media (max-width: 1400px)
 {
@@ -415,7 +413,7 @@ h1
 }
 
 
-/* --------------| 2 SEKCJA : KLIENCI / CUSTOMERS |------------------------- */
+/* ---| 2 SEKCJA : KLIENCI / CUSTOMERS |--- */
 
 .text
 {
@@ -428,11 +426,11 @@ h1
   height: 30%;
 }
 
-/* --------------| 3 SEKCJA : KIERUNKI / DIRECTIONS |------------------------- */
+/* ---| 3 SEKCJA : KIERUNKI / DIRECTIONS |--- */
 
 .box-1
 {
-  background-color: blue !important;
+  background-color: rgb(36, 36, 167) !important;
 }
 
 .box-2
@@ -450,20 +448,36 @@ h1
   min-height: 20rem
 }
 
+.box30 {
+  max-width: 30%;
+}
+
+.contact-page .box30 {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .value
 {
   margin-top: 40%;
 }
 
-/* --------------| 4 SEKCJA : ZESPOL / TEAM |------------------------- */
+/* ---| 4 SEKCJA - ZESPOL / TEAM |--- */
 
 .img-person
 {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin: 0 0;
+  padding: 10px 10px;
 }
 
-/* ---------------| STOPKA / FOOTER |----------------------------- */
+figcaption{
+  padding: 0.5rem 0;
+}
+
+/* ---| STOPKA / FOOTER |--- */
 h5
 {
   font-size: 15px;
@@ -517,34 +531,6 @@ ul
 {
   padding-inline-start: 1.5rem;
 }
-/* ------------- | FOOTER - END | ---------------------- */
-
-/* ============== | MOBILE FIRST METHOD | ============== */
-
-/*
-
-// [xs] Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
-
-// [sm] Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
-// [md] Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
-// [lg] Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-// [xl] Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// [xxl] Extra extra large devices (large desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
-
-// [xxl-1440] Extra large devices (large desktops, 1440px and up)
-@media (min-width: 1440px) { ... }
-
-*/
 
 .language
 {
@@ -584,9 +570,264 @@ ul
 {
   margin-left: 18.0rem;
 }
+/* ---| FOOTER - END |--- */
 
-/* ----------- USLUGI - SERVICES -------------- */
+/* ---| USLUGI / SERVICES |--- */
 
+input[type="radio"] {
+  display:none;
+}
 
+label {
+  width:24%;
+  float:left;
+  text-align:center;
+  background:#ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color:#222222;
+  padding:1.5%;
+  margin:0.5%;
+  margin-bottom:30px;
+  cursor:pointer;
+}
 
+input[type="radio"][id="blue"]:checked + label {
+  background:#6666ff;
+}
 
+input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+input[type="radio"][id="red"]:checked + label {
+  background:#ff4466;
+}
+
+input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+input[type="radio"][id="green"]:checked + label {
+  background:#d4c21a;
+}
+
+input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+.tile {
+  width:19%;
+  height:120px;
+  float:left;
+  transition:all 0.5s;
+  margin:0.5% 0.5%;
+  padding:1.5% 0.8%;
+  font-size:14px !important;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.tile:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.green {
+  background:#427be6;
+}
+
+.green:hover{
+  background-color: #1950b4;
+  border: solid 1px #fff;
+}
+
+.blue {
+  background:#2462a8;
+}
+
+.blue:hover{
+  background-color: #0f4685;
+  border: solid 1px #fff;
+}
+
+.red {
+  background:#395cce;
+}
+
+.red:hover {
+  background-color: #173aac;
+  border: solid 1px #fff;
+}
+
+/* ---| BLOG |---  */
+
+.blog-page ol {
+  list-style: none;
+}
+
+.blog-page img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  }
+
+.blog-page a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+/* ---| FILTERS |--- */
+
+.filters {
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  padding-left: 0;
+  border-bottom: 1.2px solid white;
+}
+
+.filters * {
+  display: inline-block;
+}
+
+.filters label {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+  min-width: 100%;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.1s;
+  font-size: 17px;
+  background-color: inherit;
+  color: white;
+}
+
+.filters label:hover {
+  background-color: rgb(4, 20, 49);
+  color: white;
+  border-radius: 1.4rem;
+}
+
+/* ---| FILTRED ELEMENTS (POSTS) |--- */
+
+.blog-page .blog-page-content {
+  text-align: none;
+}
+
+.blog-page .posts {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.blog-page .posts .post {
+  background: #e6e4e4;
+  color: #215aaf;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.90;
+}
+
+.blog-page .posts .post:hover {
+  opacity: 1.0;
+  border: 4px solid rgba(0,0,0,0.1);
+}
+
+.blog-page .posts .post img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.blog-page .posts .post-title {
+  font-size: 1.3rem;
+}
+
+.blog-page .posts .post-title:hover {
+  text-decoration: underline;
+}
+
+.blog-page .posts figcaption {
+  padding: 1rem;
+  text-align: left !important;
+}
+
+.blog-page .posts .post-categories {
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.blog-page .posts .post-categories * {
+  display: inline-block;
+}
+
+.blog-page .posts .post-categories li {
+  margin-bottom: 0.2rem;
+  margin-left: 0;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.blog-page .posts .post-categories a {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  line-height: normal;
+  transition: all 0.1s;
+}
+
+.blog-page .posts .post-categories a:hover {
+  background: rgb(4, 20, 49);;
+  color: white;
+}
+
+/* ---| KONTAKT / CONTACT |--- */
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot {
+  height: 125px;
+  width: 125px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  color: black;
+}
+
+/* ---| SZKOLENIA / E-LEARNING |---  */
+
+.m-learn {
+  margin-top: 6rem;
+}
+
+.box-0 {
+  background-color: #145dca;
+  aspect-ratio: 1/1;
+}
