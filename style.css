@@ -10,14 +10,41 @@
 {
   padding-left: 0;
   margin-right: 0;
+  display: flex;
+}
+
+.sygnet {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+}
+
+.wordmark {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 100%;
+}
+
+.tagline {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 100%;
+  width: 100%;
+  padding-top: 5px;
 }
 
 .navbar
 {
-	min-height: 100px;
-  border-bottom: 1px solid white;
-  padding: 0 15% 0 15%;
+	min-height: 90px;
+  /* border-bottom: 1px solid white; */
+  padding: 0 20%;
 }
+
 
 .nav-item
 {
@@ -49,7 +76,7 @@
 
 @media (max-width: 384px)
 {
-  .logo
+  .sygnet
   {
     width: 24px;
     height: 24px;
@@ -117,7 +144,7 @@ body
 	color: #ffffff !important;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 17px;
   padding: 0;
   width: 100% !important;
 
@@ -135,38 +162,62 @@ body
 
 h1
 {
-	font-size: 58px;
+	font-size: 46px;
 	font-weight: 400;
 	color: #ffffff;
   font-family: Arial !important;
-  padding: 0 0 2rem 0;
-  margin: 0;
+  padding: 0 0;
+  margin: 0 0;
   text-align: center;
-  line-height: 150%;
+  line-height: 130%;
+}
+
+.col-md-12, .col-md-9, .col-md-3 {
+  padding-right: 0!important;
+  padding-left: 0!important;
 }
 
 /* ---| pages in BODY |--- */
 
-.home-page, .services-page, .about-us-page, .blog-page, .contact-page
-{
-  padding: 0 15%;
+.home-page, .about-us-page, .services-page, .blog-page, .shop-page, .e-learning-page, .contact-page {
+  padding: 0 0;
+  background-color: none;
+  margin: 0 0;
+  /* background-image: url(img/warsaw.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto; */
 }
 
-.home-page-content, .services-page-content, .about-us-page-content, .blog-page-content, .contact-page-content
-{
+.home-page-content, .about-us-page-content, .services-page-content,  .blog-page-content, .shop-page-content, .e-learning-page-content, .contact-page-content {
   text-align: center;
-  margin-top: 3rem;
-  padding: 0;
+  padding: 0 20%;
 }
 
-.container
-{
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
+.container {
+  margin: 0 0;
+  padding: 0 0;
   width: 100% !important;
   min-width: auto !important;
+}
+
+.bg-con-1 {
+  background-color: rgb(26, 83, 189);
+}
+
+.bg-con-2 {
+  background-color: none;
+}
+
+.row
+{
+  width: 100% !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.row-content {
+  padding: 3% 20%;
 }
 
 .con-1 {
@@ -177,6 +228,8 @@ h1
   margin-bottom: 6rem;
   margin-top: 6rem;
 }
+
+/* ---| RWD - MEDIA QUERY |--- */
 
 @media (min-width: 1200px)
 {
@@ -265,17 +318,21 @@ h1
 }
 
 
-/* ---| 1 SEKCJA : POWITANIE / WELCOME |--- */
+/* ---| HOME-PAGE | 1 SEKCJA / POWITANIE - WELCOME |--- */
 
 .motto
 {
   height: 60%;
-  padding: 2rem 0;
+  padding-bottom: 3rem;
+}
+
+.slogan {
+  line-height: 150% !important;
 }
 
 .two-buttons
 {
-  height: 40%;
+  height: auto;
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -285,6 +342,11 @@ h1
   padding: 0.6rem 0 0.6rem 0;
   border-radius: 36px;
   width: 160px;
+}
+
+.headline {
+  margin-bottom: 3vh;
+  margin-top: 3vh;
 }
 
 @media (max-width: 1600px)
@@ -412,40 +474,37 @@ h1
   } 
 }
 
-
 /* ---| 2 SEKCJA : KLIENCI / CUSTOMERS |--- */
 
-.text
-{
-  height: 70%;
-  padding: 1rem 1rem 1rem 1rem;
-}
-
-.read
-{
-  height: 30%;
-}
 
 /* ---| 3 SEKCJA : KIERUNKI / DIRECTIONS |--- */
 
 .box-1
 {
   background-color: rgb(36, 36, 167) !important;
+  padding: 0 0;
 }
 
 .box-2
 {
   background-color: blueviolet !important;
+  padding: 0 0;
 }
 
 .box-3
 {
   background-color: cornflowerblue !important;
+  padding: 0 0;
 }
+
+.square {
+  width: 100%;
+  aspect-ratio: 1/1;
+} 
 
 .box-1, .box-2, .box-3
 {
-  min-height: 20rem
+  min-height: auto;
 }
 
 .box30 {
@@ -460,57 +519,98 @@ h1
   padding-left: 0;
 }
 
-.value
-{
-  margin-top: 40%;
+.value-text {
+  padding-top: 5%;
+  padding-bottom: 0!important;
+  margin-bottom: 0!important;
 }
 
-/* ---| 4 SEKCJA - ZESPOL / TEAM |--- */
+.value-img {
+  padding-top: 30px;
+  fill: gray;
+}
 
-.img-person
-{
+/* ---| HOME-PAGE | 4 SEKCJA - ZESPOL / TEAM |--- */
+
+.img-person {
   margin: 0 0;
-  padding: 10px 10px;
+  padding: 40px;
+  width: 100%;
 }
 
-figcaption{
-  padding: 0.5rem 0;
+.team figcaption{
+  padding: 1.2vh 0;
+  background-color:cornflowerblue;
+  margin-top: 2vh;
+  font-size: 19px;
+  width: 100%;
 }
 
-/* ---| STOPKA / FOOTER |--- */
-h5
-{
+/* ---| HOME-PAGE | 5 SEKCJA - PROCES / PROCESS |--- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.proces body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.proces a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+/* ---| HOME-PAGE | 6 SEKCJA - OBSZAR / AREA |--- */
+
+
+
+/* ---| PAGE | STOPKA / FOOTER |--- */
+
+h5 {
   font-size: 15px;
   color: #ffffff;
-  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+  /* text-transform: uppercase; */
 }
 
-.row
-{
-  width: 100% !important;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  
-}
-
-.main-footer
-{
+.main-footer {
 background-color: rgb(11, 11, 68);
 }
 
-.footer-content
-{
+.footer-content {
   padding: 0 15%;
 }
 
-.footer-menu
-{
-  min-height: 16rem;
+.footer-menu {
+  min-height: auto;
   width: 100% !important;
 }
 
-.footer-language, .footer-bottom
-{
+.f-col {
+  font-size: 12px !important;
+  margin: 2rem auto;
+}
+
+.footer-menu a {
+  text-decoration: none;
+}
+.footer-link a {
+  line-height: 180%;
+}
+
+.footer-link p {
+  line-height: 180%;
+}
+
+.footer-menu a:hover {
+  color: white;
+}
+
+.footer-menu p {
+  color: #007bff;
+}
+
+.footer-language, .footer-bottom {
   background-color: rgb(11, 11, 68);
   text-align: center;
   font-size: 14px;
@@ -521,37 +621,122 @@ background-color: rgb(11, 11, 68);
   color: #0e4a97 !important;
 }
 
-.f-col
-{
-  font-size: 12px !important;
-  line-height: 170%;
-}
-
-ul
-{
-  padding-inline-start: 1.5rem;
-}
-
 .language
 {
   margin-bottom: 0;
   padding-bottom: 0;
+  padding-left: 1.2rem;
 }
 
-.language-label
-{
+.language-label {
   margin-right: 1.2rem;
+  text-decoration: none;
 }
 
-.globe
-{
+.language-label:hover {
+  text-decoration: none;
+}
+
+.globe {
   opacity: 0.5;
 }
 
-.social-icon
-{
-  margin-right: 3.2rem;
+.footer-button-left {
+  margin: 0 0;
+  padding: 0 0;
 }
+
+.text-law, .text-rule {
+  padding: 9px 0;
+}
+
+/* .social-icon
+{
+  margin-right: 1.2rem;
+  opacity: 1.0;
+} */
+
+.footer-button-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-label {
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 5rem!important;
+}
+
+.text-label:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ---| FOOTER | SOCIAL MEDIA STYLES |--- */
+
+.footer-button-right a {
+  background: rgb(11, 11, 68);
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.footer-button-right a.icon:before {
+  font-family: "FontAwesome", sans-serif;
+  /* color: rgb(255, 255, 255); */
+  font-size: 20px;
+  fill: rgb(193, 197, 218);
+}
+
+/* icons of social media after hover  */
+
+.footer-button-right a.icon:hover {
+  font-family: "FontAwesome", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.footer-button-right a.facebook:before {
+  content: '\f09a';
+}
+
+.footer-button-right a.twitter:before {
+  content: '\f0e1';
+}
+
+.footer-button-right a.github:before {
+  content: '\f167';
+}
+
+/* Hover through the icons */
+
+.footer-button-right a.facebook:hover {
+  background-color: #4183d7; 
+  color: #ffffff;
+}
+
+.footer-button-right a.twitter:hover {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.footer-button-right a.github:hover {
+  background-color: rgb(199, 33, 33);
+  color: #fff;
+}
+
+/* ---| SOCIAL MEDIA STYLES - END |--- */
 
 .footer-button-center
 {
@@ -568,9 +753,27 @@ ul
 
 .footer-button-right
 {
-  margin-left: 18.0rem;
+  margin-left: auto;
 }
-/* ---| FOOTER - END |--- */
+
+/* ---| O NAS / ABOUT US |---  */
+
+.about-us-text {
+  padding-right: 1.4rem;
+}
+
+.enlarge-img {
+  margin: 0px 10px;
+  transition: 0.8s;
+}
+
+.enlarge-img:hover {
+  transform: scale(1.8);
+  background: none;
+  z-index: 1;
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
 
 /* ---| USLUGI / SERVICES |--- */
 
@@ -585,7 +788,7 @@ label {
   background:#ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   color:#222222;
-  padding:1.5%;
+  padding:1.0% 1.5%;
   margin:0.5%;
   margin-bottom:30px;
   cursor:pointer;
@@ -629,21 +832,27 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
 
 .tile {
   width:19%;
-  height:120px;
+  min-height:150px;
   float:left;
   transition:all 0.5s;
-  margin:0.5% 0.5%;
-  padding:1.5% 0.8%;
+  margin: 0.5% 0.5%;
+  padding: 0 0;
   font-size:14px !important;
-  display: block;
+  position: relative;
   text-decoration: none;
   color: #fff;
+  display: grid;
+  place-content: center;
 }
 
 .tile:hover{
   text-decoration: none;
   color: #fff;
 }
+
+a .tile-text {
+  padding: 3px 10px;
+} 
 
 .green {
   background:#427be6;
@@ -672,7 +881,7 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
   border: solid 1px #fff;
 }
 
-/* ---| BLOG |---  */
+/* ---| BLOG |--- */
 
 .blog-page ol {
   list-style: none;
@@ -694,7 +903,7 @@ input[type="radio"] {
   left: -9999px;
 }
 
-/* ---| FILTERS |--- */
+/* ---| BLOG / FILTERS in BLOG |--- */
 
 .filters {
   text-align: left;
@@ -726,7 +935,7 @@ input[type="radio"] {
   border-radius: 1.4rem;
 }
 
-/* ---| FILTRED ELEMENTS (POSTS) |--- */
+/* ---| BLOG / FILTRED ELEMENTS (POSTS) |--- */
 
 .blog-page .blog-page-content {
   text-align: none;
@@ -802,7 +1011,48 @@ input[type="radio"] {
   color: white;
 }
 
+
+/* FILTERING RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[value="Wszystkie"]:checked ~ .filters [for="Wszystkie"],
+[value="ppoż"]:checked ~ .filters [for="ppoż"],
+[value="bhp"]:checked ~ .filters [for="bhp"],
+[value="szkolenia"]:checked ~ .filters [for="szkolenia"],
+[value="przeglądy"]:checked ~ .filters [for="przeglądy"],
+[value="rzeczoznawca"]:checked ~ .filters [for="rzeczoznawca"],
+[value="fullPage.js"]:checked ~ .filters [for="fullPage.js"] {
+  background: green;
+  color: white;
+}
+
+[value="Wszystkie"]:checked ~ .posts [data-category] {
+  display: block;
+}
+
+[value="ppoż"]:checked ~ .posts .post:not([data-category~="ppoż"]),
+[value="bhp"]:checked ~ .posts .post:not([data-category~="bhp"]),
+[value="szkolenia"]:checked ~ .posts .post:not([data-category~="szkolenia"]),
+[value="przeglądy"]:checked ~ .posts .post:not([data-category~="przeglądy"]),
+[value="rzeczoznawca"]:checked ~ .posts .post:not([data-category~="rzeczoznawca"]),
+[value="fullPage.js"]:checked ~ .posts .post:not([data-category~="fullPage.js"]) {
+  display: none;
+}
+
+
+
+
+
+
+/* ---| SKLEP / SHOP |--- */
+
+.product-card {
+  width: 200px !important;
+}
+
 /* ---| KONTAKT / CONTACT |--- */
+.contact-area {
+  min-height: 45vh;
+}
 
 .social-media {
   display: flex;
@@ -812,13 +1062,51 @@ input[type="radio"] {
 .dot {
   height: 125px;
   width: 125px;
-  background-color: #bbb;
+  background-color: none;
+  
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 0 0;
+  color: black;
+}
+
+.dot > img {
+  height: 125px;
+  width: 125px;
+  background-color: #ffffff;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
   margin: auto;
-  padding-top: 3rem;
+  padding: 0 0;
   color: black;
+}
+
+.form-group {
+  display: flex !important;
+  margin-bottom: 0 !important;
+  padding: 0 0;
+}
+
+.contact-page label {
+  background: none;
+  box-shadow: none;
+  color: #ffffff;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+input {
+  width: 70%;
+}
+
+.message {
+  min-height: 16vh;
+}
+
+.responsive-map {
+  min-height: 60vh;
 }
 
 /* ---| SZKOLENIA / E-LEARNING |---  */
@@ -830,4 +1118,13 @@ input[type="radio"] {
 .box-0 {
   background-color: #145dca;
   aspect-ratio: 1/1;
+}
+
+/* --| E-LEARNING |-- */
+
+.title-vod {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: 17px;
+  padding: 16px 0 0 0;
 }
