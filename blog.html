@@ -70,9 +70,9 @@
 								<a class="nav-link text-white" href="sklep.html">sklep</a>
 							</li>
 
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a class="nav-link text-white" href="e-learning.html">e-learing</a>
-							</li>
+							</li> -->
 
 							<li class="nav-item">
 								<a class="nav-link text-white" href="kontakt.html">kontakt</a>
@@ -89,202 +89,190 @@
 			<!--| CZESC WLASCIWA STRONY |-->
 
 			<section class="blog-page">
-
-				<div class="container">
-
-					<div class="row blog-page-content">
 						
-						<!--| 1 SEKCJA |-->
+				<!--| 1 SEKCJA |-->
 
-						<div class="container con-1">
+					<div class="row row-content bg-con-1" style="min-height: 40rem;">
 
-							<div class="row">
+						<div class="col-md-12 d-block">
 
-								<div class="col-md-12 d-block">
+							<h1 class="text-left headline">Blog</h1>
 
-									<h1 class="text-left headline">Blog</h1>
+							<input type="radio" id="All" name="categories" value="All" checked>
+							<input type="radio" id="ppoż" name="categories" value="ppoż" checked>
+							<input type="radio" id="bhp" name="categories" value="bhp" checked>
+							<input type="radio" id="szkolenia" name="categories" value="szkolenia" checked>
+							<input type="radio" id="przeglądy" name="categories" value="przeglądy" checked>
+							<input type="radio" id="rzeczoznawca" name="categories" value="rzeczoznawca" checked>
 
-									<input type="radio" id="All" name="categories" value="All" checked>
-									<input type="radio" id="ppoż" name="categories" value="ppoż" checked>
-									<input type="radio" id="bhp" name="categories" value="bhp" checked>
-									<input type="radio" id="szkolenia" name="categories" value="szkolenia" checked>
-									<input type="radio" id="przeglądy" name="categories" value="przeglądy" checked>
-									<input type="radio" id="rzeczoznawca" name="categories" value="rzeczoznawca" checked>
+							<ol class="filters">
+								<li>
+									<label for="All">Wszystkie</label>
+								</li>
+								<li>
+									<label for="ppoż">ppoż</label>
+								</li>
+								<li>
+									<label for="bhp">bhp</label>
+								</li>
+								<li>
+									<label for="szkolenia">szkolenia</label>
+								</li>
+								<li>
+									<label for="przeglądy">przeglądy</label>
+								</li>
+								<li>
+									<label for="rzeczoznawca">rzeczoznawca</label>
+								</li>
+							</ol>
 
-									<ol class="filters">
-										<li>
-											<label for="All">Wszystkie</label>
-										</li>
-										<li>
-											<label for="ppoż">ppoż</label>
-										</li>
-										<li>
-											<label for="bhp">bhp</label>
-										</li>
-										<li>
-											<label for="szkolenia">szkolenia</label>
-										</li>
-										<li>
-											<label for="przeglądy">przeglądy</label>
-										</li>
-										<li>
-											<label for="rzeczoznawca">rzeczoznawca</label>
-										</li>
-									</ol>
+							<ol class="posts">
 
-									<ol class="posts">
+								<li class="post" data-category="ppoż przeglądy">
+									<article>
+										<figure>
+											<a href="#" target="_blank">
+												<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
+											</a>
+											<figcaption>
+												<ol class="post-categories">
+													<li>
+														<a href="#">ppoż</a>
+													</li>
+													<li>
+														<a href="#">przeglądy</a>
+													</li>
+												</ol>
+												<h2 class="post-title">
+													<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
+												</h2>
+											</figcaption>
+										</figure>
+									</article>
+								</li>
 
-										<li class="post" data-category="ppoż przeglądy">
-											<article>
-												<figure>
-													<a href="#" target="_blank">
-														<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
-													</a>
-													<figcaption>
-														<ol class="post-categories">
-															<li>
-																<a href="#">ppoż</a>
-															</li>
-															<li>
-																<a href="#">przeglądy</a>
-															</li>
-														</ol>
-														<h2 class="post-title">
-															<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
-														</h2>
-													</figcaption>
-												</figure>
-											</article>
-										</li>
+								<li class="post" data-category="bhp">
+									<article>
+										<figure>
+											<a href="#" target="_blank">
+												<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
+											</a>
+											<figcaption>
+												<ol class="post-categories">
+													<li>
+														<a href="#">bhp</a>
+													</li>
+													<!-- <li>
+														<a href="#">przeglądy</a>
+													</li> -->
+												</ol>
+												<h2 class="post-title">
+													<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
+												</h2>
+											</figcaption>
+										</figure>
+									</article>
+								</li>
 
-										<li class="post" data-category="bhp">
-											<article>
-												<figure>
-													<a href="#" target="_blank">
-														<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
-													</a>
-													<figcaption>
-														<ol class="post-categories">
-															<li>
-																<a href="#">bhp</a>
-															</li>
-															<!-- <li>
-																<a href="#">przeglądy</a>
-															</li> -->
-														</ol>
-														<h2 class="post-title">
-															<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
-														</h2>
-													</figcaption>
-												</figure>
-											</article>
-										</li>
+								<li class="post" data-category="ppoż szkolenia">
+									<article>
+										<figure>
+											<a href="#" target="_blank">
+												<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
+											</a>
+											<figcaption>
+												<ol class="post-categories">
+													<li>
+														<a href="#">ppoż</a>
+													</li>
+													<li>
+														<a href="#">szkolenia</a>
+													</li>
+												</ol>
+												<h2 class="post-title">
+													<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
+												</h2>
+											</figcaption>
+										</figure>
+									</article>
+								</li>
 
-										<li class="post" data-category="ppoż szkolenia">
-											<article>
-												<figure>
-													<a href="#" target="_blank">
-														<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
-													</a>
-													<figcaption>
-														<ol class="post-categories">
-															<li>
-																<a href="#">ppoż</a>
-															</li>
-															<li>
-																<a href="#">szkolenia</a>
-															</li>
-														</ol>
-														<h2 class="post-title">
-															<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
-														</h2>
-													</figcaption>
-												</figure>
-											</article>
-										</li>
+								<li class="post" data-category="ppoż rzeczoznawca">
+									<article>
+										<figure>
+											<a href="#" target="_blank">
+												<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
+											</a>
+											<figcaption>
+												<ol class="post-categories">
+													<li>
+														<a href="#">ppoż</a>
+													</li>
+													<li>
+														<a href="#">rzeczoznawca</a>
+													</li>
+												</ol>
+												<h2 class="post-title">
+													<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
+												</h2>
+											</figcaption>
+										</figure>
+									</article>
+								</li>
 
-										<li class="post" data-category="ppoż rzeczoznawca">
-											<article>
-												<figure>
-													<a href="#" target="_blank">
-														<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
-													</a>
-													<figcaption>
-														<ol class="post-categories">
-															<li>
-																<a href="#">ppoż</a>
-															</li>
-															<li>
-																<a href="#">rzeczoznawca</a>
-															</li>
-														</ol>
-														<h2 class="post-title">
-															<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
-														</h2>
-													</figcaption>
-												</figure>
-											</article>
-										</li>
+								<li class="post" data-category="bhp rzeczoznawca">
+									<article>
+										<figure>
+											<a href="#" target="_blank">
+												<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
+											</a>
+											<figcaption>
+												<ol class="post-categories">
+													<li>
+														<a href="#">bhp</a>
+													</li>
+													<li>
+														<a href="#">rzeczoznawca</a>
+													</li>
+												</ol>
+												<h2 class="post-title">
+													<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
+												</h2>
+											</figcaption>
+										</figure>
+									</article>
+								</li>
 
-										<li class="post" data-category="bhp rzeczoznawca">
-											<article>
-												<figure>
-													<a href="#" target="_blank">
-														<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
-													</a>
-													<figcaption>
-														<ol class="post-categories">
-															<li>
-																<a href="#">bhp</a>
-															</li>
-															<li>
-																<a href="#">rzeczoznawca</a>
-															</li>
-														</ol>
-														<h2 class="post-title">
-															<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
-														</h2>
-													</figcaption>
-												</figure>
-											</article>
-										</li>
+								<li class="post" data-category="bhp szkolenia">
+									<article>
+										<figure>
+											<a href="#" target="_blank">
+												<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
+											</a>
+											<figcaption>
+												<ol class="post-categories">
+													<li>
+														<a href="#">bhp</a>
+													</li>
+													<li>
+														<a href="#">szkolenia</a>
+													</li>
+												</ol>
+												<h2 class="post-title">
+													<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
+												</h2>
+											</figcaption>
+										</figure>
+									</article>
+								</li>
 
-										<li class="post" data-category="bhp szkolenia">
-											<article>
-												<figure>
-													<a href="#" target="_blank">
-														<img src="img/obraz-post-1.jpg" alt="obrazek-do-pierwszego-postu">
-													</a>
-													<figcaption>
-														<ol class="post-categories">
-															<li>
-																<a href="#">bhp</a>
-															</li>
-															<li>
-																<a href="#">szkolenia</a>
-															</li>
-														</ol>
-														<h2 class="post-title">
-															<a href="https://pl.wikipedia.org/wiki/Urz%C4%85dzenie_przeciwpo%C5%BCarowe" target="_blank">Jakie urzadzenia ppoż podlegają przeglądom ?</a>
-														</h2>
-													</figcaption>
-												</figure>
-											</article>
-										</li>
+							</ol>
 
-									</ol>
-
-								</div>
-
-							</div>
-
-						</div>	
-
-						<!--| KONIEC SEKCJI |-->
+						</div>
 
 					</div>
 
-				</div>
+				<!--| KONIEC SEKCJI |-->
 
 			</section>
 
@@ -309,13 +297,13 @@
 					<div class="col f-col">
 						<h5>firma</h5>
 						<div class="footer-link">
-							<a href="index.html">home page</a><br/>
-							<a href="o-nas.html">o nas</a><br/>
-							<a href="uslugi.html">usługi</a><br/>
-							<a href="blog.html">blog</a><br/>
-							<a href="sklep.html">sklep</a><br/>
-							<a href="e-learning.html">e-learning</a><br/>
-							<a href="kontakt.html">kontakt</a><br/>
+							<a href="index.html"> strona główna </a><br/>
+							<a href="o-nas.html"> o nas </a><br/>
+							<a href="uslugi.html"> usługi </a><br/>
+							<a href="blog.html"> blog </a><br/>
+							<a href="sklep.html"> sklep </a><br/>
+							<a href="e-learning.html"> e-learning </a><br/>
+							<a href="kontakt.html"> kontakt </a><br/>
 						</div>
 					</div>					
 					<div class="col f-col">
