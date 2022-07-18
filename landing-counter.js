@@ -1,20 +1,28 @@
-$(document).ready(function () {
-    $(".counter").each(function () {
-        var count = $(this);
-        var countTo = count.attr('data-count');
-        // console.log(countTo);
-        $({countNum:count.text()}).animate({
-                countNum:countTo,
-            },
-            {
-                duration:8000,
-                easing:'linear',
-                step:function(){
-                    count.text(Math.floor(this.countNum));
-                },
-                complete:function(){
-                    count.text(this.countNum);
-                }
+$(document).ready(function(){
+
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 3200){
+           $(".counter").each(function () {
+                var count = $(this);
+                var countTo = count.attr('data-count');
+
+                $({countNum:count.text()}).animate({
+                        countNum:countTo,},
+                        {
+                        duration:2500,
+                        easing:'linear',
+                        
+                        step:function(){
+                            count.text(Math.floor(this.countNum));
+                        },
+                        
+                        complete:function(){
+                            count.text(this.countNum);
+                        }
+                    });
             });
+
+        } 
+   
     });
 });

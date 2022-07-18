@@ -234,6 +234,7 @@ h1 {
   margin-top: 12rem;
   padding: 2%;
   width: 75%;
+  font-weight: bold;
 }
 
 .welcome .slogan-box {
@@ -1657,6 +1658,9 @@ border-radius: 50%;
   #topBtn {width: 32px; height: 32px;}
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---| COOKIE BANNER POPUP |-- */
+
 .cookie-container {
   margin: 0 0;
   padding: 0 0 0 0;
@@ -1689,8 +1693,14 @@ border-radius: 50%;
   padding: 0.5% 15% 0 15%;
 }
 
-.accept-cookie-btn {
+.text-area-politics {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.accept-btn, .cancel-btn {
   padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  margin-bottom: 4%;
   border-radius: 26px;
   border: #044488 solid 2px;
   width: 120px;
@@ -1699,21 +1709,11 @@ border-radius: 50%;
   color: #1A53BD;
   font-size: 17px;
   cursor: pointer;
+  flex: 0 0 45%;
+  max-width: auto;
 }
 
-.cancel-cookie-btn {
-  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
-  border-radius: 26px;
-  border: #044488 solid 2px;
-  width: 120px;
-  height: 40px;
-  font-weight: 700;
-  color: #1A53BD;
-  font-size: 17px;
-  cursor: pointer;
-}
-
-.accept-cookie-btn:hover, .cancel-cookie-btn:hover {
+.accept-btn:hover, .cancel-btn:hover {
   background-color: #1A53BD;
   color: #ffffff;
   border: #ffffff solid 2px;
@@ -1726,5 +1726,118 @@ border-radius: 50%;
   margin-bottom: 2em;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---| COOKIE BANNER POPUP | RWD |-- */
 
+@media (min-width: 1600px) and (max-width: 12599px)
+{
+
+}
+
+@media (min-width: 1400px) and (max-width: 1599px)
+{
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1399px)
+{
+  .cookie-popup-inside p{font-size: 15px;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px)
+{
+  .cookie-popup-inside p{font-size: 15px;}
+  
+}
+
+@media (min-width: 992px) and (max-width: 1053px)
+{
+  .cookie-popup-inside p{font-size: 15px;}
+} 
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container h3 {font-size: 15px;}
+  .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
+  .text-area-politics {padding-left: 0px; padding-right: 0px;}
+  .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em; padding: 0 8% 0 8%;}
+  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px; flex: 0 0 40%;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container h3 {font-size: 15px;}
+  .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
+  .text-area-politics {padding-left: 0px; padding-right: 0px;}
+  .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em; padding: 0 8% 0 8%;}
+  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px; flex: 0 0 40%;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container h3 {font-size: 15px;}
+  .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
+  .text-area-politics {padding-left: 0px; padding-right: 0px;}
+  .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em; padding: 0 8% 0 8%;}
+  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px; flex: 0 0 40%;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container h3 {font-size: 13px;}
+  .cookie-popup-inside {padding: 0.5% 1% 0.5% 1%; font-size: 9px;}
+  .text-area-politics {padding-left: 0px; padding-right: 0px;}
+  .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em;}
+  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px;}
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---| PRIVACY POLITICS |-- */
+
+.privacy-policy a:hover{
+  color: #09213b;
+  font-weight: 700;
+}
+
+.privacy-policy a{
+  color: #429bee;
+  font-weight: 700;
+}
+
+.privacy-policy .content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+
+}
+
+.privacy-policy .content-table thead tr{
+  background-color: #0c2d99;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.privacy-policy
+.content-table th {
+  padding: 10px 4px;
+  border-top: 1px #ffffff solid;
+}
+
+.privacy-policy .content-table td {
+  padding: 6px 4px;
+  border-top: 1px #ffffff solid;
+  border-bottom: 1px #ffffff solid;
+} 
+
+.privacy-policy .content-table tr:hover {
+  background-color: #06315f;
+} 
 
