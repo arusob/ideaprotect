@@ -6,7 +6,6 @@ html{
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ----| HEADER |--- */
 
 .main-header {
   width: 100%;
@@ -61,7 +60,6 @@ html{
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ----| HEADER | RWD |--- */
 
 @media (max-width: 1200px)
 {
@@ -84,7 +82,6 @@ html{
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HEADER | BUTTONS |--- */
 
 ul a:hover {
   color: #ffffff;
@@ -113,7 +110,6 @@ li > a:hover:after {
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| BODY | FOR ALL PAGES |--- */
 
 body {
 	color: #ffffff;
@@ -178,45 +174,59 @@ h1 {
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| BODY | FOR ALL PAGES | RWD |--- */
 
 @media (min-width: 1200px)
 {
   .container {max-width: 100%;}
 }
 
-@media (max-width: 992px)
-{
-  .container {max-width: 100%;}
-  .home-page {padding: 0 0;}
-}
-
-@media (max-width: 768px)
+@media (min-width: 1054px) and (max-width: 1199px)
 {
   .home-page-content {margin-top: 2rem;}
   .container {max-width: 100%;}
-  .home-page {padding: 0 0;}
-  .con-1 {margin-bottom: 2rem;}
-}
-
-@media (max-width: 576px)
-{
-  .home-page-content {margin-top: 2rem;}
-  .container {max-width: 100%;}
-  .home-page {padding: 0 0;}
   .con-1 {margin-bottom: 2rem;}
   .row-content {padding: 0% 8%;}
 }
 
-@media (max-width: 384px)
+@media (min-width: 992px) and (max-width: 1053px)
+{
+  .home-page-content {margin-top: 2rem;}
+  .container {max-width: 100%;}
+  .con-1 {margin-bottom: 2rem;}
+  .row-content {padding: 0% 8%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .home-page-content {margin-top: 2rem;}
+  .container {max-width: 100%;}
+  .con-1 {margin-bottom: 2rem;}
+  .row-content {padding: 0% 6%;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .home-page-content {margin-top: 2rem;}
+  .container {max-width: 100%;}
+  .con-1 {margin-bottom: 2rem;}
+  .row-content {padding: 0% 6%;}
+}
+
+@media (min-width: 384px) and (max-width: 576px)
 {
   .home-page-content {margin-top: 1rem;}
   .con-1 {margin-bottom: 2rem;}
-  .row-content {padding: 0% 8%;}
+  .row-content {padding: 0% 4%;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .home-page-content {margin-top: 1rem;}
+  .con-1 {margin-bottom: 2rem;}
+  .row-content {padding: 0% 2%;}
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 1st SECTION | WELCOME |--- */
 
 .welcome {
   background-image: url(img/architect-working.jpg);
@@ -279,7 +289,6 @@ h1 {
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 1st SECTION | RWD |--- */
 
 @media (min-width: 1600px)
 {
@@ -305,14 +314,14 @@ h1 {
 {
   .welcome .headline {font-size: 32px;}
   .welcome .text {font-size: 15px;}
-  .welcome .slogan {font-size: 28px;}
+  .welcome .slogan {font-size: 32px;}
   .welcome .developing-slogan {font-size: 17px;}
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
   .welcome .headline {font-size: 28px;}
-  .welcome .btn {width: 120px; font-size: 0.9rem;}
+  .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
   .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
   .welcome .button {padding-bottom: 1rem;}
   .welcome .slogan {font-size: 28px; width: 100%;}
@@ -322,10 +331,10 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px)
 {
   .welcome .headline {font-size: 28px;}
-  .welcome .btn {width: 120px; font-size: 0.9rem;}
+  .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
   .welcome .img-fluid {width: 70%; height: auto; margin-top: 2rem;}
   .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
-  .welcome .slogan {font-size: 23px; width: 100%;}
+  .welcome .slogan {font-size: 38px; width: 100%;}
   .welcome .developing-slogan {font-size: 14px; width: 100%;}
   .welcome .row-content {padding: 1% 15%;}
 }
@@ -333,25 +342,34 @@ h1 {
 @media (min-width: 576px) and (max-width: 769px)
 {
   .welcome .headline {font-size: 24px;} 
-  .welcome .btn {width: 120px; font-size: 0.9rem;}
+  .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
   .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
-  .welcome .slogan {font-size: 19px; width: 100%;}
+  .welcome .slogan {font-size: 28px; width: 100%;}
   .welcome .developing-slogan {font-size: 12px; width: 100%;}
   .welcome .row-content {padding: 1% 8%;}
 }
 
-@media (min-width: 1px) and (max-width: 575px)
+@media (min-width: 383px) and (max-width: 575px)
 {
-  .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.1rem 0 0.1rem 0;}
-  .welcome .headline {font-size: 18px;}
+  .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+  .welcome .headline {font-size: 15px;}
   .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
-  .welcome .slogan {font-size: 17px; width: 100%;}
+  .welcome .slogan {font-size: 23px; width: 100%;}
+  .welcome .developing-slogan {font-size: 11px; width: 100%;}
+  .welcome .row-content {padding: 1% 6%;}
+}
+
+@media (min-width: 1px) and (max-width: 382px)
+{
+  .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+  .welcome .headline {font-size: 15px;}
+  .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
+  .welcome .slogan {font-size: 18px; width: 100%;}
   .welcome .developing-slogan {font-size: 11px; width: 100%;}
   .welcome .row-content {padding: 1% 6%;}
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 2nd SECTION |--- */
 
 .offer {
   align-items: center;
@@ -360,8 +378,9 @@ h1 {
 
 .offer .headline {
   line-height: 150%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-weight: bold;
 }
 
 .offer img{
@@ -369,130 +388,250 @@ h1 {
   hue-rotate(268deg) brightness(98%) contrast(99%);
 }
 
-.offer .service-wrap {
+.service-wrap {
   border: 1px solid #e6e6e6;
   padding: 40px 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   position: relative;
+  min-height: 18rem;
 }
 
 .offer .service-wrap:hover{
   background-color: #06315f;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1600px) and (max-width: 1856px)
+{
+
+}
+
+@media (min-width: 1490px) and (max-width: 1599px)
+{
+  .service-wrap {min-height: 22rem;}
+}
+
+@media (min-width: 1200px) and (max-width: 1489px)
+{
+  .service-wrap {min-height: 26rem;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px)
+{
+
+}
+
+@media (min-width: 992px) and (max-width: 1053px)
+{
+
+} 
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .service-wrap {min-height: 20rem;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .offer .headline {font-size: 45px;}
+  .service-wrap {width: 70%; margin: 1rem auto;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .offer .headline { font-size: 40px;}
+  .service-wrap {width: 70%; margin: 1rem auto;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .offer .headline { font-size: 35px;}
+  .service-wrap {width: 90%; margin: 1rem auto;}
+}
+
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 3rd SECTION / Misja. Wija. Wartości. |--- */
 
 .values {
-  min-height: 52rem;
+  padding-bottom: 4rem;
+}
+
+.values img{
+  width: 140px;
+  height: auto;
 }
 
 .values .headline {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  font-weight: bold;
+  line-height: 150%;
 }
 
-.values .value-wrap {
+.value-wrap {
   border: 1px solid #e6e6e6;
-  padding: 20px 16px;
-  margin-bottom: 30px;
+  padding: 50px 30px;
+  margin: 40px 30px;
+  font-size: 16px;
 }
 
 .values .value-wrap:hover {
   background-color: #06315f;
 } 
 
-
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 3rd SECTION / Misja. Wija. Wartości. | RWD |--- */
 
-@media (min-width: 1600px)
+@media (min-width: 1801px) and (max-width: 19000px)
 {
-  .value-wrap {height: 500px;} 
+  .value-wrap {height: 460px; padding: 50px 30px; margin: 40px 30px;}
+}
+
+@media (min-width: 1600px) and (max-width: 1800px)
+{
+  .value-wrap {height: 500px; padding: 30px 10px; margin: 20px 10px;}
 }
 
 @media (min-width: 1490px) and (max-width: 1599px)
 {
-  .value-headline {font-size: 34px;}
-  .value-wrap {height: 570px;}
+  .value-title {font-size: 34px;}
+  .value-wrap {height: 460px; padding: 30px 10px; margin: 20px 10px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1489px)
 {
-  .value-headline {font-size: 22px;}
-  .value-wrap {height: 570px;}
+  .value-title {font-size: 22px;}
+  .value-wrap {height: 460px; padding: 30px 10px; margin: 20px 10px;}
   .value-wrap p {font-size: 15px;}
 }
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
-  .value-headline {font-size: 22px;}
+  .value-title {font-size: 25px;}
   .value-wrap p {font-size: 15px;}
-  .value-wrap {height: 560px; padding: 8px 8px;}
+  .value-wrap {height: 440px; padding: 8px 8px;}
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
-  .value-headline {font-size: 18px;}
-  .value-wrap {height: 540px;}
+  .value-title {font-size: 25px;}
+  .value-wrap {height: 460px; padding: 30px 10px; margin: 20px 10px;}
   .value-wrap p {font-size: 15px;}
 }
 
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .values img{width: 130px; height: auto;}
+  .value-title {font-size: 25px;}
+  .value-wrap {height: 480px; margin: 20px 10px; padding: 30px 10px;}
+  .value-wrap p {font-size: 14px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .values .headline {font-size: 45px;}
+  .values img{width: 120px; height: auto;}
+  .value-title{ font-size: 25px;}
+  .value-wrap {height: 380px; width: 70%; margin: 40px auto; padding: 30px 10px;}
+  .value-wrap p {font-size: 15px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .values .headline {font-size: 40px;}
+  .values img{width: 110px; height: auto;}
+  .value-title { font-size: 25px;}
+  .value-wrap {height: 400px; width: 70%; margin: 40px auto; padding: 30px 10px;}
+  .value-wrap p {font-size: 14px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .values .headline {font-size: 35px;}
+  .values img{width: 100px; height: auto;}
+  .value-title { font-size: 20px;}
+  .value-wrap p {font-size: 13px;}
+  .value-wrap {height: 380px; width: 90%;  margin: 40px auto; padding: 30px 10px;}
+}
+
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 4th SECTION / Jak pracujemy ? |--- */
 
 .process {
-  min-height: 52rem; 
   align-items: center;
 }
 
-.process-headline {
+.process .headline {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  font-weight: bold;
+  line-height: 150%;
 } 
 
+.process-box {
+  margin-bottom: 4rem;
+}
+
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 4th SECTION / Jak pracujemy ?  | RWD |--- */
 
 @media (min-width: 1600px)
 {
-  .process-headline {font-size: 44px;}
+  
 }
 
 @media (min-width: 1490px) and (max-width: 1599px)
 {
-  .process-headline {font-size: 44px;}
+  
 }
 
 @media (min-width: 1200px) and (max-width: 1489px)
 {
-  .process-headline {font-size: 44px;}
+  
 }
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
-  .process-headline {font-size: 44px;}
+  
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
-  .process-headline {font-size: 44px;}
+  
 }
 
+@media (min-width: 768px) and (max-width: 991px)
+{
+  
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .process .headline  { font-size: 45px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .process .headline  { font-size: 40px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .process .headline  { font-size: 35px;}
+}
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 5th SECTION |--- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 .area {
-  min-height: 46rem;
   align-items: center;
+  padding-bottom: 4rem;
 }
 
 .area .headline {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-weight: bold;
   line-height: 150%;
-}
+} 
 
 .area-img {
   display: flex;
@@ -506,13 +645,6 @@ h1 {
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 5th SECTION | RWD |--- */
-
-
-@media (min-width: 1600px) and (max-width: 12599px)
-{
-
-}
 
 @media (min-width: 1400px) and (max-width: 1599px)
 {
@@ -526,34 +658,37 @@ h1 {
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
-
+  .img-map {width: 50%;}
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
-
-} 
+  .img-map {width: 50%;}
+}
 
 @media (min-width: 768px) and (max-width: 991px)
 {
-
+  .area .headline   { font-size: 45px;}
+  .img-map {width: 50%;}
 }
 
 @media (min-width: 576px) and (max-width: 767px)
 {
-
+  .area .headline  { font-size: 45px;}
+  .img-map {width: 60%;}
 }
 
 @media (min-width: 384px) and (max-width: 575px)
 {
-
+  .area .headline { font-size: 40px;}
+  .img-map {width: 90%;}
 }
 
 @media (min-width: 1px) and (max-width: 383px)
 {
-
+  .area .headline  { font-size: 35px;}
+  .img-map {width: 90%;}
 }
-
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 /* ---| FOOTER |--- */
@@ -577,22 +712,15 @@ footer .footer-menu {
   width: 100%;
 }
 
-footer .f-col {
+.f-col {
   font-size: 12px;
   margin: 2rem auto;
+  padding: 0;
 }
 
 footer .footer-menu a {
   text-decoration: none;
 }
-
-/* footer .footer-link a {
-  line-height: 10%;
-}
-
-footer .footer-link p {
-  line-height: 10%;
-} */
 
 footer .footer-menu a:hover {
   color: white;
@@ -656,7 +784,6 @@ footer .text-label:hover {
   text-decoration: none;
   color: white;
 }
-
 
 .footer-bottom ul {
 padding:0;
@@ -738,13 +865,64 @@ border-radius: 50%;
 }
 
 /* ---| FOOTER - END |--- */
-
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| ABOUT US | 1st SECTION | COMPANY |---  */
+
+@media (min-width: 1600px) and (max-width: 12599px)
+{
+  
+}
+
+@media (min-width: 1490px) and (max-width: 1599px)
+{
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1489px)
+{
+  
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px)
+{
+  
+}
+
+@media (min-width: 992px) and (max-width: 1053px)
+{
+  
+} 
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .f-col {font-size: 13px; margin: 2rem auto; padding: 0;}
+  .footer-h5 {font-size: 17px; padding-bottom: 0.4rem;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .f-col {font-size: 12px; margin: 2rem 3rem 2rem 5rem; padding: 0;}
+  .footer-h5 {font-size: 15px; padding-bottom: 0.4rem;}
+  .text-law, .text-rule {font-size: 13px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .f-col {font-size: 11px; margin: 2rem 2rem; padding: 0;}
+  .footer-h5 {font-size: 13px; padding-bottom: 0.4rem;}
+  .text-law, .text-rule {font-size: 11px;}
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
 
 .about-us-page .company {
-  height: auto;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
 }
 
 .about-us-page .headline {
@@ -753,111 +931,88 @@ border-radius: 50%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| ABOUT US | 1st SECTION | COMPANY | RWD |--- */
-
 
 @media (min-width: 1600px) and (max-width: 12599px)
 {
-  .company img {width: 90%;  margin: 1rem 1rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 70%; margin: 5rem 4rem;} 
 }
 
 @media (min-width: 1490px) and (max-width: 1599px)
 {
-  .company img {width: 90%;  margin: 1rem 1rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 90%; margin: 5rem 1rem;} 
 }
 
 @media (min-width: 1200px) and (max-width: 1489px)
 {
-  .company img {width: 90%;  margin: 1rem 1rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 90%; margin: 5rem 1rem;} 
 } 
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
-  .company img {width: 50%;  margin: 2rem 8rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 50%; margin: 0 14rem; padding: 0;} 
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
-  .company img {width: 50%;  margin: 2rem 8rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 50%; margin: 0 14rem; padding: 0;} 
 } 
 
 @media (min-width: 768px) and (max-width: 991px)
 {
-  .company img {width: 50%;  margin: 2rem 8rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 60%; margin: 0 8rem; padding: 0;} 
 }
 
 @media (min-width: 576px) and (max-width: 767px)
 {
-  .company img {width: 50%;  margin: 2rem 7rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 60%; margin: 0 8rem; padding: 0;} 
 }
 
 @media (min-width: 384px) and (max-width: 575px)
 {
-  .company img {width: 60%;  margin: 2rem 7rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 60%; margin: 0 8rem; padding: 0;} 
 }
 
 @media (min-width: 1px) and (max-width: 383px)
 {
-  .company img {width: 70%;  margin: 2rem 6rem;}
-  .company img {display: flex; align-items: center; justify-content: center;}
+  .company img {width: 60%; margin: 0 3rem; padding: 0;} 
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| O NAS | ZESPÓŁ / TEAM | PROTOTYPE CODEPEN |--- */
 
-.our-team-section {
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
+.team {
+  padding-bottom: 4rem;
 }
 
-.our-team-section:before {
-  position: absolute;
-  top: -0;
-  left: 0;
-  content: " ";
-  background: url(img/service-section-bottom.png);
-  background-size: 100% 100px;
-  width: 100%;
-  height: 100px;
-  float: left;
-  z-index: 99;
+.team-container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.team .headline {
+  padding-top: 4rem;
 }
 
 .our-team {
-  padding: 20px 20px;
-  margin: 20px 20px;
+  padding: 15px 35px 15px 35px;
+  margin: 15px 40px 15px 40px;
   background: #f9f9f9;
-  /* background: none; */
-  /* background: rgb(26, 83, 189); */
-  /* border: 1px solid rgb(11, 1, 68); */
   border: 1px solid #06315f;;
   text-align: center;
   overflow: hidden;
   position: relative;
-  /* border-bottom: 5px solid rgb(11, 11, 68); */
   border-bottom: 5px solid #06315f;;
-  aspect-ratio: 1/1.3;
+  aspect-ratio: 1/1.40;
+  width: 80%;
 }
 
 .our-team:hover{
-  /* border-bottom: 5px solid #2f2f2f; */
-  border-bottom: rgb(26, 83, 189); /* .bg-con-1  */
+  border-bottom: rgb(26, 83, 189); 
 }
 
 .our-team .pic{
   display: inline-block;
   width: 150px;
   height: 150px;
-  /* height: auto; */
   margin-bottom: 20px;
   z-index: 1;
   position: relative;
@@ -868,9 +1023,6 @@ border-radius: 50%;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* background: #00325a; */
-  /* background: rgb(26, 83, 189); */
-  /* background: rgb(11, 11, 68); */
   background: #06315f;
   position: absolute;
   bottom: 135%;
@@ -884,7 +1036,6 @@ border-radius: 50%;
 .our-team:hover .pic:before{
   height: 100%;
   background: #2f2f2f;
-  /* background: rgb(26, 83, 189); */
 }
 
 .our-team .pic:after {
@@ -902,7 +1053,6 @@ border-radius: 50%;
 
 .our-team:hover .pic:after{
   background: #2494d4;
-  /* background: #06315f;*/
 } 
 
 .our-team .pic img {
@@ -927,18 +1077,14 @@ border-radius: 50%;
   font-size: 22px;
   font-weight: 700;
   color: #4e5052;
-  /* color: #ffffff; */
   letter-spacing: 1px;
-  /* text-transform: none; */
   margin-bottom: 5px;
 }
 
 .our-team .post{
   display: block;
   font-size: 15px;
-  /* color: #ffffff; */
   color: #4e5052;
-  /* text-transform:capitalize; */
 }
 
 .our-team .social{
@@ -973,10 +1119,70 @@ border-radius: 50%;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| O NAS | ZAUFANIE |--- */
+
+@media (min-width: 1600px) and (max-width: 1856px)
+{
+  .our-team {padding: 10px 25px 10px 25px; margin: 15px 40px 15px 20px; aspect-ratio: 1/1.50;}
+  .our-team .post{font-size: 14px;}
+}
+
+@media (min-width: 1490px) and (max-width: 1599px)
+{
+  .our-team {padding: 10px 20px 10px 20px; margin: 15px 30px 15px 15px; aspect-ratio: 1/1.60;}
+  .our-team .post{font-size: 14px;}
+}
+
+@media (min-width: 1200px) and (max-width: 1489px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.75; width: 100%;}
+  .our-team .post{font-size: 13px;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.40; width: 100%;}
+  .our-team .post{font-size: 13px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.50; width: 95%;}
+  .our-team .post{font-size: 13px;}
+} 
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.50; width: 50%; height: 75%;}
+  .our-team .post{font-size: 13px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.75; width: 55%; height: 75%;}
+  .our-team .post{font-size: 13px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.70; width: 70%; height: 75%;}
+  .our-team .post{font-size: 13px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .our-team {padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; aspect-ratio: 1/1.90; width: 70%; height: 90%;}
+  .our-team .post{font-size: 13px;}
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 .trust-us{
   min-height: 52rem; 
+  padding-bottom: 4rem;
+}
+
+.trust-us .headline {
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -988,9 +1194,10 @@ border-radius: 50%;
 }
 
 .trust-us .square {
-  border: #ffffff 3px solid;  
+  border: #ffffff 1px solid;  
   color: #ffffff;
-  border-radius: 0%; background-color: none;
+  border-radius: 0%; 
+  background-color: none;
   background-color: #06315f;
   min-height: 420px;
 }
@@ -999,17 +1206,63 @@ border-radius: 50%;
   padding: 0.6rem 0 0.6rem 0;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
 
-/* .trust-us .square:hover{
-    
-} */
+@media (min-width: 1600px) and (max-width: 1856px)
+{
+
+}
+
+@media (min-width: 1490px) and (max-width: 1599px)
+{
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1489px)
+{
+
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px)
+{
+
+}
+
+@media (min-width: 992px) and (max-width: 1053px)
+{
+
+} 
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+ 
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+
+}
+
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| O NAS | BIZNES W LICZBACH |--- */
 
 .bussines-in-numbers{
   min-height: 52rem; 
   padding-bottom: 4rem;
+}
+
+.bussines-in-numbers .headline{
+  padding-top: 4rem;
 }
 
 .bussines-in-numbers img{
@@ -1026,7 +1279,7 @@ border-radius: 50%;
   flex-direction:column;
   position: relative;
   margin: 0;
-  box-shadow: -4px 2px 5px 0 rgba(0, 0, 0, 0.2);        
+  box-shadow: 6px 2px 5px 0 rgba(0, 0, 0, 0.2);        
   width: auto;
   height: auto;
 }
@@ -1035,72 +1288,19 @@ border-radius: 50%;
   background-color: #06315f;
 }
 
-
 .bussines-in-numbers .counter {
   font-size: 81px;
-  /* font-weight:bold; */
   border-radius: 3px;
   position: relative;
 }
  
-
-
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| HOME-PAGE | 4th SECTION / Jak pracujemy ?  | RWD |--- */
-
-/* 
-
-@media (min-width: 1600px)
-{
-  
-}
-
-@media (min-width: 1490px) and (max-width: 1599px)
-{
-  
-}
-
-@media (min-width: 1200px) and (max-width: 1489px)
-{
-  
-}
-
-@media (min-width: 1054px) and (max-width: 1199px)
-{
-  
-}
-
-@media (min-width: 992px) and (max-width: 1053px)
-{
-  
-} 
-
-@media (min-width: 768px) and (max-width: 991px)
-{
-  
-}
-
-@media (min-width: 576px) and (max-width: 767px)
-{
-
-}
-
-@media (min-width: 384px) and (max-width: 575px)
-{
-
-}
-
-*/
-
-/* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| 1st SECTION | USLUGI / SERVICES |--- */
 
 .services-page .headline {
   line-height: 150%;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 
 .services-page .tabs-container{
   position: relative;
@@ -1109,8 +1309,6 @@ border-radius: 50%;
   float: left;
   z-index: 20;
 } 
-
-/* tabs names */
 
 .services-page .tabs-container label{
   position: relative;
@@ -1126,13 +1324,9 @@ border-radius: 50%;
   user-select: none;
 } 
 
-/* Hover effect on tabs names */
-
 .services-page .tabs-container label:hover{
  background: rgba(0, 0, 0, 0.2);
 } 
-
-/* Content area for tabs */
 
 .services-page .tab-content{
   position: relative;
@@ -1151,20 +1345,14 @@ border-radius: 50%;
   clear: both;
 } 
 
-/* Hide input radio from users */
-
 .services-page input[name="tab"]{
  display: none;
 } 
-
-/* Show tab when input checked */
 
 .services-page input[name="tab"]:checked + .tab-content{
   display: block;
   animation: slide 0.5s forwards;
 } 
-
-/* Style for tables */
 
 .service-offer {
   height: auto;
@@ -1177,9 +1365,8 @@ border-radius: 50%;
 .services-page .content-table {
   border-collapse: collapse;
   margin: 25px 0;
-  font-size: 0.9em;
+  font-size: 16px;
   min-width: 100%;
-
 }
 
 .services-page .content-table thead tr{
@@ -1205,16 +1392,58 @@ border-radius: 50%;
   background-color: #06315f;
 } 
 
+/* --------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) and (max-width: 1399px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 17px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 15px;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 16px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 15px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 15px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 15px;}
+} 
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 14px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 15px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 13px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 13px;}
+  .services-page .tab-content {padding: 10px 10px 10px 10px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 12px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 12px;}
+  .services-page .tab-content {padding: 8px 8px 8px 8px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px)
+{
+  .services-page .content-table {margin: 25px 0; font-size: 11px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 11px;}
+  .services-page .tab-content {padding: 5px 5px 5px 5px;}
+}
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT |--- */ 
 
 .contact-page .contact-area {
   min-height: auto;
 }
-
-/* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 1st SECTION | MESSAGE SENDER |--- */ 
 
 .contact-page .box-info {
   background-color: rgb(11, 64, 145);
@@ -1345,8 +1574,8 @@ border-radius: 50%;
 
 .contact-page .wrapper form .message{
   position: relative;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .contact-page .wrapper form .message i{
@@ -1364,19 +1593,16 @@ border-radius: 50%;
 }
 
 .contact-page form .button-area{
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   display: flex;
-  align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  text-align: end;
+} 
 
 .contact-page form .button-area button{
   cursor: pointer;
-  padding: 10px 0;
-  margin: 0 0;
-  width: 80%;  
-  padding: 0.6rem 0 0.6rem 0;
+  margin: 0 0 0 0; 
+  width: 20%;  
+  padding: 8px 0 8px 0;
   border-radius: 26px;
   background-color: #ffffff;
   border: #052342 solid 2px;
@@ -1390,10 +1616,7 @@ border-radius: 50%;
   border: #ffffff solid 2px;
 }
 
-
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 1st SECTION | MESSAGE SENDER | RWD |--- */ 
-
 
 @media (min-width: 1600px)
 {
@@ -1447,10 +1670,12 @@ border-radius: 50%;
 {
   .contact-page .field {margin-bottom: 10px;}
   .dbl-field {margin-bottom: 0;}
+  .contact-page .wrapper form .message{padding-left: 1px; padding-right: 1px;}
+  .box-message { margin: 0 0; padding: 0 0;}
+  .contact-page .wrapper form{margin: 25px 20px;}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 2nd SECTION | CONTACT INFORMATION |--- */ 
 
 .contact-information {
   min-height: 52rem;
@@ -1485,7 +1710,6 @@ border-radius: 50%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 2nd SECTION / CONTACT INFORMATION | RWD |--- */
 
 @media (min-width: 1600px)
 {
@@ -1503,7 +1727,6 @@ border-radius: 50%;
   .info-wrap{height: 350px;}
   .contact-information .info-wrap .day, .hours {font-size: 16px;}
 }
-
 
 @media (min-width: 1200px) and (max-width: 1225px)
 {
@@ -1524,7 +1747,16 @@ border-radius: 50%;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 3rd SECTION | SOCIAL MEDIA |--- */ 
+
+.social-media-contact {
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 12rem;
+}
+
+.social-media-contact .headline{
+  padding-bottom: 12rem;
+}
 
 .contact-page .social-media {
   display: flex;
@@ -1550,23 +1782,12 @@ border-radius: 50%;
   width: 125px;
 }
 
-.social-media-contact {
-  min-height: 48rem;
-  align-items: center;
-}
-
 .contact-page .social-media div {
   margin-bottom: 4rem;
 }
 
-/*.contact-page .social-media img:hover{
-  
-}*/
-
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 3rd SECTION | SOCIAL MEDIA | RWD |--- */ 
 
-/*  */
 @media (min-width: 1600px) and (max-width: 12599px)
 {
   .contact-page .social-media div {display: flex; align-items: center; justify-content: center;}
@@ -1621,19 +1842,17 @@ border-radius: 50%;
 @media (min-width: 1px) and (max-width: 383px)
 {
   .contact-page .social-media .dotimg {width: 80px; height: 80px;}
-  .contact-page .social-media .dotimg-st {height: px; width: 80px;}
+  .contact-page .social-media .dotimg-st {height: 80px; width: 80px;}
   .contact-page .social-media div {display: flex; align-items: center; justify-content: center;}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| KONTAKT | 4th SECTION | GOOGLE MAP |--- */ 
 
 .contact-page .responsive-map {
   min-height: 60vh;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| Scroll Up Button |-- */
 
 #topBtn {
   position: fixed;
@@ -1651,15 +1870,18 @@ border-radius: 50%;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| Scroll Up Button | RWD |-- */
 
 @media (max-width: 1054px)
 {
   #topBtn {width: 32px; height: 32px;}
 }
 
+@media (max-width: 768px)
+{
+  #topBtn {width: 32px; height: 32px; bottom: 30px; right: 20px;}
+}
+
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| COOKIE BANNER POPUP |-- */
 
 .cookie-container {
   margin: 0 0;
@@ -1727,17 +1949,6 @@ border-radius: 50%;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| COOKIE BANNER POPUP | RWD |-- */
-
-@media (min-width: 1600px) and (max-width: 12599px)
-{
-
-}
-
-@media (min-width: 1400px) and (max-width: 1599px)
-{
-  
-}
 
 @media (min-width: 1200px) and (max-width: 1399px)
 {
@@ -1746,8 +1957,7 @@ border-radius: 50%;
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
-  .cookie-popup-inside p{font-size: 15px;}
-  
+  .cookie-popup-inside p{font-size: 15px;} 
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
@@ -1757,7 +1967,7 @@ border-radius: 50%;
 
 @media (min-width: 768px) and (max-width: 991px)
 {
-  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container {position: fixed; bottom: -100%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
   .cookie-container h3 {font-size: 15px;}
   .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
   .text-area-politics {padding-left: 0px; padding-right: 0px;}
@@ -1767,7 +1977,7 @@ border-radius: 50%;
 
 @media (min-width: 576px) and (max-width: 767px)
 {
-  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container {position: fixed; bottom: -100%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
   .cookie-container h3 {font-size: 15px;}
   .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
   .text-area-politics {padding-left: 0px; padding-right: 0px;}
@@ -1777,7 +1987,7 @@ border-radius: 50%;
 
 @media (min-width: 384px) and (max-width: 575px)
 {
-  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container {position: fixed; bottom: -100%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
   .cookie-container h3 {font-size: 15px;}
   .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
   .text-area-politics {padding-left: 0px; padding-right: 0px;}
@@ -1787,7 +1997,7 @@ border-radius: 50%;
 
 @media (min-width: 1px) and (max-width: 383px)
 {
-  .cookie-container {position: fixed; bottom: -1%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
+  .cookie-container {position: fixed; bottom: -100%; padding: 16px 32px; box-shadow: 0 -2px 16px #02153060; line-height: 1.4;}
   .cookie-container h3 {font-size: 13px;}
   .cookie-popup-inside {padding: 0.5% 1% 0.5% 1%; font-size: 9px;}
   .text-area-politics {padding-left: 0px; padding-right: 0px;}
@@ -1795,10 +2005,7 @@ border-radius: 50%;
   .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px;}
 }
 
-
-
 /* ---------------------------------------------------------------------------------------------------------------- */
-/* ---| PRIVACY POLITICS |-- */
 
 .privacy-policy a:hover{
   color: #09213b;
@@ -1841,3 +2048,4 @@ border-radius: 50%;
   background-color: #06315f;
 } 
 
+/* ---------------------------------------------------------------------------------------------------------------- */
