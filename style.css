@@ -404,7 +404,7 @@ h1 {
 
 @media (min-width: 1600px) and (max-width: 1856px)
 {
-
+  .service-wrap {min-height: 20rem;}
 }
 
 @media (min-width: 1490px) and (max-width: 1599px)
@@ -567,54 +567,71 @@ h1 {
 } 
 
 .process-box {
-  margin-bottom: 4rem;
+  margin-bottom: 12rem;
+}
+
+.step-box {
+  border: #ffffff 1px solid;  
+  margin: 0 1rem;
+  padding: 4rem 1rem 1rem 1rem;
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 1600px)
 {
-  
+  .step-box {min-height: 18rem;}
 }
 
 @media (min-width: 1490px) and (max-width: 1599px)
 {
-  
+  .step-box {min-height: 22rem;}
+  .step-box p {font-size: 16px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1489px)
 {
-  
+  .step-box {min-height: 21rem; margin: 0 0.2rem; padding: 4rem 0.5rem 1rem 0.5rem;}
+  .step-box p {font-size: 16px;}
 }
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
-  
+  .step-box {min-height: 21rem;}
+  .step-box p {font-size: 16px;}
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
-  
+  .step-box {min-height: 21rem;}
+  .step-box p {font-size: 16px;}
 }
 
 @media (min-width: 768px) and (max-width: 991px)
 {
-  
+  .step-box {min-height: 20rem; margin: 0 0.2rem; padding: 4rem 0.5rem 1rem 0.5rem;}
+  .step-box p {font-size: 15px;}
 }
 
 @media (min-width: 576px) and (max-width: 767px)
 {
   .process .headline  { font-size: 45px;}
+  .step-box {min-height: 10rem; width: 70%; margin: 0 auto 1rem auto;}
+  .step-box p {font-size: 16px;}
 }
 
 @media (min-width: 384px) and (max-width: 575px)
 {
   .process .headline  { font-size: 40px;}
+  .step-box {min-height: 10rem; width: 70%; margin: 0 auto 1rem auto;}
+  .step-box p {font-size: 16px;}
 }
 
 @media (min-width: 1px) and (max-width: 383px)
 {
   .process .headline  { font-size: 35px;}
+  .step-box {min-height: 10rem; width: 70%; margin: 0 auto 1rem auto;}
+  .step-box p {font-size: 14px;}
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -641,14 +658,14 @@ h1 {
 }
 
 .img-map {
-  width: 80%; 
+  width: 70%; 
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 1400px) and (max-width: 1599px)
 {
-  .img-map {width: 90%;}
+  .img-map {width: 70%;}
 }
 
 @media (min-width: 1200px) and (max-width: 1399px)
@@ -670,24 +687,28 @@ h1 {
 {
   .area .headline   { font-size: 45px;}
   .img-map {width: 50%;}
+  .area p {font-size: 16px;}
 }
 
 @media (min-width: 576px) and (max-width: 767px)
 {
   .area .headline  { font-size: 45px;}
   .img-map {width: 60%;}
+  .area p {font-size: 15px;}
 }
 
 @media (min-width: 384px) and (max-width: 575px)
 {
   .area .headline { font-size: 40px;}
   .img-map {width: 90%;}
+  .area p {font-size: 14px;}
 }
 
 @media (min-width: 1px) and (max-width: 383px)
 {
   .area .headline  { font-size: 35px;}
   .img-map {width: 90%;}
+  .area p {font-size: 14px;}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -1300,6 +1321,7 @@ border-radius: 50%;
   line-height: 150%;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  font-weight: bold;
 }
 
 .services-page .tabs-container{
@@ -1394,49 +1416,72 @@ border-radius: 50%;
 
 /* --------------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 1600px) and (max-width: 1856px)
+{
+
+}
+
+@media (min-width: 1400px) and (max-width: 1599px)
+{
+
+} 
+
 @media (min-width: 1200px) and (max-width: 1399px)
 {
-  .services-page .content-table {margin: 25px 0; font-size: 17px; min-width: 100%;}
+  .services-page .content-table {margin: 25px 0; font-size: 16px; min-width: 100%;}
   .services-page .tabs-container label {font-size: 15px;}
+  .service-offer h4 {font-size: 20px; line-height: 140%; margin: 0 5px;}
 } 
 
 @media (min-width: 1054px) and (max-width: 1199px)
 {
   .services-page .content-table {margin: 25px 0; font-size: 16px; min-width: 100%;}
   .services-page .tabs-container label {font-size: 15px;}
+  .service-offer h4 {font-size: 16px; line-height: 140%; margin: 0 5px;}
 }
 
 @media (min-width: 992px) and (max-width: 1053px)
 {
   .services-page .content-table {margin: 25px 0; font-size: 15px; min-width: 100%;}
   .services-page .tabs-container label {font-size: 15px;}
+  .service-offer h4 {font-size: 16px; line-height: 140%; margin: 0 5px;}
 } 
 
 @media (min-width: 768px) and (max-width: 991px)
 {
+  .services-page .headline {font-size: 45px;}
   .services-page .content-table {margin: 25px 0; font-size: 14px; min-width: 100%;}
   .services-page .tabs-container label {font-size: 15px;}
+  .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
 @media (min-width: 576px) and (max-width: 767px)
 {
+  .services-page .headline {font-size: 45px;}
   .services-page .content-table {margin: 25px 0; font-size: 13px; min-width: 100%;}
-  .services-page .tabs-container label {font-size: 13px;}
+  .services-page .tabs-container label {font-size: 13px; line-height: 140%;}
   .services-page .tab-content {padding: 10px 10px 10px 10px;}
+  .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
 @media (min-width: 384px) and (max-width: 575px)
 {
-  .services-page .content-table {margin: 25px 0; font-size: 12px; min-width: 100%;}
-  .services-page .tabs-container label {font-size: 12px;}
+  .services-page .headline {font-size: 40px;}
+  .services-page .tabs-container {margin-bottom: 1rem;}
+  .services-page .content-table {margin: 25px 0; font-size: 13px; min-width: 100%;}
+  .services-page .tabs-container label {font-size: 15px;}
   .services-page .tab-content {padding: 8px 8px 8px 8px;}
+  .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
 @media (min-width: 1px) and (max-width: 383px)
 {
+  .services-page .headline  {font-size: 35px;}
+  .services-page .tabs-container {margin-bottom: 1rem;}
   .services-page .content-table {margin: 25px 0; font-size: 11px; min-width: 100%;}
-  .services-page .tabs-container label {font-size: 11px;}
+  .services-page .tabs-container label {font-size: 15px;}
   .services-page .tab-content {padding: 5px 5px 5px 5px;}
+  .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -1981,8 +2026,8 @@ border-radius: 50%;
   .cookie-container h3 {font-size: 15px;}
   .cookie-popup-inside {padding: 0.5% 5% 0.5% 5%; font-size: 13px;}
   .text-area-politics {padding-left: 0px; padding-right: 0px;}
-  .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em; padding: 0 8% 0 8%;}
-  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px; flex: 0 0 40%;}
+  .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em; padding: 0 2% 0 2%;}
+  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 60px; height: 30px; font-weight: 400; font-size: 11px; flex: 0 0 45%;}
 }
 
 @media (min-width: 384px) and (max-width: 575px)
@@ -2002,7 +2047,7 @@ border-radius: 50%;
   .cookie-popup-inside {padding: 0.5% 1% 0.5% 1%; font-size: 9px;}
   .text-area-politics {padding-left: 0px; padding-right: 0px;}
   .buttons-area .row {display: flex; justify-content: space-between; margin-top: 1em; margin-bottom: 1em;}
-  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px;}
+  .accept-btn, .cancel-btn {padding: 0.2rem 0.2rem 0.2rem 0.2rem; border-radius: 16px; width: 40px; height: 30px; font-weight: 700; font-size: 11px; flex: 0 0 40%;}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
