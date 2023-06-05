@@ -1,19 +1,18 @@
 <!DOCTYPE HTML>
 <html lang="pl">
-
 	<head>
-		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> ideaprotect | warunki korzystania </title>
+		<title> ideaprotect | polityka cookies </title>
 		<link rel="icon" type="image/x-icon" href="img/sygnet-ideaprotect-n-white.png">
 		<meta name="description" content="Usługi inżynieryjne">
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
-
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="navbar.css">
+		<link rel="stylesheet" href="polityka-cookies.css">
+		<link rel="stylesheet" href="footer.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
@@ -23,62 +22,21 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
-
 	</head>
-
 	<body>
-
 		<main class="pr-0 mr-0">
-
 			<!--| NAVIGATION |-->
-
-			<header class="main-header">					
-				<nav class="navbar navbar-dark navbar-expand-xl xl-1440 row">
-					<a class="navbar-brand" href="index.html">
-						<div>
-							<img src="img/sygnet-ideaprotect-n-white.png" width="48" height="auto" class="d-inline-block sygnet" alt="ideaprotect">
-						</div>
-						<div class="logotype">
-							<div class="wordmark">
-								indeaprotect
-							</div>
-							<div class="tagline">
-								inżynieria pożarowa & BHP
-							</div>
-						</div>
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przelacznik nawigacji">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="mainmenu">
-
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link text-white" href="o-nas.html">o nas</a>
-							</li>	
-							<li class="nav-item">
-								<a class="nav-link text-white" href="uslugi.html">usługi</a>
-							</li>	
-							<li class="nav-item">
-								<a class="nav-link text-white" href="kontakt.html">kontakt</a>
-							</li>	
-						</ul>
-					</div>
-				</nav>
-			</header>
-
+			<?php
+				require('navbar.php');
+			?>
 			<!--| CONTENT |-->
-
 			<section class="terms-of-use">
 				<div class="row row-content bg-con-1 col-md-12 d-block">
-					
 					<div class="text-center py-3 pt-5">
 						<h2 class="font-weight-bold headline"> Polityka Cookies </h2>
 					</div>
-					
 					<div>
 						<p>
 							<h4 class="pb-3"> Zasady dotyczące stosowania </h4>
@@ -88,57 +46,43 @@
 							nam uczynić Twóją obecność na stronie płynną i prywatną, jak tylko to możliwe. Informują nas, o tym co wszyscy użytkownicy robią na naszej 
 							stronie, a to pomaga nam podnosić komfort jej użytkowania.
 							<br/><br/>
-							
 							2. Używamy „Cookies sesji” – które działają tylko podczas przeglądania naszych stron internetowych umożliwiając tym samym prawidłowe 
 							ich funkcjonowanie. Są również wykorzystywane przez serwer do przechowywania informacji o działaniach, dzięki czemu w przypadku 
 							zerwania połączenia z serwerem, możesz wrócić w to samo miejsce na stronie.
 							<br/><br/>
-
 							3. Używamy „Cookies trwałych” – które pozostają na komputerze po odwiedzeniu naszej strony, co oznacza, że witryna może zapamiętać Twoje 
 							ustawienia kiedy nas odwiedzasz. Dzięki temu strona staje się dla Ciebie łatwiejsza w nawigacji i zapamiętuje Twoje preferencje.
 							<br/><br/>
-
 							4. Używamy „Cookies podmiotów zewnętrznych” – które umożliwiają dostosowanie wyświetlanej strony do Twoich preferencji.
 							<br/><br/>
-
 							5. Pliki cookie są przez nas wykorzystywane wyłącznie za Twoją zgodą. W celu wyrażenia zgody na wysłanie i korzystanie przez nas z plików 
 							cookie, dokonaj odpowiednich zmian w ustawieniach przeglądarki internetowej, z której korzystasz, lub pozostaw je na domyślnym poziomie, 
 							umożliwiającym przetwarzanie danych. W celu wprowadzenia zmian zastosuj się do instrukcji, które znajdziesz klikając przycisk „Pomoc” 
 							w menu swojej przeglądarki.
 							<br/><br/>
-
 							6. Prosimy, abyś swoją decyzję w przedmiocie udzielenia zgody na wysłanie i korzystanie przez nas z plików cookie podjął bezpośrednio po 
 							wejściu na naszą stronę internetową.
 							<br/><br/>
-
 							7. Jeżeli wyrazisz zgodę na wysłanie i korzystanie przez nas z plików cookie, będziemy mieli dostęp do plików cookie zapisanych na Twoim 
 							komputerze, kiedy znowu odwiedzisz naszą stronę, lub kiedy otworzysz email od nas. Dzięki temu, będziemy mogli ułatwić Ci sposób korzystania 
 							ze strony oraz dostosować ją do Twoich potrzeb i indywidualnych upodobań.
 							<br/><br/>
-
 							8. Jeśli nie wyrazisz zgody na wysłanie i korzystanie przez nas z plików cookie lub zdecydujesz się na ich późniejsze usunięcie albo zablokowanie, 
 							niektóre obszary lub funkcje naszej strony mogą być niedostępne. W celu usunięcia lub zablokowania plików cookie zapisanych na Twoim komputerze, 
 							zastosuj się do instrukcji, które znajdziesz klikając przycisk „Pomoc” w menu swojej przeglądarki.
 							<br/><br/>
-
 							<h4 class="pb-3"> Zasady dotyczące stosowania </h4>
-
 							Używamy plików cookie, aby polepszyć jakość naszych usług dla Ciebie. Niektóre z nich są konieczne do funkcjonowania strony, 
 							a inne zwiększają jej wydajność i ułatwiają użytkowanie.
 							<br/><br/>
-
 							<h4 class="pb-3"> Niezbędne pliki cookie </h4>
-
 							1. Poprawiają wydajność strony, skracając czas ładowania.<br/>
 							2. Zwiększają komfort użytkowania. <br/>
 							3. Umożliwiają udostępnianie i polubienie materiałów na innych stronach.<br/>
 							4. Wysyłają dane do innych stron, personalizując ich reklamy. Jest to jednak funkcja, której ideaprotect nie używa.
 							<br/><br/>
-
 							<h4 class="pb-3"> Przykłady użycia </h4>
-
 							Pliki cookie używane są dla polepszenia jakości świadczonych usług, przykładowo:<br/>
-							
 							1. Umożliwiają poszczególne usługi, np. zapłaty, której nie byłoby można dokonać bez plików cookie.<br/>
 							2. Umożliwiają rozpoznanie Twojego komputera, abyś nie musiał wpisywać tych samych danych kilkakrotnie w czasie trwania jednego zadania.<br/>
 							3. Rozpoznają nazwy użytkownika, email, nr telefonu, twoją stronę internetową przy wysyłaniu wiadomości formularzem kontaktowym, abyś nie musiał 
@@ -146,9 +90,7 @@
 							4. Sprawdzają jak wiele osób korzysta z usług, aby ułatwić im użytkowanie i zapewnić wystarczającą pojemność i prędkość strony.<br/>
 							5. Analizują dane, które umożliwiają nam zapoznanie się ze sposobem korzystania z usług administracyjnych online, abyśmy mogli je ulepszać.
 							<br/><br/>
-
 							<h4 class="pb-3"> Uwagi końcowe </h4>
-
 							1. Udzielenie zgody na używanie plików cookie umożliwi Ci korzystanie z niektórych funkcji strony. <br/>
 							2. Zebrane pliki cookies nie zawierają żadnych cech identyfikujących osoby odwiedzające serwis.<br/>
 							3. Istnieje możliwość korzystania ze strony internetowej bez wykorzystywania mechanizmu cookies, jednak może to spowodować, że część funkcji 
@@ -156,129 +98,22 @@
 							4. Jeśli nie wyrażasz zgody na korzystanie z plików cookies powinieneś zaznaczyć w ustawieniach przeglądarki opcję odrzucania plików cookies lub 
 							sygnalizowania ich przesłania.<br/>
 							<br/><br/>
-
-
 						</p>
-
 					</div>
-					
-
-					
 				</div>
 			</section>
-
+			<!-- | FOOTER | -->
+			<?php 
+				require('footer.php');
+			?>
+			<!-- | FOOTER-END | -->
 		</main>	
-			
-		<!-- | FOOTER | -->
-			
-		<footer class="main-footer">	
-			<div class="row d-block footer-content">
-				<div class="row footer-menu">					
-					
-					<div class="col-sm-12 col-md-6 col-xl-2 f-col">
-						<h6 class="footer-h5">firma</h6>
-						<div class="footer-link">
-							<a href="index.html"> strona główna </a><br>
-							<a href="o-nas.html"> o nas </a><br>
-							<a href="uslugi.html"> usługi </a><br>
-							<a href="kontakt.html"> kontakt </a><br>
-						</div>
-					</div>					
-					
-					<div class="col-sm-12 col-md-6 col-xl-2 f-col">
-						<h6 class="footer-h5">inzynieria pożarowa</h6>
-						<div class="footer-link">
-							<a href="uslugi.html"> przeglądy ppoż. </a><br>
-							<a href="uslugi.html"> hydranty, gaśnice </a><br>
-							<a href="uslugi.html"> instrukcja bezp. poż. </a><br>
-							<a href="uslugi.html"> oświetlenie awaryjne </a><br>
-							<a href="uslugi.html"> analiza ppoż. </a><br>
-							<a href="uslugi.html"> przegląd syst. oddym. </a><br>
-						</div>
-					</div>
-					
-					<div class="col-sm-12 col-md-6 col-xl-2 f-col">
-						<h6 class="footer-h5">usługi bhp</h6>
-						<div class="footer-link">
-							<a href="uslugi.html"> analiza bhp </a><br>
-							<a href="uslugi.html"> ocena ryzyka </a><br>
-							<a href="uslugi.html"> dokumentacja </a><br>
-							<a href="uslugi.html"> rejestry </a><br>
-							<a href="uslugi.html"> szkolenia bhp </a><br>
-							<a href="uslugi.html"> pierwsza pomoc </a><br>
-						</div>
-					</div>
-					
-					<div class="col-sm-12 col-md-6 col-xl-2 f-col">
-						<h6 class="footer-h5">dane adresowe</h6>
-						<div class="footer-link">
-							<a href="https://www.google.com/maps/place/Prymasa+Augusta+Hlonda+4b,+02-972+Warszawa/@52.1859223,21.0519289,12.75z/data=!4m5!3m4!1s0x47192d6763700001:0x11916d19fffb9c78!8m2!3d52.1607343!4d21.0682476" target="_blank">ul. Prymasa Augusta Hlonda 4b</a><br/>
-							<p>	02-972 Warszawa <br>
-								woj. mazowieckie <br>
-								NIP: 000-000-00-00 <br>
-								REGON: 1223456798 </p><br>
-						</div>
-					</div>	
-					
-					<div class="col-sm-12 col-md-6 col-xl-2 f-col">
-						<h6 class="footer-h5">bezpieczenstwo</h6>
-						<div class="footer-link">
-							<a href="#"> Rodo </a><br>
-							<a href="#"> CEIDG </a><br>
-							<a href="o-nas.html"> Gwarancja </a><br>
-						</div>
-					</div>
-				
-				</div>
-				<div class="row">
-					<div class="row footer-language">
-						<img class="globe" src="img/globe-white.png" alt="Globe wireframe" />
-						<ul class="language">
-							<a class="language-label" href="#" style="color:white" hreflang="de">Polski</a>
-							<!-- <a class="language-label" href="#" hreflang="en">English</a> -->
-						</ul>
-					</div>
-					
-					<div class="row footer-bottom">
-						<div class="col-lg-4 footer-button-left">
-							<div class="text-rule">Copyright © 2022 - ideaprotect. All rights reserved</div>
-						</div>				
-						<div class="col-lg-6 footer-button-center">
-							<div class="row">
-								<div class="col-md-6 text-law">	
-									<a class="text-label" href="polityka-prywatnosci.html" > Polityka prywatności </a>	
-								</div>
-								<div class="col-md-6 text-law">		
-									<a class="text-label" href="polityka-cookies.html" > Polityka cookies </a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-2 col-lg-12 col-xs-12 footer-social-icons">
-							
-							<ul class="social-icons">
-								<li><a href="https://www.facebook.com/ideaprotect" class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/ideaprotect/about/?viewAsMember=true" class="social-icon" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UC220CnGbppJtW_eWuZU7-CA" class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a></li>
-							</ul>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</footer>
-
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
-
  		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
-
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
-
 		<script src="script-scrolltop.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
 	</body>
-
 </html>

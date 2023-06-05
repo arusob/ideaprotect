@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="pl">
-
 	<head>
-		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> ideaprotect | usługi </title>
@@ -11,9 +9,10 @@
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
-
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="navbar.css">
+		<link rel="stylesheet" href="uslugi.css">
+		<link rel="stylesheet" href="footer.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
@@ -23,74 +22,32 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
-
 	</head>
-
 	<body>
-
-		<!--| CONTENT |-->
-
 		<main class="pr-0 mr-0">
-
-			<header class="main-header">					
-				<nav class="navbar navbar-dark navbar-expand-xl xl-1440 row">
-					<a class="navbar-brand" href="index.html">
-						<div>
-							<img src="img/sygnet-ideaprotect-n-white.png" width="48" height="auto" class="d-inline-block sygnet" alt="ideaprotect">
-						</div>
-						<div class="logotype">
-							<div class="wordmark">
-								indeaprotect
-							</div>
-							<div class="tagline">
-								inżynieria pożarowa & BHP
-							</div>
-						</div>
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przelacznik nawigacji">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="mainmenu">
-
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link text-white" href="o-nas.html">o nas</a>
-							</li>	
-							<li class="nav-item">
-								<a class="nav-link text-white" href="uslugi.html">usługi</a>
-							</li>	
-							<li class="nav-item">
-								<a class="nav-link text-white" href="kontakt.html">kontakt</a>
-							</li>	
-						</ul>
-					</div>
-				</nav>
-			</header>
-
+			<!--| NAVIGATION |-->
+			<?php
+				require('navbar.php');
+			?>
+			<!--| CONTENT |-->
 			<section class="services-page">
-
 				<div class="row-content bg-con-1 service-offer">
 					<h1 class="text-center headline">Nasza oferta</h1>
-					
 					<div class="row">		
-
 						<div class="col-12 col-xs-12 col-sm-3 col-md-3 col-lg-3 tabs-container">
-							<label for="tab1"> Przeglądy ppoż. </label>
-							<label for="tab2"> Dokumentacja ppoż. </label>
+							<label for="tab1"> Przeglądy urzadzeń ppoż. </label>
+							<label for="tab2"> Dokumentacja techn. ppoż. </label>
 							<label for="tab3"> Montaż zabezpieczeń </label>
 							<label for="tab4"> Usługi BHP </label>
 							<label for="tab5"> Dokumentacja BHP </label>
-							<label for="tab6"> Stała obsługa firm </label>
-							<label for="tab7"> Szkolnia BHP </label>
-							<!-- <a href="#" target="_blank"><label for="tab8"> Kalkulator projektu </label></a> -->
+							<label for="tab6"> Szkolenia BHP & PPOŻ. </label>
+							<label for="tab7"> Kalkulator ofert online </label>
+							<label for="tab8"> Usługa e-formularz </label>
 						</div>
-
 						<input name="tab" id="tab1" type="radio" checked />
 						<div class="col-12 col-xs-12 col-sm-9 col-md-8 col-lg-9 tab-content tab-1">
-						
 							<h4> Hydranty, zestawy hydroforowe i pompownie. </h4>
 							<table class="content-table">
 								<thead>
@@ -166,7 +123,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Gaśnice, agregaty gaśnicze. </h4>
 							<table class="content-table">
 								<thead>
@@ -216,7 +172,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Systemy oddymiania, drzwi przeciwpożarowe, kurtyny, grodzie.  </h4>
 							<table class="content-table">
 								<thead>
@@ -266,7 +221,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> System sygnalizacji pożarowej. Dźwiękowy system ostrzegawczy. </h4>
 							<table class="content-table">
 								<thead>
@@ -305,7 +259,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Oświetlenie awaryjne i ewakuacyjne. Przeciwpożarowy wyłącznik prądu. </h4>
 							<table class="content-table">
 								<thead>
@@ -350,9 +303,7 @@
 									</tr>
 								</tbody>
 							</table>
-
 						</div>
-
 						<input name="tab" id="tab2" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
 						
@@ -429,7 +380,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Dokumentacja techniczna dot. ochrony przeciwybuchowej: </h4>
 							<table class="content-table">
 								<thead>
@@ -441,7 +391,6 @@
 									</tr>
 								</thead>
 								<tbody>
-
 									<tr>
 										<td> 11. </td>
 										<td> Ocena zagrożenia wybuchem. <br>
@@ -472,12 +421,9 @@
 									</tr>
 								</tbody>
 							</table>
-
 						</div>
-
 						<input name="tab" id="tab3" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-						
 							<h4> Montaż hydrantów: </h4>
 							<table class="content-table">
 								<thead>
@@ -540,7 +486,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Montaż instalacji sygnalizacji pożarowej: </h4>
 							<table class="content-table">
 								<thead>
@@ -614,7 +559,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Montaż oświetlenia ewakuacyjnego i awaryjnego: </h4>
 							<table class="content-table">
 								<thead>
@@ -647,12 +591,9 @@
 									</tr>
 								</tbody>
 							</table>
-
 						</div>
-
 						<input name="tab" id="tab4" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-					
 							<h4> Ocena ryzyka zawodowego. </h4>
 							<table class="content-table">
 								<thead>
@@ -690,8 +631,6 @@
 									</tr>
 								</tbody>
 							</table>
-
-
 							<h4> Wypadki. </h4>
 							<table class="content-table">
 								<thead>
@@ -729,7 +668,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Regulaminy. Plany. Instrukcje. </h4>
 							<table class="content-table">
 								<thead>
@@ -767,7 +705,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Czynniki środowiskowe w miejscu pracy. Pomiary. </h4>
 							<table class="content-table">
 								<thead>
@@ -799,7 +736,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Instrukcje BHP. Procedury. </h4>
 							<table class="content-table">
 								<thead>
@@ -837,12 +773,90 @@
 									</tr>
 								</tbody>
 							</table>
+							<h4> Stała obsługa BHP dla firm do 100 pracowników: </h4>
+							<table class="content-table">
+								<thead>
+									<tr>
+										<th> Lp. </th>
+										<th> Nazwa usługi </th>
+										<th> Cena PLN </th>
+										<th> j. m.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> 1. </td>
+										<td> Stała obsługa BHP dla firmy (do 25 pracowników) - faktura </td>
+										<td> od 1000,00 </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 2. </td>
+										<td> Stała obsługa BHP dla firmy (26-40 pracowników) - faktura </td>
+										<td> od 1300,00 </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 3. </td>
+										<td> Stała obsługa BHP dla firmy (41-55 pracowników) - faktura </td>
+										<td> od 1600,00 </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 4. </td>
+										<td> Stała obsługa BHP dla firmy (56-70 pracowników) - faktura </td>
+										<td> od 2000,00 </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 4. </td>
+										<td> Stała obsługa BHP dla firmy (71-85 pracowników) - faktura</td>
+										<td> od 2300,00 </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 5. </td>
+										<td> Stała obsługa BHP dla firmy (86-100 pracowników) - faktura </td>
+										<td> od 2600,00 </td>
+										<td> mc </td>
+									</tr>
+								</tbody>
+							</table>
+							<h4> Stała obsługa BHP dla firm powyżej 100 pracowników: </h4>
+							<table class="content-table">
+								<thead>
+									<tr>
+										<th> Lp. </th>
+										<th> Nazwa usługi </th>
+										<th> Cena PLN </th>
+										<th> j. m.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> 6. </td>
+										<td> Stała obsługa BHP dla firmy (pow. 100 pracowników) - 1/8 etatu UoP </td>
+										<td> do uzg. </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 7. </td>
+										<td> Stała obsługa BHP dla firmy (pow. 300 pracowników) - 1/2 etatu UoP </td>
+										<td> do uzg. </td>
+										<td> mc </td>
+									</tr>
+									<tr>
+										<td> 8. </td>
+										<td> Stała obsługa BHP dla firmy (pow. 600 pracowników) - 1 etat UoP </td>
+										<td> do uzg. </td>
+										<td> mc </td>
+									</tr>
+								</tbody>
+							</table>
 
 						</div>
-
 						<input name="tab" id="tab5" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-						
 							<h4> Dokumentacja BHP. Wykazy.</h4>
 							<table class="content-table">
 								<thead>
@@ -898,7 +912,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Zarządzenia dla zakładu pracy. </h4>
 							<table class="content-table">
 								<thead>
@@ -978,7 +991,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Rejestry. </h4>
 							<table class="content-table">
 								<thead>
@@ -1028,7 +1040,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<h4> Druki dla instytucji GUS, ZUS. </h4>
 							<table class="content-table">
 								<thead>
@@ -1066,100 +1077,11 @@
 									</tr>
 								</tbody>
 							</table>
-
 						</div>
 
 						<input name="tab" id="tab6" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-						
-							<h4> Stała obsługa BHP dla firm do 100 pracowników: </h4>
-							<table class="content-table">
-								<thead>
-									<tr>
-										<th> Lp. </th>
-										<th> Nazwa usługi </th>
-										<th> Cena PLN </th>
-										<th> j. m.</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td> 1. </td>
-										<td> Stała obsługa BHP dla firmy (do 25 pracowników) - faktura </td>
-										<td> od 1000,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 2. </td>
-										<td> Stała obsługa BHP dla firmy (26-40 pracowników) - faktura </td>
-										<td> od 1300,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 3. </td>
-										<td> Stała obsługa BHP dla firmy (41-55 pracowników) - faktura </td>
-										<td> od 1600,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 4. </td>
-										<td> Stała obsługa BHP dla firmy (56-70 pracowników) - faktura </td>
-										<td> od 2000,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 4. </td>
-										<td> Stała obsługa BHP dla firmy (71-85 pracowników) - faktura</td>
-										<td> od 2300,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 5. </td>
-										<td> Stała obsługa BHP dla firmy (86-100 pracowników) - faktura </td>
-										<td> od 2600,00 </td>
-										<td> mc </td>
-									</tr>
-								</tbody>
-							</table>
-
-							<h4> Stała obsługa BHP dla firm powyżej 100 pracowników: </h4>
-							<table class="content-table">
-								<thead>
-									<tr>
-										<th> Lp. </th>
-										<th> Nazwa usługi </th>
-										<th> Cena PLN </th>
-										<th> j. m.</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td> 6. </td>
-										<td> Stała obsługa BHP dla firmy (pow. 100 pracowników) - 1/8 etatu UoP </td>
-										<td> do uzg. </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 7. </td>
-										<td> Stała obsługa BHP dla firmy (pow. 300 pracowników) - 1/2 etatu UoP </td>
-										<td> do uzg. </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 8. </td>
-										<td> Stała obsługa BHP dla firmy (pow. 600 pracowników) - 1 etat UoP </td>
-										<td> do uzg. </td>
-										<td> mc </td>
-									</tr>
-								</tbody>
-							</table>
-
-						</div>
-
-						<input name="tab" id="tab7" type="radio" />
-						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-						
-							<h4> Szkolenia z zakresu ochrony przecipożarowej </h4>
+							<h4> Szkolenia z zakresu PPOŻ.  </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -1202,7 +1124,7 @@
 									</tr>
 								</tbody>
 							</table>
-							
+
 							<h4> Szkolenia z zakresu BHP </h4>
 							<table class="content-table">
 								<thead>
@@ -1216,7 +1138,7 @@
 								<tbody>
 									<tr>
 										<td> 6. </td>
-										<td> Szkolenie wstępne BHP dla pracownika (w przypadku nowozatrudnionych. </td>
+										<td> Szkolenie wstępne BHP dla pracownika (w przypadku nowozatrudnionych.) </td>
 										<td> 150,00 </td>
 										<td> szt. </td>
 									</tr>
@@ -1259,119 +1181,93 @@
 									</tr>
 								</tbody>
 							</table>
+						</div>
 
+						<input name="tab" id="tab7" type="radio" />
+						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
+							<h4> Kalulator ofert online  </h4>
+							<table class="content-table">
+								<thead>
+									<tr>
+										<th> Lp. </th>
+										<th> Nazwa usługi </th>
+										<th> Cena PLN </th>
+										<th> j. m.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> 1. </td>
+										<td> Szkolenie dla pracowników z zakresu przeciwdziałania powstawania pożarów. </td>
+										<td> 90,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
+										<td> 2. </td>
+										<td> Szkolenie dla pracowników z zakresu prowadzenia ewakuacji w zakładzie pracy. </td>
+										<td> 70,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
+										<td> 3. </td>
+										<td> Szkolenie wstępne BHP dla pracownika (w przypadku nowozatrudnionych.) </td>
+										<td> 150,00 </td>
+										<td> szt. </td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<input name="tab" id="tab8" type="radio" />
+						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
+							<h4> Usługa e-formularz  </h4>
+							<table class="content-table">
+								<thead>
+									<tr>
+										<th> Lp. </th>
+										<th> Nazwa usługi </th>
+										<th> Cena PLN </th>
+										<th> j. m.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> 1. </td>
+										<td> Szkolenie dla pracowników z zakresu przeciwdziałania powstawania pożarów. </td>
+										<td> 90,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
+										<td> 2. </td>
+										<td> Szkolenie dla pracowników z zakresu prowadzenia ewakuacji w zakładzie pracy. </td>
+										<td> 70,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
+										<td> 3. </td>
+										<td> Szkolenie wstępne BHP dla pracownika (w przypadku nowozatrudnionych.) </td>
+										<td> 150,00 </td>
+										<td> szt. </td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 
 					</div>
-
 				</div>		
-
 			</section>
-
-		</main>	
-			
-		<!-- | FOOTER | -->
-			
-		<footer class="main-footer">	
-			<div class="row d-block footer-content">
-				<div class="row footer-menu">					
-					
-					<div class="col-12 col-sm-6 col-xl-3 f-col">
-						<h6 class="footer-h5">firma</h6>
-						<div class="footer-link">
-							<a href="index.html"> strona główna </a><br>
-							<a href="o-nas.html"> o nas </a><br>
-							<a href="uslugi.html"> usługi </a><br>
-							<a href="kontakt.html"> kontakt </a><br>
-						</div>
-					</div>					
-					
-					<div class="col-12 col-sm-6 col-xl-3 f-col">
-						<h6 class="footer-h5">inzynieria pożarowa</h6>
-						<div class="footer-link">
-							<a href="uslugi.html"> przeglądy ppoż. </a><br>
-							<a href="uslugi.html"> hydranty, gaśnice </a><br>
-							<a href="uslugi.html"> instrukcja bezp. poż. </a><br>
-							<a href="uslugi.html"> oświetlenie awaryjne </a><br>
-							<a href="uslugi.html"> analiza ppoż. </a><br>
-							<a href="uslugi.html"> przegląd syst. oddym. </a><br>
-						</div>
-					</div>
-					
-					<div class="col-12 col-sm-6 col-xl-3 f-col">
-						<h6 class="footer-h5">usługi bhp</h6>
-						<div class="footer-link">
-							<a href="uslugi.html"> analiza bhp </a><br>
-							<a href="uslugi.html"> ocena ryzyka </a><br>
-							<a href="uslugi.html"> dokumentacja </a><br>
-							<a href="uslugi.html"> rejestry </a><br>
-							<a href="uslugi.html"> szkolenia bhp </a><br>
-							<a href="uslugi.html"> pierwsza pomoc </a><br>
-						</div>
-					</div>
-					
-					<div class="col-12 col-sm-6 col-xl-3 f-col">
-						<h6 class="footer-h5">dane adresowe</h6>
-						<div class="footer-link">
-							<a href="https://www.google.com/maps/place/Prymasa+Augusta+Hlonda+4b,+02-972+Warszawa/@52.1859223,21.0519289,12.75z/data=!4m5!3m4!1s0x47192d6763700001:0x11916d19fffb9c78!8m2!3d52.1607343!4d21.0682476" target="_blank">ul. Prymasa Augusta Hlonda 4b</a><br/>
-							<p>	02-972 Warszawa <br>
-								woj. mazowieckie <br>
-								NIP: 000-000-00-00 <br>
-								REGON: 1223456798 </p><br>
-						</div>
-					</div>	
-				
-				</div>
-				<div class="row">
-					<div class="row footer-language">
-						<img class="globe" src="img/globe-white.png" alt="Globe wireframe" />
-						<ul class="language">
-							<a class="language-label" href="#" style="color:white" hreflang="de">Polski</a>
-							<!-- <a class="language-label" href="#" hreflang="en"> English </a> -->
-						</ul>
-					</div>
-					
-					<div class="row footer-bottom">
-						<div class="col-lg-4 footer-button-left">
-							<div class="text-rule">Copyright © 2022 - ideaprotect. All rights reserved</div>
-						</div>				
-						<div class="col-lg-6 footer-button-center">
-							<div class="row">
-								<div class="col-md-6 text-law">	
-									<a class="text-label" href="polityka-prywatnosci.html" > Polityka prywatności </a>	
-								</div>
-								<div class="col-md-6 text-law">		
-									<a class="text-label" href="polityka-cookies.html" > Polityka cookies </a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-2 col-lg-12 col-xs-12 footer-social-icons">
-							
-							<ul class="social-icons">
-								<li><a href="https://www.facebook.com/ideaprotect" class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/ideaprotect/about/?viewAsMember=true" class="social-icon" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UC220CnGbppJtW_eWuZU7-CA" class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a></li>
-							</ul>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</footer>
-
-
+			<!-- | FOOTER | -->
+			<?php 
+				require('footer.php');
+			?>
+			<!-- | FOOTER-END | -->
+		</main>				
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
-
  		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
-
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
-
 		<script src="script-scrolltop.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
 	</body>
-
 </html>

@@ -1,0 +1,441 @@
+
+.welcome {
+    background-image: url(img/architect-working.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+.welcome .motto {
+    padding-bottom: 2rem;
+}
+
+.welcome .slogan {
+    line-height: 150%;
+    background-color: #04448893;
+    margin-top: 12rem;
+    padding: 2%;
+    width: 75%;
+    font-weight: bold;
+}
+
+.welcome .slogan-box {
+    margin-top: 1.8rem;
+}
+
+.welcome .developing-slogan {
+    font-size: 21px;
+    padding: 2%;
+    line-height: 1.4;
+    background-color: #1A53BD;
+    width: 75%;
+}
+
+.welcome .two-buttons {
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 14%;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 75%;
+}
+
+.welcome .btn {
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-weight: 700;
+    color: #1A53BD;
+}
+
+.welcome .btn:hover {
+    background-color: #1A53BD;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+}
+
+.welcome .headline {
+    line-height: 150%;
+    padding: 2rem 0 2rem 0;
+}
+
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+
+@media (min-width: 1600px) {
+    .welcome .headline {font-size: 48px;}
+}
+
+@media (min-width: 1490px) and (max-width: 1599px) {
+    .welcome .headline {font-size: 40px;}
+    .welcome .slogan {font-size: 36px;}
+}
+
+@media (min-width: 1200px) and (max-width: 1489px) {
+    .welcome .headline {font-size: 38px;} 
+    .welcome .btn {width: 140px;}
+    .welcome.text {font-size: 17px;}
+    .welcome .slogan {font-size: 32px;}
+    .welcome .developing-slogan {font-size: 19px;}
+}
+
+@media (min-width: 1054px) and (max-width: 1199px) {
+    .welcome .headline {font-size: 32px;}
+    .welcome .text {font-size: 15px;}
+    .welcome .slogan {font-size: 32px;}
+    .welcome .developing-slogan {font-size: 17px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .welcome .headline {font-size: 28px;}
+    .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+    .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
+    .welcome .button {padding-bottom: 1rem;}
+    .welcome .slogan {font-size: 28px; width: 100%;}
+    .welcome .developing-slogan {font-size: 14px; width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome .headline {font-size: 28px;}
+    .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+    .welcome .img-fluid {width: 70%; height: auto; margin-top: 2rem;}
+    .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
+    .welcome .slogan {font-size: 38px; width: 100%;}
+    .welcome .developing-slogan {font-size: 14px; width: 100%;}
+    .welcome .row-content {padding: 1% 15%;}
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
+    .welcome .headline {font-size: 24px;} 
+    .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+    .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
+    .welcome .slogan {font-size: 28px; width: 100%;}
+    .welcome .developing-slogan {font-size: 12px; width: 100%;}
+    .welcome .row-content {padding: 1% 8%;}
+}
+
+@media (min-width: 383px) and (max-width: 575px) {
+    .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+    .welcome .headline {font-size: 15px;}
+    .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
+    .welcome .slogan {font-size: 23px; width: 100%;}
+    .welcome .developing-slogan {font-size: 11px; width: 100%;}
+    .welcome .row-content {padding: 1% 6%;}
+}
+
+@media (min-width: 1px) and (max-width: 382px) {
+    .welcome .btn {width: 120px; font-size: 0.8rem; margin-bottom: 0.6rem; padding: 0.3rem 0 0.3rem 0;}
+    .welcome .headline {font-size: 15px;}
+    .welcome .two-buttons {padding-left: 0; padding-right: 0; width: 100%;}
+    .welcome .slogan {font-size: 18px; width: 100%;}
+    .welcome .developing-slogan {font-size: 11px; width: 100%;}
+    .welcome .row-content {padding: 1% 6%;}
+}
+
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+
+.offer {
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.offer .headline {
+    line-height: 150%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: bold;
+}
+
+.offer img{
+    filter: invert(100%) sepia(0%) saturate(7474%) 
+    hue-rotate(268deg) brightness(98%) contrast(99%);
+}
+
+.service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 40px 30px;
+    margin-bottom: 40px;
+    position: relative;
+    min-height: 18rem;
+}
+
+.offer .service-wrap:hover{
+    background-color: #06315f;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+@media (min-width: 1600px) and (max-width: 1856px) {
+    .service-wrap {min-height: 20rem;}
+}
+
+@media (min-width: 1490px) and (max-width: 1599px) {
+    .service-wrap {min-height: 22rem;}
+}
+
+@media (min-width: 1200px) and (max-width: 1489px) {
+    .service-wrap {min-height: 26rem;}
+} 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-wrap {min-height: 20rem;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .offer .headline {font-size: 45px;}
+    .service-wrap {width: 70%; margin: 1rem auto;}
+}
+
+@media (min-width: 384px) and (max-width: 575px) {
+    .offer .headline { font-size: 40px;}
+    .service-wrap {width: 70%; margin: 1rem auto;}
+}
+
+@media (min-width: 1px) and (max-width: 383px) {
+    .offer .headline { font-size: 35px;}
+    .service-wrap {width: 90%; margin: 1rem auto;}
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+.values {
+    padding-bottom: 4rem;
+}
+
+.values img{
+    width: 140px;
+    height: auto;
+}
+
+.values .headline {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.value-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+    margin: 40px 30px;
+    font-size: 16px;
+}
+
+.values .value-wrap:hover {
+    background-color: #06315f;
+} 
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+@media (min-width: 1801px) and (max-width: 19000px) {
+    .value-wrap {height: 460px; padding: 50px 30px; margin: 40px 30px;}
+}
+
+@media (min-width: 1600px) and (max-width: 1800px) {
+    .value-wrap {height: 500px; padding: 30px 10px; margin: 20px 10px;}
+}
+
+@media (min-width: 1490px) and (max-width: 1599px) {
+    .value-title {font-size: 34px;}
+    .value-wrap {height: 460px; padding: 30px 10px; margin: 20px 10px;}
+}
+
+@media (min-width: 1200px) and (max-width: 1489px) {
+    .value-title {font-size: 22px;}
+    .value-wrap {height: 460px; padding: 30px 10px; margin: 20px 10px;}
+    .value-wrap p {font-size: 15px;}
+}
+
+@media (min-width: 1054px) and (max-width: 1199px) {
+    .value-title {font-size: 25px;}
+    .value-wrap p {font-size: 15px;}
+    .value-wrap {height: 440px; padding: 8px 8px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .value-title {font-size: 25px;}
+    .value-wrap {height: 460px; padding: 30px 10px; margin: 20px 10px;}
+    .value-wrap p {font-size: 15px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .values img{width: 130px; height: auto;}
+    .value-title {font-size: 25px;}
+    .value-wrap {height: 480px; margin: 20px 10px; padding: 30px 10px;}
+    .value-wrap p {font-size: 14px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .values .headline {font-size: 45px;}
+    .values img{width: 120px; height: auto;}
+    .value-title{ font-size: 25px;}
+    .value-wrap {height: 380px; width: 70%; margin: 40px auto; padding: 30px 10px;}
+    .value-wrap p {font-size: 15px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px) {
+    .values .headline {font-size: 40px;}
+    .values img{width: 110px; height: auto;}
+    .value-title { font-size: 25px;}
+    .value-wrap {height: 400px; width: 70%; margin: 40px auto; padding: 30px 10px;}
+    .value-wrap p {font-size: 14px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px) {
+    .values .headline {font-size: 35px;}
+    .values img{width: 100px; height: auto;}
+    .value-title { font-size: 20px;}
+    .value-wrap p {font-size: 13px;}
+    .value-wrap {height: 380px; width: 90%;  margin: 40px auto; padding: 30px 10px;}
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+.process {
+    align-items: center;
+}
+
+.process .headline {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: bold;
+    line-height: 150%;
+} 
+
+.process-box {
+    margin-bottom: 12rem;
+}
+
+.step-box {
+    border: #ffffff 1px solid;  
+    margin: 0 1rem;
+    padding: 4rem 1rem 1rem 1rem;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+@media (min-width: 1600px) {
+    .step-box {min-height: 18rem;}
+}
+
+@media (min-width: 1490px) and (max-width: 1599px) {
+    .step-box {min-height: 22rem;}
+    .step-box p {font-size: 16px;}
+}
+
+@media (min-width: 1200px) and (max-width: 1489px) {
+    .step-box {min-height: 21rem; margin: 0 0.2rem; padding: 4rem 0.5rem 1rem 0.5rem;}
+    .step-box p {font-size: 16px;}
+}
+
+@media (min-width: 1054px) and (max-width: 1199px) {
+    .step-box {min-height: 21rem;}
+    .step-box p {font-size: 16px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .step-box {min-height: 21rem;}
+    .step-box p {font-size: 16px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .step-box {min-height: 20rem; margin: 0 0.2rem; padding: 4rem 0.5rem 1rem 0.5rem;}
+    .step-box p {font-size: 15px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .process .headline  { font-size: 45px;}
+    .step-box {min-height: 10rem; width: 70%; margin: 0 auto 1rem auto;}
+    .step-box p {font-size: 16px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px) {
+    .process .headline  { font-size: 40px;}
+    .step-box {min-height: 10rem; width: 70%; margin: 0 auto 1rem auto;}
+    .step-box p {font-size: 16px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px) {
+    .process .headline  { font-size: 35px;}
+    .step-box {min-height: 10rem; width: 70%; margin: 0 auto 1rem auto;}
+    .step-box p {font-size: 14px;}
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.area {
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.area .headline {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: bold;
+    line-height: 150%;
+} 
+
+.area-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.img-map {
+    width: 70%; 
+}
+
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .img-map {width: 70%;}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .img-map {width: 90%;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px) {
+    .img-map {width: 50%;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .img-map {width: 50%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .area .headline   { font-size: 45px;}
+    .img-map {width: 50%;}
+    .area p {font-size: 16px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .area .headline  { font-size: 45px;}
+    .img-map {width: 60%;}
+    .area p {font-size: 15px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px) {
+    .area .headline { font-size: 40px;}
+    .img-map {width: 90%;}
+    .area p {font-size: 14px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px) {
+    .area .headline  { font-size: 35px;}
+    .img-map {width: 90%;}
+    .area p {font-size: 14px;}
+}
+
+/* ------------------------------------------------ */
