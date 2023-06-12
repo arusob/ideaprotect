@@ -28,7 +28,8 @@
                     <a class="nav-link text-white" href="kontakt.php">kontakt</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="login-form.php">zaloguj</a>
+                    <a class="nav-link text-white" href="login.php">zaloguj</a>
+                    <!-- <span><a href="logout.php">wyloguj</a></span> -->
                 </li>
             </ul>
         </div>

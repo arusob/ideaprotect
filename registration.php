@@ -4,33 +4,36 @@ if(!empty($_SESSION["id"])){
   header("Location: my-account.php");
 }
 if(isset($_POST["submit"])){
-  $usernameemail = $_POST["usernameemail"];
+  $name = $_POST["name"];
+  $username = $_POST["username"];
+  $email = $_POST["email"];
   $password = $_POST["password"];
-  $result = mysqli_query($conn, "SELECT * FROM users WHERE username = '$usernameemail' OR email = '$usernameemail'");
-  $row = mysqli_fetch_assoc($result);
-  if(mysqli_num_rows($result) > 0){
-    if($password == $row['password']){
-      $_SESSION["login"] = true;
-      $_SESSION["id"] = $row["id"];
-      header("Location: my-account.php");
+  $confirmpassword = $_POST["confirmpassword"];
+  $duplicate = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username' OR email = '$email'");
+  if(mysqli_num_rows($duplicate) > 0){
+    echo
+    "<script> alert('Username or Email Has Already Taken'); </script>";
+  }
+  else{
+    if($password == $confirmpassword){
+      $query = "INSERT INTO users VALUES('','$name','$username','$email','$password')";
+      mysqli_query($conn, $query);
+      echo
+      "<script> alert('Registration Successful'); </script>";
     }
     else{
       echo
-      "<script> alert('Wrong Password'); </script>";
+      "<script> alert('Password Does Not Match'); </script>";
     }
-  }
-  else{
-    echo
-    "<script> alert('User Not Registered'); </script>";
   }
 }
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Login </title>
+		<title> Registration </title>
 		<link rel="icon" type="image/x-icon" href="img/sygnet-ideaprotect-n-white.png">
 		<meta name="description" content="Usługi inżynieryjne">
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
@@ -39,7 +42,7 @@ if(isset($_POST["submit"])){
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="navbar.css">
 		<link rel="stylesheet" href="index.css">
-		<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" href="registration.css">
 		<link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="polityka-cookies.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,40 +60,52 @@ if(isset($_POST["submit"])){
   </head>
   <body>
     <main class="pr-0 mr-0">
-			<!--| NAVIGATION |-->
+      <!--| NAVIGATION |-->
 			<?php
 				require('navbar.php');
 			?>
 			<!--| CONTENT |-->
-			<section class="login bg-con-1">
+      <section class="register bg-con-1">
         <div class="row row-content">
           <div class="col-lg-12 text-center">
             <div class="row">
-              <div class="col-lg-5 mx-auto login-form" >
-                <div class="login-title" >
-                  <h2 class="pb-3" >Logowanie</h2>
+              <div class="col-lg-5 mx-auto register-form">
+                <div class="register-title">
+                  <h2 class="pb-3">Rejestracja</h2>
                 </div>
-                <div>
-                  <form class="row pt-5" action="" method="post" autocomplete="off">
-                    <div class="row py-2 pr-3">
-                      <label class="col-5" for="usernameemail">Username or Email : </label>
-                      <input class="col-7" type="text" name="usernameemail" id = "usernameemail" required value="" placeholder="Wpisz nazwę lub e-mail">
-                    </div>
-                    <div class="row py-2 pr-3">
-                      <label class="col-5" for="password">Password : </label>
-                      <input class="col-7" type="password" name="password" id = "password" required value="" placeholder="Wpisz hasło">
-                    </div>
-                    <div class="button-area col-12 py-1">
-                      <button type="submit" name="submit">Login</button>
-                    </div>
-                  </form>
-                  <br>
-                  Nie posiadasz konta? <a href="registration.php">Rejestracja</a>
+                <form class="row pt-5" action="" method="post" autocomplete="off">
+                  <div class="row py-2 pr-3">
+                    <label class="col-5" for="name">Name : </label>
+                    <input class="col-7" type="text" name="name" id = "name" required value="" placeholder="Wpisz nazwę">
+                  </div>
+                  <div class="row py-2 pr-3">
+                    <label class="col-5" for="username">Username : </label>
+                    <input class="col-7" type="text" name="username" id = "username" required value="" placeholder="Wpisz nazwę użytkownika">
+                  </div>
+                  <div class="row py-2 pr-3">
+                    <label class="col-5" for="email">Email : </label>
+                    <input class="col-7" type="email" name="email" id = "email" required value="" placeholder="Wpisz e-mail"> 
+                  </div>
+                  <div class="row py-2 pr-3">
+                    <label class="col-5" for="password">Password : </label>
+                    <input class="col-7" type="password" name="password" id = "password" required value="" placeholder="Wpisz hasło">
+                  </div>
+                  <div class="row py-2 pr-3">
+                    <label class="col-5" for="confirmpassword">Confirm Password : </label>
+                    <input class="col-7" type="password" name="confirmpassword" id = "confirmpassword" required value="" placeholder="Powtórz hasło">
+                  </div>
+                  <div class="button-area col-12 py-1">
+                    <button type="submit" name="submit">Register</button>
+                  </div>
+                </form>
+                <br>
+                Posiadasz konto? <a href="login.php"> Login</a>
               </div>
             </div>
           </div>
         </div>
-			</section>
+      </section>
+
 			<!-- | COOKIES - POPUP |  -->
 			<div class="cookie-container text-justify-center">
 				<div class="row cookie-popup-inside">
@@ -117,7 +132,7 @@ if(isset($_POST["submit"])){
     </main>
     <!-- | FOOTER | -->
     <?php 
-      require('footer.php');
+    require('footer.php');
     ?>
     <!-- | FOOTER-END | -->
     <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
