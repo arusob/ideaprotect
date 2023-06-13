@@ -1,5 +1,5 @@
 <?php
-require 'conect.php';
+require 'connect.php';
 if(!empty($_SESSION["id"])){
   header("Location: my-account.php");
 }
@@ -12,6 +12,7 @@ if(isset($_POST["submit"])){
     if($password == $row['password']){
       $_SESSION["login"] = true;
       $_SESSION["id"] = $row["id"];
+      $_SESSION["name"] = $row["name"];
       header("Location: my-account.php");
     }
     else{

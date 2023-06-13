@@ -1,0 +1,66 @@
+
+.crud {
+    min-height: 700px;
+}
+
+.crud > .row > div {
+    height: auto;
+}
+
+.crud-form {
+    height: 600px; 
+    padding: 20px 0 20px 0; 
+    margin: 80px 0 80px 0;  
+    background-color: rgb(11, 62, 130);
+}
+
+.crud-title {
+    margin: 0 20px 0 20px; 
+    border-bottom: 1px white solid;
+}
+
+form .button-area{
+    margin: 20px 0 0 0;
+    display: flex;
+    text-align: end;
+} 
+
+form .button-area .btn{
+    cursor: pointer;
+    margin: auto; 
+    width: 50%; 
+    border-radius: 26px;
+    background-color: #ffffff;
+    border: #052342 solid 2px;
+    color: #044488;
+    font-weight: 700;
+}
+
+.button-area .btn:hover {
+    background-color: #1A53BD;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+}
+
+.crud a {
+    text-decoration: none;
+}
+
+.crud a:hover {
+    color: #ffffff;
+}
+
+.crud form label {
+    margin-bottom: 8px !important;
+    margin-top: 8px;
+}
+
+.crud form input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #474545;
+}

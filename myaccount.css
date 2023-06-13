@@ -14,7 +14,7 @@
 
 .content-table {
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 40px 0 140px 0;
     font-size: 16px;
     min-width: 100%;
 }
@@ -36,7 +36,3 @@
     border-top: 1px #ffffff solid;
     border-bottom: 1px #ffffff solid;
 } 
-
-.content-table tr:hover {
-    background-color: #06315f;
-}
