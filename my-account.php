@@ -94,8 +94,8 @@ if(empty($_SESSION["id"])){
 								echo '<td>' .$worker['city'].'</td>';
 								echo '<td>' .$worker['email'].'</td>';
 								echo '<td>' .$worker['phone'].'</td>';
-								echo '<td><a class="brn brn-success" href="edit-worker.php"><img src="img/pencil.png"></a></td>';
-								echo '<td><a class="brn brn-success" href="delete-worker.php"><img src="img/trash.png"></a></td>';
+								echo '<td><a href="edit-worker.php"><img class="crud-icon" src="img/pencil.png"></a></td>';
+								echo '<td><a href="delete-worker.php"><img class="crud-icon" src="img/trash.png"></a></td>';
 							echo '</tr>';
 						}
 					?>

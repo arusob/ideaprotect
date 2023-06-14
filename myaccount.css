@@ -36,3 +36,8 @@
     border-top: 1px #ffffff solid;
     border-bottom: 1px #ffffff solid;
 } 
+
+.crud-icon {
+    filter: invert(100%) sepia(0%) saturate(7474%) hue-rotate(268deg) brightness(98%) contrast(99%);
+}
+

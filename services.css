@@ -35,7 +35,6 @@
     position: relative;
     background: none;
     width: calc(100% - 20%);
-    min-height: auto;
     padding: 15px 15px 15px 20px;
     float: left;
     box-sizing: border-box;
@@ -59,10 +58,11 @@
 
 .service-offer {
     height: auto;
+    min-height: 700px;
 }
 
 .tab-1 {
-    min-height: 130rem;
+    min-height: 1200px;
 }
 
 .services-page .content-table {
@@ -93,7 +93,22 @@
 
 .services-page .content-table tr:hover {
     background-color: #06315f;
-} 
+}
+
+.calculator {
+    border: solid white 1px; 
+    padding: 20px; 
+    height: 300px; 
+    font-size: 27px; 
+    color: white;
+}
+
+.calc-box a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0c2d99;
+}
+
 
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */

@@ -11,7 +11,8 @@
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="navbar.css">
-		<link rel="stylesheet" href="uslugi.css">
+		<!-- <link rel="stylesheet" href="uslugi.css"> -->
+		<link rel="stylesheet" href="services.css">
 		<link rel="stylesheet" href="footer.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +36,7 @@
 			<section class="services-page">
 				<div class="row-content bg-con-1 service-offer">
 					<h1 class="text-center headline">Nasza oferta</h1>
-					<div class="row">		
+					<div class="row" style="min-height: 500px;">		
 						<div class="col-12 col-xs-12 col-sm-3 col-md-3 col-lg-3 tabs-container">
 							<label for="tab1"> Przeglądy urzadzeń ppoż. </label>
 							<label for="tab2"> Dokumentacja techn. ppoż. </label>
@@ -1184,38 +1185,17 @@
 						</div>
 
 						<input name="tab" id="tab7" type="radio" />
-						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-							<h4> Kalulator ofert online  </h4>
-							<table class="content-table">
-								<thead>
-									<tr>
-										<th> Lp. </th>
-										<th> Nazwa usługi </th>
-										<th> Cena PLN </th>
-										<th> j. m.</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td> 1. </td>
-										<td> Szkolenie dla pracowników z zakresu przeciwdziałania powstawania pożarów. </td>
-										<td> 90,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 2. </td>
-										<td> Szkolenie dla pracowników z zakresu prowadzenia ewakuacji w zakładzie pracy. </td>
-										<td> 70,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 3. </td>
-										<td> Szkolenie wstępne BHP dla pracownika (w przypadku nowozatrudnionych.) </td>
-										<td> 150,00 </td>
-										<td> szt. </td>
-									</tr>
-								</tbody>
-							</table>
+						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content calc-box">
+							<h4> Kalulator online  </h4>
+							<br>
+							<div class="row">
+								<a href="offer-calculator-fp.php" class="col-lg-5 text-center headline calculator">
+									Kalulator online <br> dla oferty z zakresu ochrony przeciwpożarowej</a>
+								<div class="col-lg-2"></div>
+								<a href="offer-calculator-hse.php" class="col-lg-5 text-center headline calculator">
+									Kalulator online <br> dla oferty z zakresu usług BHP</a>
+
+							</div>
 						</div>
 
 						<input name="tab" id="tab8" type="radio" />
@@ -1226,28 +1206,24 @@
 									<tr>
 										<th> Lp. </th>
 										<th> Nazwa usługi </th>
-										<th> Cena PLN </th>
-										<th> j. m.</th>
+										<th> Opcja </th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td> 1. </td>
-										<td> Szkolenie dla pracowników z zakresu przeciwdziałania powstawania pożarów. </td>
-										<td> 90,00 </td>
-										<td> szt. </td>
+										<td> Druk. Protokół ustalania okoliczności przyczyn wypadku. </td>
+										<td> <a href="accident-report.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 2. </td>
-										<td> Szkolenie dla pracowników z zakresu prowadzenia ewakuacji w zakładzie pracy. </td>
-										<td> 70,00 </td>
-										<td> szt. </td>
+										<td> Druk. Karta wypadku w drodze do / lub z pracy. </td>
+										<td> <a href="https://www.wp.pl/" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 3. </td>
-										<td> Szkolenie wstępne BHP dla pracownika (w przypadku nowozatrudnionych.) </td>
-										<td> 150,00 </td>
-										<td> szt. </td>
+										<td>  Druk. Rejestr czynników szkodliwych w miejscu pracy. </td>
+										<td> <a href="https://www.wp.pl/" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 								</tbody>
 							</table>
