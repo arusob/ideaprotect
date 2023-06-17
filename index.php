@@ -3,17 +3,19 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<title> ideaprotect | strona główna </title>
-		<link rel="icon" type="image/x-icon" href="img/sygnet-ideaprotect-n-white.png">
+		<link rel="icon" type="image/x-icon" href="../img/sygnet-ideaprotect-n-white.png">
+
 		<meta name="description" content="Usługi inżynieryjne">
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="navbar.css">
-		<link rel="stylesheet" href="index.css">
-		<link rel="stylesheet" href="footer.css">
-		<link rel="stylesheet" href="polityka-cookies.css">
+
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/polityka-cookies.css">
+		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
@@ -30,7 +32,7 @@
 		<main class="pr-0 mr-0">
 			<!--| NAVIGATION |-->
 			<?php
-				require('navbar.php');
+				require('php/navbar.php');
 			?>
 			<!--| CONTENT |-->
 			<section class="home-page">
@@ -47,7 +49,7 @@
 								<a href="#process" class="btn btn-light"> jak pracujemy </a>										
 							</div>
 							<div class="d-inline button m-auto">														
-								<a href="uslugi.php" class="btn btn-light"> wyceń projekt </a>		
+								<a href="php/uslugi.php" class="btn btn-light"> wyceń projekt </a>		
 							</div>
 						</div>
 					</div>
@@ -217,8 +219,8 @@
 					<div class="col-sm-8 text-area-politics">
 						<h3 class="font-weight-bold"> Polityka prywatności i polityka cookies.</h3>
 						<p>
-							Strona korzysta z plików cookie w celu realizacji usług zgodnie z <a href="polityka-prywatnosci.php">Polityką prywatności</a>
-							oraz określoną <a href="polityka-cookies.php"> Polityką cookies. </a> 
+							Strona korzysta z plików cookie w celu realizacji usług zgodnie z <a href="php/polityka-prywatnosci.php">Polityką prywatności</a>
+							oraz określoną <a href="php/polityka-cookies.php"> Polityką cookies. </a> 
 							Możesz określić warunki przechowywania lub dostępu do cookie w Twojej przeglądarce lub konfiguracji usługi.
 						</p>
 					</div>	
@@ -236,7 +238,7 @@
 			</div>
 			<!-- | FOOTER | -->
 			<?php 
-				require('footer.php');
+				require('php/footer.php');
 			?>
 			<!-- | FOOTER-END | -->
 		</main>	
@@ -244,9 +246,9 @@
  		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>					
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="script-scrolltop.js"></script>
-		<script src="cookies-popup.js"></script>
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<script src="js/script-scrolltop.js"></script>
+		<script src="js/cookies-popup.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>		
 	</body>
 </html>
