@@ -1,0 +1,43 @@
+.privacy-policy a:hover{
+  color: #09213b;
+  font-weight: 700;
+}
+
+.privacy-policy a{
+  color: #429bee;
+  font-weight: 700;
+}
+
+.privacy-policy .content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+
+}
+
+.privacy-policy .content-table thead tr{
+  background-color: #0c2d99;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.privacy-policy
+.content-table th {
+  padding: 10px 4px;
+  border-top: 1px #ffffff solid;
+}
+
+.privacy-policy .content-table td {
+  padding: 6px 4px;
+  border-top: 1px #ffffff solid;
+  border-bottom: 1px #ffffff solid;
+} 
+
+.privacy-policy .content-table tr:hover {
+  background-color: #06315f;
+} 
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */

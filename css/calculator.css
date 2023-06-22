@@ -1,0 +1,198 @@
+.calculator-page .headline {
+    line-height: 150%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+.calculator-page label{
+    position: relative;
+    padding: 12px 12px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    font-size: 17px;
+    background: #1040c4;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+} 
+
+.calculator-page label:hover{
+    background: rgba(0, 0, 0, 0.2);
+} 
+
+.calculator-page .tab-content{
+    position: relative;
+    background: none;
+    width: calc(100% - 20%);
+    padding: 15px 15px 15px 20px;
+    float: left;
+    box-sizing: border-box;
+    z-index: 19;
+    display: none;
+}
+
+.service-offer {
+    height: auto;
+    min-height: 700px;
+}
+
+.calc-result {
+    background-color: white; 
+    color: black; 
+    padding: 20px 25px 20px 25px; 
+    min-height: 800px;
+    height: auto;
+    margin: 0;
+}
+
+.tab-1 {
+    min-height: 1200px;
+}
+
+.calculator-page .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    min-width: 100%;
+}
+
+.calculator-page .content-table thead tr{
+    background-color: #0c2d99;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.calculator-page .content-table th {
+    padding: 10px 4px;
+    border-top: 1px #ffffff solid;
+}
+
+.calculator-page .content-table td {
+    padding: 6px 4px;
+    border-top: 1px #ffffff solid;
+    border-bottom: 1px #ffffff solid;
+} 
+
+.calculator-page .content-table tr:hover {
+    background-color: #06315f;
+}
+
+.th-1, .td-1 {
+    width: 3%;
+}
+
+.th-2, .td-2 {
+    width: 72%;
+}
+
+.th-3, .td-3 {
+    width: 15%;
+}
+
+.th-4, .td-4 {
+    width: 10%;
+}
+
+.td-4 input {
+    width: 100%;
+}
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* TABS */
+
+.b-tab {
+    padding: 20px;
+    display: none;
+    min-height: 500px;
+}
+  
+.b-tab.active {
+    display: block;
+}
+  
+.b-nav-tab {
+    display: inline-block;
+    padding: 0;
+    border: 1px solid #fff;
+    width: 33%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.b-nav-tab:hover {
+    background-color: #06315f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.b-nav-tab.active {
+    color: #ffffff;
+    background-color: #06315f;
+}
+
+.b-nav-tab div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .calculator-page .content-table {margin: 25px 0; font-size: 16px; min-width: 100%;}
+    .calculator-page label {font-size: 15px;}
+    .service-offer h4 {font-size: 20px; line-height: 140%; margin: 0 5px;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px) {
+    .calculator-page .content-table {margin: 25px 0; font-size: 16px; min-width: 100%;}
+    .calculator-page label {font-size: 15px;}
+    .service-offer h4 {font-size: 16px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .calculator-page .content-table {margin: 25px 0; font-size: 15px; min-width: 100%;}
+    .calculator-page label {font-size: 15px;}
+    .service-offer h4 {font-size: 16px; line-height: 140%; margin: 0 5px;}
+} 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .calculator-page .headline {font-size: 45px;}
+    .calculator-page .content-table {margin: 25px 0; font-size: 14px; min-width: 100%;}
+    .calculator-page label {font-size: 15px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .calculator-page .headline {font-size: 45px;}
+    .calculator-page .content-table {margin: 25px 0; font-size: 13px; min-width: 100%;}
+    .calculator-page label {font-size: 13px; line-height: 140%;}
+    .calculator-page .tab-content {padding: 10px 10px 10px 10px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px) {
+    .calculator-page .headline {font-size: 40px;}
+    .calculator-page {margin-bottom: 1rem;}
+    .calculator-page .content-table {margin: 25px 0; font-size: 13px; min-width: 100%;}
+    .calculator-page label {font-size: 15px;}
+    .calculator-page .tab-content {padding: 8px 8px 8px 8px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px) {
+    .calculator-page .headline  {font-size: 35px;}
+    .calculator-page {margin-bottom: 1rem;}
+    .calculator-page .content-table {margin: 25px 0; font-size: 11px; min-width: 100%;}
+    .calculator-page label {font-size: 15px;}
+    .calculator-page {padding: 5px 5px 5px 5px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+/* ----------------------------------------------------- */

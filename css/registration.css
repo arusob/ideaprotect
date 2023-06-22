@@ -1,0 +1,67 @@
+
+.register {
+    min-height: 800px;
+}
+
+.register > .row > div {
+    height: auto;
+}
+
+.register-form {
+    height: 600px; 
+    padding: 20px 0 20px 0; 
+    margin: 120px 0 120px 0;  
+    background-color: rgb(11, 62, 130);
+}
+
+.register-title {
+    margin: 0 20px 0 20px; 
+    border-bottom: 1px white solid;
+}
+
+form .button-area{
+    margin: 20px 0 0 0;
+    display: flex;
+    text-align: end;
+} 
+
+form .button-area button{
+    cursor: pointer;
+    margin: auto; 
+    width: 30%;  
+    padding: 8px 0 8px 0;
+    border-radius: 26px;
+    background-color: #ffffff;
+    border: #052342 solid 2px;
+    color: #044488;
+    font-weight: 700;
+}
+
+.button-area button:hover {
+    background-color: #1A53BD;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+}
+
+.register a {
+    text-decoration: none;
+}
+
+.register a:hover {
+    color: #ffffff;
+}
+
+.register form label {
+    margin-bottom: 8px !important;
+    margin-top: 8px;
+}
+
+.register form input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #474545;
+}
