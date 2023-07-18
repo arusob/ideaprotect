@@ -10,10 +10,8 @@
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 
-		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="css/navbar.css">
-		<link rel="stylesheet" href="css/polityka-prywatnosci.css">
-		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/privacy-policy.css">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,12 +24,18 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+
+		<script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script defer src="../js/bootstrap/bootstrap.min.js"></script>
+		<script defer src="../js/script-scrolltop.js"></script>
 	</head>
 	<body>
 		<main class="pr-0 mr-0">
 			<!--| NAVIGATION |-->
 			<?php
-				require('php/navbar.php');
+				require('./navbar.php');
 			?>
 			<!--| CONTENT |-->
 			<section class="privacy-policy">
@@ -40,14 +44,13 @@
 						<h2 class="font-weight-bold headline"> Polityka Prywatności </h2>
 					</div>
 					<div>
-						<article><h1 style="text-align:center"></h1>
+						<article>
 							<p>Poniższa Polityka Prywatności określa <strong>zasady zapisywania i uzyskiwania dostępu do danych na Urządzeniach Użytkowników</strong> korzystających z 
 								Serwisu do celów świadczenia usług drogą elektroniczną przez Administratora oraz <strong>zasady gromadzenia i przetwarzania danych osobowych Użytkowników</strong>, 
-								które zostały podane przez nich osobiście i dobrowolnie za pośrednictwem narzędzi dostępnych w Serwisie.</p><p>Poniższa Polityka Prywatności <!--jest integralną 
-								częścią <a href="http://www.ideaprotect.pl/polityka-prywatnosci.html">Regulaminu Serwisu</a>, który -->określa zasady, prawa i obowiązki Użytkowników korzystających z 
+								które zostały podane przez nich osobiście i dobrowolnie za pośrednictwem narzędzi dostępnych w Serwisie.</p><p>Poniższa Polityka Prywatności określa zasady, prawa i obowiązki Użytkowników korzystających z 
 								Serwisu.</p>
 
-							<h2 style="text-align:center">§1 Definicje</h2>
+							<h2 class="title-chapter">§1 Definicje</h2>
 								<ul><li><p><strong>Serwis</strong> - serwis internetowy "ideaprotect.pl" działający pod adresem http://www.ideaprotect.pl/</p></li> 
 								<li><p><strong>Serwis zewnętrzny</strong> - serwisy internetowe partnerów, usługodawców lub usługobiorców współpracujących z Administratorem</p></li> 
 								<li><p><strong>Administrator Serwisu / Danych</strong> - Administratorem Serwisu oraz Administratorem Danych (dalej Administrator) jest firma "ideaprotect 
@@ -79,22 +82,22 @@
 								<li><p><strong>Anonimizacja</strong> - Anonimizacja danych to nieodwracalny proces operacji na danych, który niszczy / nadpisuje "dane osobowe" uniemożliwiając 
 								identyfikację, lub powiązanie danego rekordu z konkretnym użytkownikiem lub osobą fizyczną.</p></li></ul>
 							
-							<h2 style="text-align:center">§2 Inspektor Ochrony Danych</h2>
+							<h2 class="title-chapter">§2 Inspektor Ochrony Danych</h2>
 								<p>Na podstawie Art. 37 RODO, Administrator nie powołał Inspektora Ochrony Danych.</p><p>W sprawach dotyczących przetwarzania danych, w tym danych osobowych, 
 								należy kontaktować się bezpośrednio z Administratorem.</p>
 							
-							<h2 style="text-align:center">§3 Rodzaje Plików Cookies</h2>
+							<h2 class="title-chapter">§3 Rodzaje Plików Cookies</h2>
 								<ul><li><p><strong>Cookies wewnętrzne</strong> - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez system teleinformatyczny Serwisu</p></li> 
 								<li><p><strong>Cookies zewnętrzne</strong> - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez systemy teleinformatyczne Serwisów 
 								zewnętrznych. Skrypty Serwisów zewnętrznych, które mogą umieszczać pliki Cookies na Urządzeniach Użytkownika zostały świadomie umieszczone w Serwisie poprzez 
 								skrypty i usługi udostępnione i zainstalowane w Serwisie </p></li> 
-								<li><p><strong>Cookies sesyjne</strong> - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis <span id="sz1" style="display: none;">lub Serwisy 
+								<li><p><strong>Cookies sesyjne</strong> - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis <span id="sz1">lub Serwisy 
 								zewnętrzne</span> podczas jednej sesji danego Urządzenia. Po zakończeniu sesji pliki są usuwane z Urządzenia Użytkownika.</p></li> 
-								<li><p><strong>Cookies trwałe</strong> - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis <span id="sz2" style="display: none;">lub 
+								<li><p><strong>Cookies trwałe</strong> - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis <span id="sz2">lub 
 								Serwisy zewnętrzne</span> do momentu ich ręcznego usunięcia. Pliki nie są usuwane automatycznie po zakończeniu sesji Urządzenia chyba że konfiguracja Urządzenia 
 								Użytkownika jest ustawiona na tryb usuwanie plików Cookie po zakończeniu sesji Urządzenia.</p></li></ul>
 
-							<h2 style="text-align:center">§4 Bezpieczeństwo składowania danych</h2>
+							<h2 class="title-chapter">§4 Bezpieczeństwo składowania danych</h2>
 								<ul><li><p><strong>Mechanizmy składowania i odczytu plików Cookie</strong> - Mechanizmy składowania, odczytu i wymiany danych pomiędzy Plikami Cookies zapisywanymi 
 								na Urządzeniu Użytkownika a Serwisem są realizowane poprzez wbudowane mechanizmy przeglądarek internetowych i nie pozwalają na pobieranie innych danych z Urządzenia 
 								Użytkownika lub danych innych witryn internetowych, które odwiedzał Użytkownik, w tym danych osobowych ani informacji poufnych. Przeniesienie na Urządzenie Użytkownika wirusów, 
@@ -137,7 +140,7 @@
 								oświadcza, że hasła przechowywane są w zaszyfrowanej postaci, używając najnowszych standardów i wytycznych w tym zakresie. Deszyfracja podawanych w Serwisie 
 								aseł dostępu do konta jest praktycznie niemożliwa.</p></li></ul>
 								
-							<h2 style="text-align:center">§5 Cele do których wykorzystywane są pliki 
+							<h2 class="title-chapter">§5 Cele do których wykorzystywane są pliki 
 								Cookie</h2><ul id="cele"><li>Usprawnienie i ułatwienie dostępu do Serwisu</li><li>Personalizacja Serwisu dla Użytkowników</li>
 								<li>Umożliwienie Logowania do 
 								serwisu</li><li>Marketing, Remarketing w serwisach zewnętrznych</li> 
@@ -145,7 +148,7 @@
 								(użytkowników, ilości odwiedzin, rodzajów urządzeń, łącze itp.)</li>
 								<li>Serwowanie usług multimedialnych</li><li>Świadczenie usług społecznościowych</li></ul>
 							
-							<h2 style="text-align:center">§6 Cele przetwarzania danych osobowych</h2><p>Dane osobowe dobrowolnie podane przez Użytkowników są przetwarzane w jednym z następujących 
+							<h2 class="title-chapter">§6 Cele przetwarzania danych osobowych</h2><p>Dane osobowe dobrowolnie podane przez Użytkowników są przetwarzane w jednym z następujących 
 								celów:</p><ul><li>Realizacji usług elektronicznych:<ul>
 								<li>Usługi rejestracji i utrzymania konta Użytkownika w Serwisie i funkcjonalności z nim związanych</li><li>Usługi 
 								Newslettera (w tym przesyłania za zgodą treści reklamowych)</li>
@@ -159,7 +162,7 @@
 								<li>Serwowanie reklam dostosowanych do preferencji Użytkowników</li> <li>Obsługi programów 
 								afiliacyjnych</li><li>Zapewnienia prawnie uzasadnionego interesu Administratora</li></ul>
 							
-							<h2 style="text-align:center">§7 Pliki Cookies Serwisów zewnętrznych</h2><p id="zewinfo">Administrator w Serwisie wykorzystuje skrypty javascript i komponenty webowe partnerów, 
+							<h2 class="title-chapter">§7 Pliki Cookies Serwisów zewnętrznych</h2><p id="zewinfo">Administrator w Serwisie wykorzystuje skrypty javascript i komponenty webowe partnerów, 
 								którzy mogą umieszczać własne pliki cookies na Urządzeniu Użytkownika. Pamiętaj, że w ustawieniach swojej przeglądarki możesz sam decydować o dozwolonych plikach cookies 
 								jakie mogą być używane przez poszczególne witryny internetowe. Poniżej znajduje się lista partnerów lub ich usług zaimplementowanych w Serwisie, mogących umieszczać pliki 
 								cookies: </p><ul id="zewnetrzne"><li><strong>Usługi multimedialne:</strong><ul><li><a rel="nofollow external" href="https://www.youtube.com/t/terms">YouTube</a></li></ul></li>
@@ -179,7 +182,7 @@
 								trzecie są poza kontrolą Administratora. Podmioty te mogą w każdej chwili zmienić swoje warunki świadczenia usług, polityki prywatności, cel przetwarzania danych oraz sposów 
 								ykorzystywania plików cookie.</p>
 								
-							<h2 style="text-align:center">§8 Rodzaje gromadzonych danych</h2>
+							<h2 class="title-chapter">§8 Rodzaje gromadzonych danych</h2>
 								<p>Serwis gromadzi dane o Użytkownikach. Cześć danych jest gromadzona automatycznie 
 								i anonimowo, a część danych to dane osobowe podane dobrowolnie przez Użytkowników w trakcie zapisywania się do poszczególnych usług oferowanych przez Serwis.</p><p><strong>Anonimowe 
 								dane gromadzone automatycznie:</strong></p><ul><li>Adres IP</li><li>Typ przeglądarki</li><li>Rozdzielczość ekranu</li><li>Przybliżona lokalizacja</li><li>Otwierane podstrony 
@@ -190,7 +193,7 @@
 								<li>Adres e-mail</li><li>Adres IP (zbierane automatycznie)</li></ul><p><strong>Dane gromadzone podczas dodawania komentarza</strong></p><ul><li>Imię i nazwisko / pseudonim</li></ul>
 								<p>Część danych (bez danych identyfikujących) może być przechowywana w plikach cookies. Cześć danych (bez danych identyfikujących) może być przekazywana do dostawcy usług statystycznych.</p>
 								
-							<h2 style="text-align:center">§9 Dostęp do danych osobowych przez podmioty trzecie</h2>
+							<h2 class="title-chapter">§9 Dostęp do danych osobowych przez podmioty trzecie</h2>
 								<p>Co do zasady jedynym odbiorcą danych osobowych podawanych przez Użytkowników jest Administrator. Dane gromadzone w ramach świadczonych usług nie są przekazywane ani odsprzedawane 
 								podmiotom trzecim.</p><p>Dostęp do danych (najczęściej na podstawie Umowy powierzenia przetwarzania danych) mogą posiadać podmioty, odpowiedzialne za utrzymania infrastruktury 
 								i usług niezbędnych do prowadzenia serwisu tj.:</p><ul><li>Firmy hostingowe, świadczące usługi hostingu lub usług pokrewnych dla Administratora</li><li>Firmy pośredniczące 
@@ -215,9 +218,9 @@
 								Ustawa .... oraz umowa zawarta pomiędzy Administratorem a Usługodawcą.</p><br /><p><strong>Przekazanie danych osobowych - Usługi Kurierskie</strong></p><p>W przypadku 
 								zawarcia transakcji, która wymaga przekazania przedmiotu, którego dotyczyła transakcja, poprzez pocztę lub za pośrednictwem kuriera, część danych osobowych osób fizycznych 
 								lub dane osób fizycznych prowadzących działalność gospodarczą, jest przekazywana podmiotowi świadczącemu na rzecz Administratora usługi pocztowe / kurierskie, wybranego przez 
-								Użytkownika. Przekazanie tych danych reguluje umowa zawarta pomiędzy Administratorem a Usługodawcą.</p><br />
+								Użytkownika. Przekazanie tych danych reguluje umowa zawarta pomiędzy Administratorem a Usługodawcą.</p>
 								
-							<h2 style="text-align:center">§10 Sposób przetwarzania danych osobowych</h2>
+							<h2 class="title-chapter">§10 Sposób przetwarzania danych osobowych</h2>
 								<p><strong>Dane osobowe podane dobrowolnie przez Użytkowników:</strong></p><ul><li>Dane osobowe nie będą przekazywane poza Unię Europejską, chyba że zostały 
 								opublikowane na skutek indywidualnego działania Użytkownika (np. wprowadzenie komentarza lub wpisu), co sprawi, że dane będą dostępne dla każdej osoby odwiedzającej 
 								serwis.</li><li>Dane osobowe są wykorzystywane do zautomatyzowanego podejmowania decyzji (profilowania).<br />Profilowanie danych osobowych nie wywołuje skutków prawnych 
@@ -228,7 +231,7 @@
 								osobę, której dane podlegają automatycznemu podejmowaniu decyzji.</li><li>Dane anonimiwe (bez danych osobowych) nie będą odsprzedawane podmiotom 
 								trzecim.</li></ul>
 								
-							<h2 style="text-align:center">§11 Podstawy prawne przetwarzania danych osobowych</h2>
+							<h2 class="title-chapter">§11 Podstawy prawne przetwarzania danych osobowych</h2>
 								<p>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:</p><ul><li>Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie 
 								ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie 
 								o ochronie danych)<ul><li>art. 6 ust. 1 lit. a<br /><small>osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbie 
@@ -238,7 +241,7 @@
 								o ochronie danych osobowych (Dz.U. 2018 poz. 1000)</li><li>Ustawa z dnia 16 lipca 2004 r. Prawo telekomunikacyjne (Dz.U. 2004 nr 171 poz. 1800)</li><li>Ustawa 
 								z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz. U. 1994 Nr 24 poz. 83)</li></ul>
 									
-							<h2 style="text-align:center">§12 Okres przetwarzania danych osobowych</h2>
+							<h2 class="title-chapter">§12 Okres przetwarzania danych osobowych</h2>
 								<p><strong>Dane osobowe podane dobrowolnie przez Użytkowników:</strong></p><p>Co do zasady wskazane dane osobowe są przechowywane 
 								wyłącznie przez okres świadczenia Usługi w ramach Serwisu przez Administratora. Są one usuwane lub anonimizowane w okresie do 30 dni od chwili zakończenia 
 								świadczenia usług (np. usunięcie zarejestrowanego konta użytkownika, wypisanie z listy Newsletter, itp.)</p><p>Wyjątek stanowi sytuacja, która 
@@ -247,7 +250,7 @@
 								Użytkownika</p><p><strong>Dane anonimowe (bez danych osobowych) gromadzone automatycznie:</strong></p><p>Anonimowe dane statystyczne, niestanowiące danych osobowych, 
 								są przechowywane przez Administratora w celu prowadzenia statystyk serwisu przez czas nieoznaczony</p>
 								
-							<h2 style="text-align:center">§13 Prawa Użytkowników związane z przetwarzaniem danych osobowych</h2>
+							<h2 class="title-chapter">§13 Prawa Użytkowników związane z przetwarzaniem danych osobowych</h2>
 								<p>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:</p><ul><li><p><strong>Prawo dostępu do danych osobowych</strong><br />
 								Użytkownikom przysługuje prawo uzyskania dostępu do swoich danych osobowych, realizowane na żądanie złożone do Administratora</p></li><li><p><strong>Prawo do sprostowania 
 								danych osobowych</strong><br />Użytkownikom przysługuje prawo żądania od Administratora niezwłocznego sprostowania danych osobowych, które są nieprawidłowe lub / oraz 
@@ -264,22 +267,22 @@
 								na żądanie złożone do Administratora</p></li><li><p><strong>Prawo wniesienia skargi</strong><br />Użytkownikom przysługuje prawo wniesienia skargi do organu nadzorczego zajmującego 
 								się ochroną danych osobowych.</p></li></ul>
 
-							<h2 style="text-align:center">§14 Kontakt do Administratora</h2>
+							<h2 class="title-chapter">§14 Kontakt do Administratora</h2>
 								<p>Z Administratorem można skontaktować się w jeden z poniższych sposobów</p><ul><li><p><strong>Adres pocztowy</strong> - ideaprotect Arkadiusz Sobczyk, Prymasa Augusta Hlonda 4b/5, 
 								02-972 WARSZAWA</p></li> <li><p><strong>Adres poczty elektronicznej</strong> - kontakt@ideaprotect.pl</p></li> <li><p><strong>Połączenie telefoniczne</strong> - +48 509189888</p></li> 
-								<li><p><strong>Formularz kontaktowy</strong> - dostępny pod adresem: http://www.ideaprotect.pl/kontakt.html</p></li></ul>
+								<li><p><strong>Formularz kontaktowy</strong> - dostępny pod adresem: http://www.ideaprotect.pl/php/contact.php</p></li></ul>
 							
-							<h2 style="text-align:center">§15 Wymagania Serwisu</h2>
+							<h2 class="title-chapter">§15 Wymagania Serwisu</h2>
 								<ul><li><p>Ograniczenie zapisu i dostępu do plików Cookie na Urządzeniu Użytkownika może spowodować nieprawidłowe działanie niektórych funkcji Serwisu.</p></li> <li><p>Administrator 
 								nie ponosi żadnej odpowiedzialności za nieprawidłowo działające funkcje Serwisu w przypadku gdy Użytkownik ograniczy w jakikolwiek sposób możliwość zapisywania i odczytu plików 
 								Cookie.</p></li></ul>
 							
-							<h2 style="text-align:center">§16 Linki zewnętrzne</h2>
+							<h2 class="title-chapter">§16 Linki zewnętrzne</h2>
 								<p>W Serwisie - artykułach, postach, wpisach czy komentarzach Użytkowników mogą znajdować się odnośniki do witryn zewnętrznych, z którymi Właściciel serwisu nie współpracuje. 
 								Linki te oraz strony lub pliki pod nimi wskazane mogą być niebezpieczne dla Twojego Urządzenia lub stanowić zagrożenie bezpieczeństwa Twoich danych. Administrator nie ponosi odpowiedzialności 
 								za zawartość znajdującą się poza Serwisem.</p>
 							
-							<h2 style="text-align:center">§17 Zmiany w Polityce Prywatności</h2>
+							<h2 class="title-chapter">§17 Zmiany w Polityce Prywatności</h2>
 								<ul><li><p>Administrator zastrzega sobie prawo do dowolnej zmiany niniejszej Polityki Prywatności bez konieczności informowania 
 								o tym Użytkowników w zakresie stosowania i wykorzystywania danych anonimowych lub stosowania plików Cookie.</p></li>
 								<li><p>Administrator zastrzega sobie prawo do dowolnej zmiany niniejszej 
@@ -293,18 +296,10 @@
 					</div>
 				</div>
 			</section>
-			<!-- | FOOTER | -->
 			<?php 
-				require('php/footer.php');
+				require('footer.php');
 			?>
-			<!-- | FOOTER-END | -->
 		</main>				
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
- 		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="js/bootstrap/bootstrap.min.js"></script>
-		<script src="js/script-scrolltop.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</body>
 </html>

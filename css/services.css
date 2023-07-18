@@ -5,6 +5,18 @@
     font-weight: bold;
 }
 
+.services-page .row {
+    min-height: 500px;
+}
+
+.services-page .e-service {
+    background: #0e3192 !important;
+}
+
+.services-page .e-service:hover {
+    background: #0d2566 !important;
+}
+
 .services-page .tabs-container{
     position: relative;
     width: 20%;
@@ -23,6 +35,7 @@
     font-size: 17px;
     background: #1040c4;
     color: #fff;
+    /* border: #808080 solid 1px; */
     cursor: pointer;
     user-select: none;
 } 

@@ -91,7 +91,7 @@ nav li {
     text-align: center;
 }
 
-.main-header li > a:after {
+.main-header li a:after {
     content: '';
     display: block;
     height: 1.5px;
@@ -100,7 +100,7 @@ nav li {
     transition: transform .2s;
 }
 
-li > a:hover:after {
+li a:hover:after {
     transform: scaleX(1);
     transition: transform .2s;
 }

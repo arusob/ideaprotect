@@ -1,0 +1,25 @@
+.privacy-policy > div {
+  padding-bottom: 30px;
+}
+
+.privacy-policy a:hover{
+  color: #09213b;
+  font-weight: 700;
+}
+
+.privacy-policy a{
+  color: #429bee;
+  font-weight: 700;
+}
+
+
+.title-chapter {
+  text-align: center;
+}
+
+#sz1, #sz2 {
+  display: none;
+}
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */

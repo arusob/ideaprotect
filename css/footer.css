@@ -26,6 +26,7 @@ footer .footer-menu {
 
 footer .footer-menu a {
     text-decoration: none;
+    display: block;
 }
 
 footer .footer-menu a:hover {
@@ -56,6 +57,7 @@ footer .language {
 footer .language-label {
     margin-right: 1.2rem;
     text-decoration: none;
+    color: white;
 }
 
 footer .language-label:hover {
@@ -64,6 +66,8 @@ footer .language-label:hover {
 
 footer .globe {
     opacity: 0.5;
+    height: 24px;
+    width: 24px;
 }
 
 footer .footer-button-left {

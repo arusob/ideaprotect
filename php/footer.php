@@ -17,39 +17,39 @@
                 <div class="footer-link">
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="index.php">';
+                        echo '<a href="index.php">strona główna</a>';
                     } else {
-                        echo '<a href="../index.php">';
+                        echo '<a href="../index.php"></a>';
                     }
-                ?> strona główna </a><br>
+                ?> 
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/o-nas.php">';
+                        echo '<a href="php/about-us.php"> o nas </a>';
                     } else {
-                        echo '<a href="../php/o-nas.php">';
+                        echo '<a href="../php/about-us.php"> o nas </a>';
                     }
-                ?> o nas </a><br>
+                ?>
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php"> usługi </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php"> usługi </a>';
                     }
-                ?> usługi </a><br>
+                ?> 
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/kontakt.php">';
+                        echo '<a href="php/contact.php"> kontakt </a>';
                     } else {
-                        echo '<a href="../php/kontakt.php">';
+                        echo '<a href="../php/contact.php"> kontakt </a>';
                     }
-                ?> kontakt </a><br>
+                ?>
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/login.php">';
+                        echo '<a href="php/login.php"> zaloguj </a>';
                     } else {
-                        echo '<a href="../php/login.php">';
+                        echo '<a href="../php/login.php"> zaloguj </a>';
                     }
-                ?> zaloguj </a><br>
+                ?>
                 </div>
             </div>					
             <div class="col-12 col-sm-6 col-xl-3 f-col">
@@ -57,111 +57,120 @@
                 <div class="footer-link">
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php">przeglądy ppoż. </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php">przeglądy ppoż. </a>';
                     }
-                ?> przeglądy ppoż. </a><br>
+                ?>
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php">hydranty, gaśnice </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php">hydranty, gaśnice </a>';
                     }
-                ?> hydranty, gaśnice </a><br>
+                ?> 
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php"> instrukcja bezp. poż. </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php"> instrukcja bezp. poż. </a>';
                     }
-                ?> instrukcja bezp. poż. </a><br>
+                ?> 
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php">oświetlenie awaryjne </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php">oświetlenie awaryjne </a>';
                     }
-                ?> oświetlenie awaryjne </a><br>
+                ?>
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php"> analiza ppoż. </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php"> analiza ppoż. </a>';
                     }
-                ?> analiza ppoż. </a><br>
+                ?>
                 <?php 
                     if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
+                        echo '<a href="php/services.php"> przegląd syst. oddym. </a>';
                     } else {
-                        echo '<a href="../php/uslugi.php">';
+                        echo '<a href="../php/services.php"> przegląd syst. oddym. </a>';
                     }
-                ?> przegląd syst. oddym. </a><br>
+                ?> 
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-xl-3 f-col">
                 <h6 class="footer-h5">usługi bhp</h6>
                 <div class="footer-link">
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
-                    } else {
-                        echo '<a href="../php/uslugi.php">';
-                    }
-                ?> analiza bhp </a><br>
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
-                    } else {
-                        echo '<a href="../php/uslugi.php">';
-                    }
-                ?> ocena ryzyka </a><br>
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
-                    } else {
-                        echo '<a href="../php/uslugi.php">';
-                    }
-                ?> dokumentacja </a><br>
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
-                    } else {
-                        echo '<a href="../php/uslugi.php">';
-                    }
-                ?> rejestry </a><br>
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
-                    } else {
-                        echo '<a href="../php/uslugi.php">';
-                    }
-                ?> szkolenia bhp </a><br>
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<a href="php/uslugi.php">';
-                    } else {
-                        echo '<a href="../php/uslugi.php">';
-                    }
-                ?> pierwsza pomoc </a><br>
+                    <?php 
+                        if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                            echo '<a href="php/services.php"> analiza bhp </a>';
+                        } else {
+                            echo '<a href="../php/services.php"> analiza bhp </a>';
+                        }
+                    ?> 
+                    <?php 
+                        if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                            echo '<a href="php/services.php">ocena ryzyka </a>';
+                        } else {
+                            echo '<a href="../php/services.php">ocena ryzyka </a>';
+                        }
+                    ?>
+                    <?php 
+                        if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                            echo '<a href="php/services.php"> dokumentacja </a>';
+                        } else {
+                            echo '<a href="../php/services.php"> dokumentacja </a>';
+                        }
+                    ?>
+                    <?php 
+                        if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                            echo '<a href="php/services.php"> rejestry </a>';
+                        } else {
+                            echo '<a href="../php/services.php"> rejestry </a>';
+                        }
+                    ?>
+                    <?php 
+                        if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                            echo '<a href="php/services.php">';
+                        } else {
+                            echo '<a href="../php/services.php">';
+                        }
+                    ?> szkolenia bhp </a>
+                    <?php 
+                        if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                            echo '<a href="php/services.php">pierwsza pomoc </a>';
+                        } else {
+                            echo '<a href="../php/services.php">pierwsza pomoc </a>';
+                        }
+                    ?>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-xl-3 f-col">
                 <h6 class="footer-h5">dane adresowe</h6>
                 <div class="footer-link">
-                    <a href="https://www.google.com/maps/place/Prymasa+Augusta+Hlonda+4b,+02-972+Warszawa/@52.1859223,21.0519289,12.75z/data=!4m5!3m4!1s0x47192d6763700001:0x11916d19fffb9c78!8m2!3d52.1607343!4d21.0682476" target="_blank">ul. Prymasa Augusta Hlonda 4b</a><br/>
-                    <p>	02-972 Warszawa <br>
-                    woj. mazowieckie <br>
-                    NIP: 000-000-00-00 <br>
-                    REGON: 1223456798 </p><br>
+                    <a href="https://www.google.com/maps/place/Prymasa+Augusta+Hlonda+4b,+02-972+Warszawa/@52.1859223,21.0519289,12.75z/data=!4m5!3m4!1s0x47192d6763700001:0x11916d19fffb9c78!8m2!3d52.1607343!4d21.0682476" target="_blank">ul. Prymasa Augusta Hlonda 4b</a>
+                    <div>	
+                        <p>02-972 Warszawa<br>
+                           woj. mazowieckie<br> 
+                           NIP: 000-000-00-00<br> 
+                           REGON: 1223456798<br>
+                        </p> 
+                    </div>
                 </div>
             </div>	
         </div>
         <div class="row">
             <div class="row footer-language">
-                <img class="globe" src="../img/globe-white.png" alt="Globe wireframe" />
+                <?php 
+                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                        echo '<img class="globe" src="img/globe-white.png" alt="Globe wireframe" />';
+                    } else {
+                        echo '<img class="globe" src="../img/globe-white.png" alt="Globe wireframe" />';
+                    }
+                ?>
                 <ul class="language">
-                    <a class="language-label" href="#" style="color:white" hreflang="de">Polski</a>
+                    <a class="language-label" href="#" hreflang="de">Polski</a>
                 </ul>
             </div>
             <div class="row footer-bottom">
@@ -170,11 +179,23 @@
                 </div>				
                 <div class="col-lg-6 footer-button-center">
                     <div class="row">
-                        <div class="col-md-6 text-law">	
-                            <a class="text-label" href="polityka-prywatnosci.php" > Polityka prywatności </a>	
+                        <div class="col-md-6 text-law">
+                            <?php 
+                                if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                                    echo '<a class="text-label" href="php/privacy-policy.php" > Polityka prywatności </a>';
+                                } else {
+                                    echo '<a class="text-label" href="../php/privacy-policy.php" > Polityka prywatności </a>';
+                                }
+                            ?>	
                         </div>
-                        <div class="col-md-6 text-law">		
-                            <a class="text-label" href="polityka-cookies.php" > Polityka cookies </a>
+                        <div class="col-md-6 text-law">
+                            <?php 
+                                if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                                    echo '<a class="text-label" href="php/cookies-policy.php" > Polityka cookies </a>';
+                                } else {
+                                    echo '<a class="text-label" href="../php/cookies-policy.php" > Polityka cookies </a>';
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>

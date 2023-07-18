@@ -1,3 +1,4 @@
 <?php
-session_start();
-$conn = mysqli_connect("localhost", "root", "", "ideaprotect");
+    session_start();
+    $conn = mysqli_connect("localhost", "root", "", "ideaprotect");
+?>

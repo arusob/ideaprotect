@@ -6,6 +6,13 @@
     background-color: rgb(11, 64, 145);
 }
 
+.contact-page .box-info h2 {
+    font-size: 27px; 
+    font-weight: 500; 
+    padding: 2rem 0 2rem 0; 
+    line-height: 140%;
+}
+
 .contact-page .container-message {
     padding-bottom: 6rem;
 }
@@ -391,4 +398,8 @@
     min-height: 60vh;  
 }
   
+.contact-page .responsive-map iframe {
+    border:0;
+}
+
 /* ------------------------------------------------------- */

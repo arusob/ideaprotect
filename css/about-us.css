@@ -8,6 +8,12 @@
     padding-bottom: 1rem;
 }
 
+.organization {
+    min-height: 52rem;
+}
+
+
+
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */
 
@@ -168,6 +174,12 @@
     left: 0;
     transition: all 0.5s ease 0s;
 }
+
+.our-team .social .fa-facebook {
+    padding-left:13px; 
+    padding-right:13px;
+}
+
 
 .our-team:hover .social{ bottom: 0; }
 .our-team .social li{ display: inline-block;}

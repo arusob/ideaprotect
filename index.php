@@ -14,7 +14,7 @@
 
 		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" href="css/polityka-cookies.css">
+		<link rel="stylesheet" href="css/cookies-policy.css">
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,7 +49,7 @@
 								<a href="#process" class="btn btn-light"> jak pracujemy </a>										
 							</div>
 							<div class="d-inline button m-auto">														
-								<a href="php/uslugi.php" class="btn btn-light"> wyceń projekt </a>		
+								<a href="php/services.php" class="btn btn-light"> wyceń projekt </a>		
 							</div>
 						</div>
 					</div>
@@ -152,12 +152,13 @@
 				<section class="row row-content bg-con-2 process" id="process">
 					<div class="col-md-12 d-block">
 						<h1 class="text-center headline"> Jak pracujemy ? </h1>
-					</div>	
+					</div>
 					<div class="row process-box">
+
 						<div class="col-md-4">
 							<div class="position-relative px-3 my-4">
-								<div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
-									style="width: 60px; height: 60px; top: 30px; border-width: 4px !important; background-color: #1e22d8"> 1 
+								<div class="text-center"> 
+									<span class="step mx-auto">1</span>
 								</div>
 								<div class="step-box text-center">
 									<h4> Określenie potrzeb </h4><br/>
@@ -165,10 +166,11 @@
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-4">
 							<div class="position-relative px-3 my-4">
-								<div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
-									style="width: 60px; height: 60px; top: 30px; border-width: 4px !important; background-color: #1e22d8"> 2 
+								<div class="text-center">
+									<span class="step mx-auto">2</span>
 								</div>
 								<div class="step-box text-center">
 									<h4>Realizacja</h4><br/>
@@ -176,10 +178,11 @@
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-4" >
 							<div class="position-relative px-3 my-4">
-								<div class="font-weight-bold circle text-white rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative border border-white"
-									style="width: 60px; height: 60px; top: 30px; border-width: 4px !important; background-color: #1e22d8"> 3 
+								<div class="text-center">
+									<span class="step mx-auto">3</span>
 								</div>
 								<div class="step-box text-center">
 									<h4>Serwis</h4><br/>
@@ -187,6 +190,7 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
 				</section>
 				<div class="row row-content bg-con-1 area">

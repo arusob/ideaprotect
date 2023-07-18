@@ -90,11 +90,11 @@
 }
 
 .th-3, .td-3 {
-    width: 15%;
+    width: 18%;
 }
 
 .th-4, .td-4 {
-    width: 10%;
+    width: 7%;
 }
 
 .td-4 input {
@@ -140,6 +140,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.contract {
+    display: block;
 }
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */

@@ -1,0 +1,120 @@
+
+.photovoltaic-system {
+    min-height: 600px;
+}
+
+.photovoltaic-system textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 5px;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+form {
+    padding: 0 15px 15px 15px;
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+.actions {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.headline {
+    line-height: 150%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.service-offer {
+    height: auto;
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+
+/* ---------------------------------------------- */
+
+
+
+.eleventh-section button {
+    width: 180px;
+    padding: 0.4rem 0 0.4rem 0;
+    border-radius: 26px;
+    font-size: 19px;
+} 
+
+.eleventh-section input {
+    width: 180px;
+    padding: 0.4rem 0 0.4rem 0;
+    border-radius: 26px;
+    font-size: 19px;
+} 
+
+
+/* ---------------------------------------------- */
+
+.printable { 
+    display: none;
+}
+
+@media print {
+    .non-printable { 
+        display: none; 
+    }
+    .printable { 
+        display: block;
+    }
+}
+
+/* ---------------------------------------------- */
+
+#printableArea {
+    width: calc(210mm*1.3); 
+    height: auto; 
+    color: black; 
+    margin-top: 0mm; 
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+    font-family: Times New Roman, Times, serif;
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .service-offer h4 {font-size: 20px; line-height: 140%; margin: 0 5px;}
+} 
+
+@media (min-width: 1054px) and (max-width: 1199px) {
+    .service-offer h4 {font-size: 16px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .service-offer h4 {font-size: 16px; line-height: 140%; margin: 0 5px;}
+} 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .services-page .headline {font-size: 45px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .services-page .headline {font-size: 45px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 384px) and (max-width: 575px) {
+    .services-page .headline {font-size: 40px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+@media (min-width: 1px) and (max-width: 383px) {
+    .services-page .headline  {font-size: 35px;}
+    .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
+}
+
+/* ----------------------------------------------------- */

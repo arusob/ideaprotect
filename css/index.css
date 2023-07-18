@@ -297,6 +297,7 @@
 
 .process {
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .process .headline {
@@ -307,7 +308,7 @@
 } 
 
 .process-box {
-    margin-bottom: 12rem;
+    padding-bottom: 12rem;
 }
 
 .step-box {
@@ -315,6 +316,21 @@
     margin: 0 1rem;
     padding: 4rem 1rem 1rem 1rem;
 }
+
+span {
+    width: 60px; 
+    height: 60px;
+    /* padding: 17px 20px; */
+    top: 30px; 
+    /* border: 1px white solid; */
+    border-radius: 50%;
+    border-width: 4px !important; 
+    /* background-color: #1e22d8; */
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /* -------------------------------------------------------- */
 /* -------------------------------------------------------- */

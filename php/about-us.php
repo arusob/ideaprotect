@@ -4,16 +4,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> ideaprotect | o nas </title>
-
 		<link rel="icon" type="image/x-icon" href="../img/sygnet-ideaprotect-n-white.png">
 		<meta name="description" content="Usługi inżynieryjne">
-
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 
 		<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/o-nas.css">
+		<link rel="stylesheet" href="../css/about-us.css">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,14 +24,20 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+
+		<script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>					
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script defer src="js/bootstrap/bootstrap.min.js"></script>
+		<script defer src="../js/landing-counter.js"></script>
+		<script defer src="../js/script-scrolltop.js"></script>
+		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 	</head>
 	<body>
 		<main class="pr-0 mr-0">
-			<!--| NAVIGATION |-->
 			<?php
 				require('./navbar.php');
 			?>
-			<!--| CONTENT |-->
 			<section class="about-us-page">
 				<div class="row row-content bg-con-1 company">
 					<div class="row d-block">
@@ -41,18 +45,17 @@
 					</div>
 					<div class="row">	
 						<div class="col-xl-6 col-xxl-8 about-us-text">
-							<p class="text-justify"><br/>
-								<h2> Idea </h2><br/>
+							<h2 class="pb-4"> Idea </h2>
+							<p class="text-justify pb-5">
 								Z pomysłu narodziła się nazwa złożona z idei i celu jaki ma przyświecać naszej działalności. 
 								Słowa „idea” i „protect” (od angielskich słów „pomysł” oraz „ochrona”) połączone ze sobą stworzyły nazwę naszej marki. 
 								Kierunek naszej działalności jest jasno sprecyzowany w tej nazwie. 
-								<br/><br/><br/>
-
-								<h2> Cel bezpieczeństwo </h2><br/>
+							</p>	
+							<h2 class="pb-4"> Cel bezpieczeństwo </h2>
+							<p class="text-justify pb-5">	
 								Dostarczanie bezpieczeństwa dla firm i organizacji to nasza wiodąca działalność.
 								Doświadczenie zdobyte w firmach i instytucjach na co dzień działających w obrzarze bezpieczeństwa pozwoliło nam przełożyć zdobyte 
 								umiejętności na własne „know how”.
-								<br/><br/>
 							</p>
 						</div>
 						<div class="col-xl-6 col-xxl-4">
@@ -60,26 +63,26 @@
 						</div>	
 					</div>
 				</div>
-				<div class="row row-content bg-con-2" style="min-height: 52rem;">
+				<div class="row row-content bg-con-2 organization">
 					<div class="row d-block">
-						<h1 class="text-center font-weight-bold headline"> Organizacja </h1>
+						<h1 class="text-center font-weight-bold headline py-5"> Organizacja </h1>
 					</div>
 					<div class="row">	
 						<div class="col-xl-4">
 							<img class="img-fluid" src="../img/saftey-inspector.jpg">
 						</div>							
 						<div class="col-xl-8 about-us-text">
-							<h2> Marka </h2><br/>
-							Tworząc markę na rynku krajowym w obszarze bezpieczeństwa pożarowego oraz bezpieczeństwa i higieny pracy chcemy kierować się 
-							innowacyjnym podejściem do pokonywania problemów. 
-							Dlatego od początku działności stawiamy na duży poziom cyfryzacji i automatyzacji procesów.  
-							<br/><br/><br/>
-							<h2> Kultura </h2><br/>
-							Odpowiednia kultura realizacji procesów w organizacji przyczynia się bezpośrednio do lepszego bezpieczeństwa środowiska 
-							w którym przebywamy na co dzień. Usługi które dostarczamy Państwu są przede wszystkim realizacją obowiązków polskiego i unijnego prawa 
-							dotyczącego ochrony przeciwpożarowej oraz bezpieczeństwa i higieny pracy. W celu sprostania oczekiwaniom w zakresie standardu jakości 
-							stosujemy normy krajowe i zagraniczne. 
-							<br/><br/>
+							<h2 class="pb-4"> Marka </h2>
+							<p class="text-justify pb-5">Tworząc markę na rynku krajowym w obszarze bezpieczeństwa pożarowego oraz bezpieczeństwa i higieny pracy chcemy kierować się 
+								innowacyjnym podejściem do pokonywania problemów. 
+								Dlatego od początku działności stawiamy na duży poziom cyfryzacji i automatyzacji procesów.
+							</p>
+							<h2 class="pb-4"> Kultura </h2>
+							<p class="text-justify pb-5">Odpowiednia kultura realizacji procesów w organizacji przyczynia się bezpośrednio do lepszego bezpieczeństwa środowiska 
+								w którym przebywamy na co dzień. Usługi które dostarczamy Państwu są przede wszystkim realizacją obowiązków polskiego i unijnego prawa 
+								dotyczącego ochrony przeciwpożarowej oraz bezpieczeństwa i higieny pracy. W celu sprostania oczekiwaniom w zakresie standardu jakości 
+								stosujemy normy krajowe i zagraniczne.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -96,13 +99,13 @@
 									</div>
 									<div class="team-content">
 										<h3 class="title"> Arek </h3>
-										<span class="post"> CEO Founder / CTO </span><br/>
+										<div><span class="post"> CEO Founder / CTO </span></div>
 										<span class="post"> tel: 509 189 888 </span>
 										<span class="post"> e-mail: arek@ideaprotect.pl </span>
 									</div>
 									<ul class="social">
 										<li>
-											<a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" style="padding-left:13px; padding-right:13px;"></a>
+											<a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" ></a>
 										</li>
 										<li>
 											<a href="https://www.linkedin.com/feed/" class="fa fa-linkedin" target="_blank"></a>
@@ -120,13 +123,13 @@
 									</div>
 									<div class="team-content">
 										<h3 class="title"> Piotr </h3>
-										<span class="post"> Fire safety engineer </span><br/>
+										<div><span class="post"> Fire safety engineer </span></div>
 										<span class="post"> tel: 757 858 656 </span>
 										<span class="post"> e-mail: piotr@ideaprotect.pl </span>
 									</div>
 									<ul class="social">
 										<li>
-											<a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" style="padding-left:13px; padding-right:13px;"></a>
+											<a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
 										</li>
 										<li>
 											<a href="https://www.linkedin.com/company/ideaprotect/about/?viewAsMember=true" class="fa fa-linkedin" target="_blank"></a>
@@ -144,13 +147,13 @@
 									</div>
 									<div class="team-content">
 										<h3 class="title"> Artur </h3>
-										<span class="post"> HSE Specialist </span><br/>
+										<div><span class="post"> HSE Specialist </span></div>
 										<span class="post"> tel: 612 158 754 </span>
 										<span class="post"> e-mail: artur@ideaprotect.pl </span>
 									</div>
 									<ul class="social">
 										<li>
-											<a href="https://www.facebook.com/" class="fa fa-facebook" style="padding-left:13px; padding-right:13px;"></a>
+											<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
 										</li>
 										<li>
 											<a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
@@ -172,17 +175,17 @@
 						<div class="row justify-content-center">
 							<div class="col-md-3 box-3 square text-center mb-5">
 								<img src="../img/work-experience.png">
-								<h3 class="trust-text"> Doświadczenie </h3><br>
+								<div><h3 class="trust-text"> Doświadczenie </h3></div>
 								<p class="px-2"> zdobywaliśmy je w firmach facility managment, biurach outsourcingu, instytucjach ds. bezpieczeństwa </p>
 							</div>
 							<div class="col-md-3 box-3 square text-center mx-auto mb-5" >
 								<img src="../img/classroom.png" >
-								<h3 class="trust-text"> Wiedza </h3><br/>
+								<div><h3 class="trust-text"> Wiedza </h3></div>
 								<p class="px-2"> jesteśmy absolwentami studiów dot. bezpieczeństwa oraz uczestwnikami szkoleń branżowych </p>
 							</div>
 							<div class="col-md-3 box-3 square text-center mb-5">
 								<img src="../img/warranty-12m.png">
-								<h3 class="trust-text"> Gwarancja </h3><br>
+								<div><h3 class="trust-text"> Gwarancja </h3></div>
 								<p class="px-2"> nasi Klienci na okres 12 miesięcy otrzymują gwarancję na zrealizowane przez nas usługi </p>
 							</div>
 						</div>
@@ -218,19 +221,10 @@
 					</div>	
 				</div>
 			</section>
-			<!-- | FOOTER | -->
 			<?php 
 				require('footer.php');
 			?>
-			<!-- | FOOTER-END | -->
 		</main>	
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
- 		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>					
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="js/bootstrap/bootstrap.min.js"></script>
-		<script src="../js/landing-counter.js"></script>
-		<script src="../js/script-scrolltop.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</body>
 </html>

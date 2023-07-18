@@ -1,3 +1,4 @@
+
 .summary-page .headline {
     line-height: 150%;
     padding-top: 3rem;
@@ -13,7 +14,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
     font-size: 17px;
-    background: #1040c4;
+    /* background: #1040c4; */
     color: #fff;
     cursor: pointer;
     user-select: none;
@@ -47,9 +48,14 @@
     background-color: white; 
     color: black; 
     padding: 20px 25px 20px 25px; 
-    min-height: 800px;
+    /* min-height: 1200px; */
+    height: 1350px !important;
     height: auto;
     margin: 0;
+}
+
+.calc-result h1 {
+    color: black;
 }
 
 .tab-1 {
@@ -94,11 +100,11 @@
 }
 
 .th-3, .td-3 {
-    width: 15%;
+    width: 18%;
 }
 
 .th-4, .td-4 {
-    width: 10%;
+    width: 7%;
 }
 
 .td-4 input {
@@ -108,6 +114,29 @@
 .summary > th, td{
     border: 1px solid black;
 } 
+
+.order-completed {
+    color: green;
+}
+
+.schedule-page {
+    color: black; 
+    padding: 20px 25px 20px 25px; 
+    height: 1350px !important;
+    height: auto;
+    margin: 0;
+}
+
+/* ---------------------------------------------- */
+
+.printable { 
+    display: none;
+}
+
+@media print {
+    .non-printable { display: none; }
+    .printable { display: block;}
+}
 
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */

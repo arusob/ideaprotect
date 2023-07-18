@@ -13,7 +13,6 @@
 		<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/services.css">
 		
-
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
@@ -25,18 +24,22 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+
+		<script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script defer src="../js/bootstrap/bootstrap.min.js"></script>
+		<script defer src="../js/script-scrolltop.js"></script>
 	</head>
 	<body>
 		<main class="pr-0 mr-0">
-			<!--| NAVIGATION |-->
 			<?php
 				require('./navbar.php');
 			?>
-			<!--| CONTENT |-->
 			<section class="services-page">
 				<div class="row-content bg-con-1 service-offer">
 					<h1 class="text-center headline">Nasza oferta</h1>
-					<div class="row" style="min-height: 500px;">		
+					<div class="row">		
 						<div class="col-12 col-xs-12 col-sm-3 col-md-3 col-lg-3 tabs-container">
 							<label for="tab1"> Przeglądy urzadzeń ppoż. </label>
 							<label for="tab2"> Dokumentacja techn. ppoż. </label>
@@ -44,8 +47,8 @@
 							<label for="tab4"> Usługi BHP </label>
 							<label for="tab5"> Dokumentacja BHP </label>
 							<label for="tab6"> Szkolenia BHP & PPOŻ. </label>
-							<label for="tab7"> Kalkulator ofert online </label>
-							<label for="tab8"> Usługa e-formularz </label>
+							<label class="e-service" for="tab7"> Kalkulator ofert online </label>
+							<label class="e-service" for="tab8"> Usługa e-formularz </label>
 						</div>
 						<input name="tab" id="tab1" type="radio" checked />
 						<div class="col-12 col-xs-12 col-sm-9 col-md-8 col-lg-9 tab-content tab-1">
@@ -255,11 +258,12 @@
 									<tr>
 										<td> 26. </td>
 										<td> Przegląd okresowy dźwiękowego systemu ostrzegawczego.  </td>
-										<td> od 0,25 </td>
+										<td> od 500,00 </td>
 										<td> m2 </td>
 									</tr>
 								</tbody>
 							</table>
+							
 							<h4> Oświetlenie awaryjne i ewakuacyjne. Przeciwpożarowy wyłącznik prądu. </h4>
 							<table class="content-table">
 								<thead>
@@ -307,8 +311,7 @@
 						</div>
 						<input name="tab" id="tab2" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-						
-							<h4> Dokumentacja techniczna i projektowa dot. ochrony przeciwpożarowej: </h4>
+							<h4> Dokumentacja techniczna i projektowa dot. ochrony przeciwpożarowej. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -321,67 +324,67 @@
 								<tbody>
 									<tr>
 										<td> 1. </td>
-										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strfa głównie ZL I. <br>
-											(np. hala widowiskowa, sportowa, teatr, kino, sklep wielkopowierzchniowy) </td>
-										<td> od 2000 </td>
+										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strfa głównie ZL I, <br>
+											(np. centrum handlowe, duże sklepy, teatry, kina, szkoły - sale ponad 50 osób). </td>
+										<td> od 2000,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 2. </td>
-										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL II. <br>
-											(np. żłobek, przedszkole, szpital, hospicjum, dom spokojnej starości) </td>
-										<td> od 2000  </td>
+										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL II, <br>
+											(np. żłobek, przedszkole, szpital, hospicjum, dom spokojnej starości). </td>
+										<td> od 2000,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 3. </td>
-										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL III. <br>
-											(np. apteki, biura, szkoły, banki, restauracje, lokale usługowe) </td>
-										<td> od 2200  </td>
+										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL III, <br>
+											(np. apteki, biura, szkoły, banki, restauracje, lokale usługowe). </td>
+										<td> od 2200,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
+										<td> 4. </td>
+										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL V, <br>
+											(np. dom dziecka, hotele, pensjonaty, domy wczasowe). </td>
+										<td> od 2200,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 5. </td>
-										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL V. <br>
-											(np. dom dziecka, hotele, pensjonaty, domy wczasowe) </td>
-										<td> od 2200  </td>
+										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie PM, <br>
+											(np. magazyn, biblioteka, hala sklepu części składowej). </td>
+										<td> od 2000,00  </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 6. </td>
-										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie PM. <br>
-											(np. magazyn, biblioteka, hala sklepu części składowej) </td>
-										<td> od 2000  </td>
+										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie IN, <br>
+											(np. budynki inwentarskie przeznaczone do chowu zwierząt). </td>
+										<td> od 2000,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 7. </td>
-										<td> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie IN. <br>
-											(np. budynki inwentarskie przeznaczone do chowu zwierząt) </td>
-										<td> od 2000 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 8. </td>
-										<td> Analiza stanu ochrony przeciwpożarowej. (nie jest wymagana prawnie). </td>
-										<td> od 900  </td>
+										<td> Analiza stanu ochrony przeciwpożarowej (nie jest wymagana prawnie). </td>
+										<td> od 900,00  </td>
 										<td> szt. </td>
 									</tr>							
 									<tr>
-										<td> 9. </td>
+										<td> 8. </td>
 										<td> Matryca wysterowań urządzeń przeciwpożarowych na wypadek pożaru. </td>
-										<td> od 1200  </td>
+										<td> od 1200,00  </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 10. </td>
+										<td> 9. </td>
 										<td> Plan ewakuacji budynku. Graficzny rzut kondygnacji. </td>
-										<td> od 1000 </td>
+										<td> od 950,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
 							</table>
-							<h4> Dokumentacja techniczna dot. ochrony przeciwybuchowej: </h4>
+							<h4> Dokumentacja techniczna dot. ochrony przeciwybuchowej. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -393,31 +396,27 @@
 								</thead>
 								<tbody>
 									<tr>
+										<td> 10. </td>
+										<td> Ocena zagrożenia wybuchem (np. procesy podczas produkcji, magazynowania,<br> transportu). </td>
+										<td> od 2950,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
 										<td> 11. </td>
-										<td> Ocena zagrożenia wybuchem. <br>
-											(np. procesy podczas produkcji, magazynowania, transport) </td>
-										<td> od 4000 </td>
+										<td> Ocena ryzyka wybuchu (np. pary, pył, gaz). </td>
+										<td> od 1950,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 12. </td>
-										<td> Ocena ryzyka wybuchu. <br>
-											(np. pary, pył, gaz) </td>
-										<td> do uzg. </td>
+										<td> Dokument zabezpieczenia przed wybuchem	(np. procesy podczas produkcji,<br> magazynowania, transportu). </td>
+										<td> od 2950,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 13. </td>
-										<td> Dokument zabezpieczenia przed wybuchem. <br>
-											(np. procesy podczas produkcji, magazynowania, transportu, inne) </td>
-										<td> do uzg. </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 14. </td>
-										<td> Strefy zagrożenia wybuchem. <br>
-											(Graficzne przedstawienie przestrzeni). </td>
-										<td> do uzg. </td>
+										<td> Strefy zagrożenia wybuchem (graficzne przedstawienie przestrzeni). </td>
+										<td> od 1950,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -425,7 +424,7 @@
 						</div>
 						<input name="tab" id="tab3" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-							<h4> Montaż hydrantów: </h4>
+							<h4> Montaż hydrantów. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -438,56 +437,49 @@
 								<tbody>
 									<tr>
 										<td> 1. </td>
-										<td> Hydrant zewnętrzny podziemny (np. DN80) <br>
-											[praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, test] </td>
+										<td> Hydrant zewnętrzny podziemny - DN80 <br>
+											(praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, uruchomienie testowe). </td>
 										<td> od 8000,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 2. </td>
-										<td> Hydrant zewnętrzny podziemny (np. DN100) <br>
-											[praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, test] </td>
-										<td> od 8200,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 3. </td>
-										<td> Hydrant zewnętrzny nadziemny (np. DN80) <br>
-											[praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, test] </td>
+										<td> Hydrant zewnętrzny nadziemny - DN80 <br>
+											(praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, uruchomienie testowe). </td>
 										<td> od 8400,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 4. </td>
-										<td> Hydrant zewnętrzny nadziemny (np. DN100) <br> 
-											[praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, test] </td>
+										<td> 3. </td>
+										<td> Hydrant zewnętrzny nadziemny - DN100 <br> 
+											(praca koparki, kruszec, prace hydrauliczne, spawalnicze, kolumna, uruchomienie testowe). </td>
 										<td> od 8600,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 5. </td>
-										<td> Hydrant wewnętrzny nadziemny (np. DN25) <br> 
-											[prace hydrauliczne, spawalnicze, materiały, uruchomienie testowe] </td>
+										<td> 4. </td>
+										<td> Hydrant wewnętrzny - DN25 <br> 
+											(prace hydrauliczne, spawalnicze, materiały, uruchomienie testowe). </td>
 										<td> od 1600,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 6. </td>
-										<td> Hydrant zewnętrzny nadziemny (np. DN33) <br> 
-											[prace hydrauliczne, spawalnicze, materiały, uruchomienie testowe] </td>
+										<td> 5. </td>
+										<td> Hydrant wewnętrzny - DN33 <br> 
+											(prace hydrauliczne, spawalnicze, materiały, uruchomienie testowe). </td>
 										<td> od 1800,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 7. </td>
-										<td> Hydrant zewnętrzny nadziemny (np. DN52) <br> 
-											[prace hydrauliczne, spawalnicze, materiały, uruchomienie testowe] </td>
+										<td> 6. </td>
+										<td> Hydrant wewnętrzny - DN52 <br> 
+											(prace hydrauliczne, spawalnicze, materiały, uruchomienie testowe). </td>
 										<td> od 2200,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
 							</table>
-							<h4> Montaż instalacji sygnalizacji pożarowej: </h4>
+							<h4> Montaż instalacji sygnalizacji pożarowej. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -499,68 +491,44 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td> 8. </td>
-										<td> Czujka pożaru (montaż do stałego sufitu, do wys. 3,5 m) <br> </td>
+										<td> 7. </td>
+										<td> Czujka pożaru (montaż do stałego sufitu, do wys. 3,5 m). <br> </td>
 										<td> 140,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
+										<td> 8. </td>
+										<td> Czujka pożaru (montaż do stałego sufitu, powyżej wys. 3,5 m). </td>
+										<td> 160,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
 										<td> 9. </td>
-										<td> Czujka pożaru (montaż do stałego sufitu, powyżej wys. 3,5 m) </td>
-										<td> od 140,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 10. </td>
-										<td> Czujka pożaru (montaż do stałego sufitu, powyżej wys. 4,5 m) </td>
-										<td> od 150,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 11. </td>
-										<td> Czujka pożaru (montaż do stałego sufitu, powyżej wys. 5,5 m) </td>
-										<td> od 160,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 12. </td>
-										<td> Czujka pożaru (montaż do stałego sufitu, powyżej wys. 6,5 m) </td>
-										<td> od 170,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 13. </td>
-										<td> Czujka pożaru (montaż do podwieszanego sufitu, powyżej wys. 3,5 m) </td>
-										<td> od 170,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 14. </td>
-										<td> Czujka pożaru (montaż do podwieszanego sufitu, powyżej wys. 4,5 m) </td>
+										<td> Czujka pożaru (montaż do stałego sufitu, powyżej wys. 5,5 m). </td>
 										<td> od 180,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 15. </td>
-										<td> Czujka pożaru (montaż do podwieszanego sufitu, powyżej wys. 5,5 m) </td>
+										<td> 10. </td>
+										<td> Czujka pożaru (montaż do podwieszanego sufitu, powyżej wys. 3,5 m). </td>
+										<td> od 170,00 </td>
+										<td> szt. </td>
+									</tr>
+									<tr>
+										<td> 11. </td>
+										<td> Czujka pożaru (montaż do podwieszanego sufitu, powyżej wys. 5,5 m). </td>
 										<td> od 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 16. </td>
-										<td> Czujka pożaru (montaż do podwieszanego sufitu, powyżej wys. 6,5 m) </td>
-										<td> od 200,00 </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 17. </td>
-										<td> Montaż centrali sygnalizacji pożaru </td>
+										<td> 12. </td>
+										<td> Montaż centrali sygnalizacji pożaru. </td>
 										<td> od 1200,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
 							</table>
-							<h4> Montaż oświetlenia ewakuacyjnego i awaryjnego: </h4>
+							<h4> Montaż oświetlenia ewakuacyjnego i awaryjnego. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -572,27 +540,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td> 18. </td>
-										<td> Lampa oświetlenia awaryjnego (montaż na suficie) </td>
+										<td> 13. </td>
+										<td> Lampa oświetlenia awaryjnego (montaż na suficie). </td>
 										<td> od 140,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 19. </td>
-										<td> Lampa oświetlenia ewakuacyjnego (montaż na ścianie) </td>
+										<td> 14. </td>
+										<td> Lampa oświetlenia ewakuacyjnego (montaż na ścianie). </td>
 										<td> od 140,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
-										<td> 20. </td>
+										<td> 15. </td>
 										<td> Montaż masy przeciwpożarowej ochrony biernej <br>
-											(np. przy szachtach, kanałach, otworach instalacyjnych - typu Promat lub inne) </td>
+											(np. przy szachtach, kanałach, otworach instalacyjnych - typu Promat lub inne). </td>
 										<td> od 70,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
+						<!-- HSE -->
 						<input name="tab" id="tab4" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
 							<h4> Ocena ryzyka zawodowego. </h4>
@@ -664,7 +633,7 @@
 									<tr>
 										<td> 8. </td>
 										<td> Rejestr wypadków przy pracy. </td>
-										<td> do uzg. </td>
+										<td> 180,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -682,7 +651,7 @@
 								<tbody>
 									<tr>
 										<td> 9. </td>
-										<td> Instrukcja bezpiecznego wykonania robót. (IBWR). </td>
+										<td> Instrukcja bezpiecznego wykonania robót (IBWR). </td>
 										<td> od 700,00 </td>
 										<td> szt. </td>
 									</tr>
@@ -695,13 +664,13 @@
 									<tr>
 										<td> 11. </td>
 										<td> Regulamin pracy. </td>
-										<td> od 990,00 </td>
+										<td> od 390,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 12. </td>
 										<td> Sprawozdanie z posiedzeń komisji BHP (dla zakładu pracy pow. 250 pracowników). </td>
-										<td> do uzg. </td>
+										<td> 250,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -720,19 +689,19 @@
 									<tr>
 										<td> 13. </td>
 										<td> Rejestr natężenia oświetlenia na stanowisku pracy. </td>
-										<td> do uzg. </td>
+										<td> 250,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 14. </td>
-										<td> Rejestr wyników badań i pomiarów czynników szkodliwych dla zdrowia w środowisku pracy.<br/> Karty pomiarów. </td>
-										<td> do uzg. </td>
+										<td> Rejestr wyników badań i pomiarów czynników szkodliwych dla zdrowia w środowisku pracy. </td>
+										<td> 250,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 15. </td>
-										<td> Spis substancji szkodliwych używanych w zakładzie pracy wraz z kartami charakterystyk.  </td>
-										<td> do uzg. </td>
+										<td> Spis substancji szkodliwych używanych w zakładzie pracy wraz z kartami charakterystyk. </td>
+										<td> 250,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -774,7 +743,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<h4> Stała obsługa BHP dla firm do 100 pracowników: </h4>
+							<h4> Stała obsługa BHP dla firm. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -786,79 +755,23 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td> 1. </td>
-										<td> Stała obsługa BHP dla firmy (do 25 pracowników) - faktura </td>
-										<td> od 1000,00 </td>
+										<td> 20. </td>
+										<td> Stała obsługa BHP dla firmy (od 51 do 99 pracowników) - faktura. </td>
+										<td> od 3950,00 </td>
 										<td> mc </td>
 									</tr>
 									<tr>
-										<td> 2. </td>
-										<td> Stała obsługa BHP dla firmy (26-40 pracowników) - faktura </td>
-										<td> od 1300,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 3. </td>
-										<td> Stała obsługa BHP dla firmy (41-55 pracowników) - faktura </td>
-										<td> od 1600,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 4. </td>
-										<td> Stała obsługa BHP dla firmy (56-70 pracowników) - faktura </td>
-										<td> od 2000,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 4. </td>
-										<td> Stała obsługa BHP dla firmy (71-85 pracowników) - faktura</td>
-										<td> od 2300,00 </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 5. </td>
-										<td> Stała obsługa BHP dla firmy (86-100 pracowników) - faktura </td>
-										<td> od 2600,00 </td>
+										<td> 21. </td>
+										<td> Stała obsługa BHP dla firmy (od 100 pracowników) - UoP. </td>
+										<td> do 5950,00 </td>
 										<td> mc </td>
 									</tr>
 								</tbody>
 							</table>
-							<h4> Stała obsługa BHP dla firm powyżej 100 pracowników: </h4>
-							<table class="content-table">
-								<thead>
-									<tr>
-										<th> Lp. </th>
-										<th> Nazwa usługi </th>
-										<th> Cena PLN </th>
-										<th> j. m.</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td> 6. </td>
-										<td> Stała obsługa BHP dla firmy (pow. 100 pracowników) - 1/8 etatu UoP </td>
-										<td> do uzg. </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 7. </td>
-										<td> Stała obsługa BHP dla firmy (pow. 300 pracowników) - 1/2 etatu UoP </td>
-										<td> do uzg. </td>
-										<td> mc </td>
-									</tr>
-									<tr>
-										<td> 8. </td>
-										<td> Stała obsługa BHP dla firmy (pow. 600 pracowników) - 1 etat UoP </td>
-										<td> do uzg. </td>
-										<td> mc </td>
-									</tr>
-								</tbody>
-							</table>
-
 						</div>
 						<input name="tab" id="tab5" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
-							<h4> Dokumentacja BHP. Wykazy.</h4>
+							<h4> Dokumentacja BHP. Wykazy. </h4>
 							<table class="content-table">
 								<thead>
 									<tr>
@@ -872,43 +785,43 @@
 									<tr>
 										<td> 1. </td>
 										<td> Wykaz osób wyznaczonych do udzielenia pierwszej pomocy. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 2. </td>
 										<td> Wykaz osób wyznaczonych do zwalczania pożarów oraz osób <br/>do prowadzenia ewakuacji zakladu. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 3. </td>
 										<td> Wykaz prac które powinny być wykonywane przez co najmniej 2 osoby. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 4. </td>
 										<td> Wykaz prac szczególnie niebezpiecznych występujących w zakaładzie pracy. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 5. </td>
 										<td> Wykaz prac szczególnie uciążliwych i szkodliwych dla zdrowia kobiet. <br/>Załącznik regulaminu. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 6. </td>
 										<td> Wykaz prac wzbronionych młodocianym. Załącznik regulaminu. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 7. </td>
 										<td> Wykaz poleceniodawców określający zakres udzielonego im upoważnienia. </td>
-										<td> do uzg. </td>
+										<td> 250,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -927,67 +840,67 @@
 									<tr>
 										<td> 8. </td>
 										<td> Zarządzenie ws. badań i pomiarów czynników szkodliwych w środowisku pracy. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 9. </td>
 										<td> Zarządzenie ws. badań lekarskich pracowników. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 10. </td>
 										<td> Zarządzenie ws. postępowania w przypadku stwierdzenia podejrzenia o choroby zawodowe. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 11. </td>
 										<td> Zarządzenie ws. przydziału napojów i posiłków profilaktycznych. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 12. </td>
 										<td> Zarządzenie ws. refundacji zakupionych okularów korygujących wzrok przy obsłudze <br> monitorów ekranowych. Załącznik regulaminu. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 13. </td>
 										<td> Zarządzenie ws. szkoleń okresowych BHP. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 14. </td>
 										<td> Zarządzenie ws. środków ochrony indywidualnej, higieny osobistej, odzierzy roboczej. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 15. </td>
 										<td> Zarządzenie ws. ustalania okoliczności i przyczyn wypadków przy pracy. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 16. </td>
 										<td> Zarządzenie ws. wykazu prac pożarowo niebezpiecznych. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 17. </td>
 										<td> Zarządzenie ws. powołania komisji bhp (dla zakładu pracy powyżej 250 pracowników). </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 18. </td>
 										<td> Zarządzenie ws. eksploatacji wózków jezdniowych z napędem silnikowym. <br>Organizacja transportu wewnętrznego. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -1006,74 +919,37 @@
 									<tr>
 										<td> 19. </td>
 										<td> Rejestr chorób zawodowych i podejrzeń o takie choroby. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 20. </td>
 										<td> Rejestr prac przy których występuje substancja o działaniu rakotwórczym lub mutagennym. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 21. </td>
 										<td> Rejestr pracowników wykonujących pracę z substancjami o działaniu raktowórczym <br/>lub mutagennym. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 22. </td>
 										<td> Rejestr prac przy których występuje szkodliwy czynnik biologiczny grupy 3 lub 4. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 23. </td>
 										<td> Rejestr pracowników wykonujących prace ze szkodliwym czynnikiem biologicznym <br/>z grupy 3 lub 4. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 24. </td>
 										<td> Rejestr zaświadczeń lekarskich o braku przeciwskazań do wykonywanej pracy. </td>
-										<td> do uzg. </td>
-										<td> szt. </td>
-									</tr>
-								</tbody>
-							</table>
-							<h4> Druki dla instytucji GUS, ZUS. </h4>
-							<table class="content-table">
-								<thead>
-									<tr>
-										<th> Lp. </th>
-										<th> Nazwa usługi </th>
-										<th> Cena PLN </th>
-										<th> j. m.</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td> 25. </td>
-										<td> Druk GUS. Z10. Wypełnienie. </td>
-										<td> do uzg. </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 26. </td>
-										<td> Druk GUS. ZKW. Wypełnienie. </td>
-										<td> do uzg. </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 27. </td>
-										<td> Druk ZUS. OL-9. Wypełnienie. </td>
-										<td> do uzg. </td>
-										<td> szt. </td>
-									</tr>
-									<tr>
-										<td> 28. </td>
-										<td> Druk ZUS. OL-10. Wypełnienie. </td>
-										<td> do uzg. </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -1107,7 +983,7 @@
 									</tr>
 									<tr>
 										<td> 3. </td>
-										<td> Przeprowadzenie próbnej ewakuacji budynku. (1 raz na 2 lata) </td>
+										<td> Przeprowadzenie próbnej ewakuacji budynku. (1 raz na 2 lata). </td>
 										<td> 450,00 </td>
 										<td> szt. </td>
 									</tr>
@@ -1115,12 +991,12 @@
 										<td> 4. </td>
 										<td> Szkolenie dla pracowników portiernii, dozorców 24h z zakresu obsługi central pożarowych. </td>
 										<td> 80,00 </td>
-										<td> h </td>
+										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 5. </td>
 										<td> Rejestr szkoleń z dziedziny BHP. Prowadzenie dokumentacji. </td>
-										<td> do uzg. </td>
+										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -1170,14 +1046,14 @@
 									<tr>
 										<td> 11. </td>
 										<td> Szkolenie z dziedziny BHP okresowe dla pracowników służby BHP. </td>
-										<td> 240,00 </td>
+										<td> 480,00 </td>
 										<td> szt. </td>
 									</tr>
 									<tr>
 										<td> 12. </td>
 										<td> Szkolenie z dziedziny BHP okresowe dla pracowników wykonujących zadania <br>
 											szczególnie narażone na działanie niebezpiecznych czynników. </td>
-										<td> 70,00 </td>
+										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
 								</tbody>
@@ -1187,7 +1063,7 @@
 						<input name="tab" id="tab7" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content calc-box">
 							<h4> Kalulator online  </h4>
-							<br>
+							
 							<div class="row">
 								<a href="offer-calculator-fp.php" class="col-lg-5 text-center headline calculator">
 									Kalulator online <br> dla oferty z zakresu ochrony przeciwpożarowej</a>
@@ -1212,18 +1088,33 @@
 								<tbody>
 									<tr>
 										<td> 1. </td>
-										<td> Druk. Protokół ustalania okoliczności przyczyn wypadku. </td>
-										<td> <a href="accident-report-form.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td> Druk. Zgłoszenie wypadku przy pracy pracownika. </td>
+										<!-- Reporting an employee accident at work. -->
+										<td> <a href="#" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 2. </td>
-										<td> Druk. Karta wypadku w drodze do / lub z pracy. </td>
-										<td> <a href="reporting-a-work-accident-form.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td>  Druk. Protokół ustalenia okoliczności i przyczyn wypadku przy pracy. </td>
+										<!-- Protocol to determine the circumstances and causes of the accident at work. -->
+										<td> <a href="eservice-protocol-determine-causes-of-accident.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 3. </td>
-										<td>  Druk. Rejestr czynników szkodliwych w miejscu pracy. </td>
-										<td> <a href="accident-card.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td>  Druk. Zgłoszenie wypadku w drodze do pracy (z pracy). </td>
+										<!-- Reporting an accident on the way to work (from work) -->
+										<td> <a href="eservice-reporting-an-accident-on-the-way-to-work-from work.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+									</tr>
+									<tr>
+										<td> 4. </td>
+										<td>  Druk. Zawiadomienie o zakończeniu budowy. </td>
+										<!-- Notice of completion of construction. -->
+										<td> <a href="#" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+									</tr>
+									<tr>
+										<td> 5. </td>
+										<td>  Druk. Wzór zgłoszenia instalacji fotowoltanicznej. </td>
+										<!-- Application form for a photovoltaic system -->
+										<td> <a href="eservice-application-form-for-photovoltaic-system.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1232,18 +1123,10 @@
 					</div>
 				</div>		
 			</section>
-			<!-- | FOOTER | -->
 			<?php 
 				require('footer.php');
 			?>
-			<!-- | FOOTER-END | -->
 		</main>				
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
- 		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="../js/bootstrap/bootstrap.min.js"></script>
-		<script src="../js/script-scrolltop.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</body>
 </html>
