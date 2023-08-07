@@ -1,4 +1,111 @@
 
+
+.contract-page .section-one p {
+    display: inline;
+}
+
+.contract-page input {
+    outline: none;
+    border: none;
+    border-bottom: dotted 1px black;
+    font-style: italic;
+}
+
+.contract-page .section-one .place-data .place {
+    width: 280px;
+}
+
+.contract-page .section-one .place-data .time{
+    width: 140px;
+}
+
+.contract-page .section-one input {
+    outline: none;
+    border: none;
+    border-bottom: dotted 1px black;
+    font-style: italic;
+}
+
+.contract-page label {
+    display: block;
+    font-size: 12px;
+}
+
+.contract-page .section-one .buyer {
+    width: 1061px;
+}
+
+.contract-page .section-one .buyer .buyer-name input {
+    width: 100%;
+}
+
+.contract-page .section-one .buyer .buyer-in-person p {
+    display: inline;
+}
+
+.contract-page .section-one .buyer .buyer-in-person .person-data {
+    display: inline;
+    width: calc(1061px - 190px);
+}
+
+.contract-page .section-one .buyer .buyer-in-person .person-data input {
+    width: calc(1061px - 190px);
+}
+
+.contract-page .section-one .buyer .buyer-in-person .person-data label {
+    width: calc(1061px - 190px);
+    float: right;
+}
+
+.contract-page .section-one .buyer .address input {
+    width: 100%;
+}
+
+.contract-page .section-one .buyer .address label {
+    width: 100%;
+}
+/* ------------------ */
+.contract-page .section-one .buyer .text-between p {
+    display: block;
+}
+
+.contract-page .section-two .executive input {
+    width: 100%;
+}
+
+.contract-page .section-two .executive-person p {
+    display: inline;
+}
+
+.contract-page .section-two .executive-person .person-data {
+    display: inline;
+    width: calc(1061px - 190px);
+}
+
+.contract-page .section-two .executive-person .person-data input {
+    width: calc(1061px - 190px);
+}
+
+.contract-page .section-two .executive-person .person-data label {
+    width: calc(1061px - 190px);
+    float: right;
+}
+
+.contract-page .section-two .executive-address input {
+    width: 100%;
+}
+
+.contract-page .section-two .executive-address label {
+    width: 100%;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+
 .summary-page .headline {
     line-height: 150%;
     padding-top: 3rem;
@@ -48,8 +155,7 @@
     background-color: white; 
     color: black; 
     padding: 20px 25px 20px 25px; 
-    /* min-height: 1200px; */
-    height: 1350px !important;
+    min-height: 1350px;
     height: auto;
     margin: 0;
 }
@@ -119,13 +225,7 @@
     color: green;
 }
 
-.schedule-page {
-    color: black; 
-    padding: 20px 25px 20px 25px; 
-    height: 1350px !important;
-    height: auto;
-    margin: 0;
-}
+
 
 /* ---------------------------------------------- */
 

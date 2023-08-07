@@ -9,7 +9,7 @@ function onSubmit(e) {
         width   = 210,  // width of 4A in mm
         height  = 297;  // height of 4A in mm
 
-    var lMargin = 15,
+    var lMargin = 15, // margins in mm
         rMargin = 15,
         tMargin = 15,
         bMargin = 15;
@@ -23,17 +23,19 @@ function onSubmit(e) {
     
     // Handle page/line wrapping
     var lineHeight = pdf.getTextDimensions('X').h / 2,
-    page       = 1,
-    top        = tMargin,
+    page = 1,
+    top = tMargin,
+    
     addFooter  = function(){
-        pdf.text(''+page, width - 8 - pdf.getTextDimensions(''+page).w / 2, height - 8);
+        pdf.text('' + page, width - 8 - pdf.getTextDimensions('' + page).w / 2, height - 8);
     },
-    addPage    = function(){
-            pdf.addPage();
-            top = tMargin;
-            page++;
-            addFooter();
-        };
+    
+    addPage = function(){
+        pdf.addPage();
+        top = tMargin;
+        page++;
+        addFooter();
+    };
         
     // Add pages/lines
     addFooter();

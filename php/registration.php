@@ -71,7 +71,7 @@
 		<script defer src="../js/cookies-popup.js"></script>
   </head>
   <body>
-    <main class="pr-0 mr-0">>
+    <main class="pr-0 mr-0">
         <?php
             require('navbar.php');
         ?>

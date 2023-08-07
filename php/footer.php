@@ -151,54 +151,44 @@
                 <div class="footer-link">
                     <a href="https://www.google.com/maps/place/Prymasa+Augusta+Hlonda+4b,+02-972+Warszawa/@52.1859223,21.0519289,12.75z/data=!4m5!3m4!1s0x47192d6763700001:0x11916d19fffb9c78!8m2!3d52.1607343!4d21.0682476" target="_blank">ul. Prymasa Augusta Hlonda 4b</a>
                     <div>	
-                        <p>02-972 Warszawa<br>
-                           woj. mazowieckie<br> 
-                           NIP: 000-000-00-00<br> 
-                           REGON: 1223456798<br>
-                        </p> 
+                        <p class="mb-0">02-972 Warszawa</p>
+                        <p class="mb-0">woj. mazowieckie</p> 
+                        <p class="mb-0">NIP: 000-000-00-00</p> 
+                        <p class="mb-0">REGON: 1223456798</p> 
                     </div>
                 </div>
             </div>	
         </div>
         <div class="row">
-            <div class="row footer-language">
-                <?php 
-                    if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                        echo '<img class="globe" src="img/globe-white.png" alt="Globe wireframe" />';
-                    } else {
-                        echo '<img class="globe" src="../img/globe-white.png" alt="Globe wireframe" />';
-                    }
-                ?>
-                <ul class="language">
-                    <a class="language-label" href="#" hreflang="de">Polski</a>
-                </ul>
-            </div>
+
             <div class="row footer-bottom">
                 <div class="col-lg-4 footer-button-left">
-                    <div class="text-rule">Copyright © 2022 - ideaprotect. All rights reserved</div>
-                </div>				
+                    <div class="text-rule">Copyright © 2023 - ideaprotect. All rights reserved</div>
+                </div>
+
                 <div class="col-lg-6 footer-button-center">
                     <div class="row">
                         <div class="col-md-6 text-law">
                             <?php 
-                                if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                                    echo '<a class="text-label" href="php/privacy-policy.php" > Polityka prywatności </a>';
-                                } else {
-                                    echo '<a class="text-label" href="../php/privacy-policy.php" > Polityka prywatności </a>';
-                                }
+                                $url = "/ideaprotect/index.php"==$_SERVER["PHP_SELF"] ? "php/privacy-policy.php" : "../php/privacy-policy.php";
+                                echo '<a class="text-label" href="'.$url.'"> Polityka prywatności </a>';    
                             ?>	
                         </div>
                         <div class="col-md-6 text-law">
                             <?php 
-                                if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
-                                    echo '<a class="text-label" href="php/cookies-policy.php" > Polityka cookies </a>';
-                                } else {
-                                    echo '<a class="text-label" href="../php/cookies-policy.php" > Polityka cookies </a>';
-                                }
+                            $url = "/ideaprotect/index.php" == $_SERVER['PHP_SELF'] ?  "php/cookies-policy.php" : "../php/cookies-policy.php";
+                                echo '<a class="text-label" href="'.$url.'"> Polityka cookies </a>';
+
+                                // if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
+                                //     echo '<a class="text-label" href="php/cookies-policy.php" > Polityka cookies </a>';
+                                // } else {
+                                //     echo '<a class="text-label" href="../php/cookies-policy.php" > Polityka cookies </a>';
+                                // }
                             ?>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-xl-2 col-lg-12 col-xs-12 footer-social-icons">
                     <ul class="social-icons">
                         <li><a href="https://www.facebook.com/ideaprotect" class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -206,6 +196,7 @@
                         <li><a href="https://www.youtube.com/channel/UC220CnGbppJtW_eWuZU7-CA" class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </footer>

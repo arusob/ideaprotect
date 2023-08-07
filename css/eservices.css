@@ -1,203 +1,33 @@
 
-.reporting-a-work-accident, .summary-page {
-    .headline {
-        line-height: 150%;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        font-weight: bold;
-    }
-    .row {
-        min-height: 500px;
-    }
-    .service-offer {
-        height: auto;
-        min-height: 700px;
-        padding-bottom: 50px;
-    }
-    .first-section {
-        margin-top: 0; 
-        margin-bottom: 0; 
-        min-height: 80px; 
-        height: auto;
-    }
-    .first-section div {
-        display: inline-block; 
-    }
-    .victim-data {
-        width: 300px;
-    }
-    .victim-data textarea {
-        width: 300px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none; 
-        font-style: italic;
-    }
-    .victim-data label {
-        font-size: 10px; 
-        width: 300px;
-    }
-    .distance-one span {
-        margin-right: 330px;
-    }
-    .distance-one label {
-        font-size: 10px;
-    }
-    .place input {
-        width: 180px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .place label {
-        font-size: 10px;
-    }
-    .day label {
-        font-size: 10px;
-    }
-    .day-month-year input {
-        width: 100px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .day-month-year label {
-        font-size: 10px;
-    }
-    .year label {
-        font-size: 10px;
-    }
-    .second-section {
-        min-height: 60px; 
-        height: auto;
-    }
-    .second-section div input {
-        width: 360px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .second-section div label {
-        font-size: 10px; 
-        width: 320px;
-    }
-    .third-section {
-        min-height: 60px; 
-        height: auto;
-    }
-    .fourth-section {
-        min-height: 20px; 
-        height: auto;
-    }
-    .fourth-section input {
-        width: 120px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .fifth-section {
-        min-height: 50px; 
-        height: auto; 
-        display: inline-block;
-    }
-    .fifth-section textarea {
-        width: 100%; 
-        border: none; 
-        outline: none; 
-        line-height: 1.8; 
-        font-style: italic; 
-        text-align: justify;
-    }
-    .fifth-section label {
-        font-size: 12px;
-    }
-    .sixth-section {
-        min-height: 10px; 
-        height: auto;
-    }
-    .white-paper {
-        background-color: white;
-        /* min-height: calc(297mm*1.2); */
-    }
-    .seventh-section {
-        min-height: 50px; 
-        height: auto;
-    }
-    .seventh-section textarea {
-        width: 100%; 
-        border: none; 
-        outline: none; 
-        line-height: 1.8; 
-        font-style: italic; 
-        text-align: justify;
-    }
-    .seventh-section label {
-        font-size: 12px;
-    }
-    .eighth-section {
-        min-height: 100px; 
-        height: auto;
-    }
-    .eighth-section .accident-witness input {
-        width: 420px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .accident-witness input {
-        width: 420px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .accident-witness .person-label {
-        width: 370px;
-    }
-    .accident-witness label {
-        font-size: 10px;
-    }
-    .ninth-section {
-        min-height: 100px; 
-        height: auto;
-    }
-    .ninth-section input {
-        width: 420px; 
-        line-height: 1.8;
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .tenth-section {
-        min-height: 80px; 
-        height: auto;
-    }
-    .tenth-section input {
-        width: 320px; 
-        border: none; 
-        border-bottom: 1px black dotted; 
-        outline: none;
-    }
-    .tenth-section label {
-        font-size: 10px; 
-        width: 320px;
-    }
+/* ----------------------------------------------------------- */
+/* eservice-reporting-an-accident-on-the-way-to-work-from-work */
+/* ----------------------------------------------------------- */
 
-    .eleventh-section button {
-        width: 180px;
-        padding: 0.4rem 0 0.4rem 0;
-        border-radius: 26px;
-        font-size: 19px;
-    } 
-
-    .eleventh-section input {
-        width: 180px;
-        padding: 0.4rem 0 0.4rem 0;
-        border-radius: 26px;
-        font-size: 19px;
-    } 
-
+.headline {
+    line-height: 150%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
 }
 
+form .row {
+    min-height: 500px;
+}
+
+form {
+    padding: 0;
+    margin: 15px auto;
+}
+
+.service-offer {
+    height: auto;
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+
+.white-paper {
+    background-color: white;
+}
 
 /* ---------------------------------------------- */
 
@@ -215,19 +45,269 @@
 }
 
 /* ---------------------------------------------- */
-
+/* ---------------------------------------------- */
 
 #printableArea {
-    width: calc(210mm*1.3); 
-    /*min-height: calc(297mm*1.3);*/ 
+    width: 1082px;
+    padding-left: 25px;
+    padding-right: 25px;
     height: auto; 
-    /*background-color:white;*/ 
+    background-color: white;
     color: black; 
     margin-top: 0mm; 
     margin-bottom: 0; 
     padding-bottom: 0; 
     font-family: Times New Roman, Times, serif;
 }
+
+/* ---------------------------------------------- */
+.reporting-an-accident-on-the-way .first-section {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    min-height: 80px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .first-section div {
+    display: inline-block; 
+}
+
+.reporting-an-accident-on-the-way .victim-data {
+    width: 300px;
+}
+
+.reporting-an-accident-on-the-way .victim-data textarea {
+    width: 300px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none; 
+    font-style: italic;
+}
+
+.reporting-an-accident-on-the-way .victim-data label {
+    font-size: 10px; 
+    width: 300px;
+}
+
+.reporting-an-accident-on-the-way .distance-one span {
+    margin-right: 330px;
+}
+
+.reporting-an-accident-on-the-way .distance-one label {
+    font-size: 10px;
+}
+
+.reporting-an-accident-on-the-way .place input {
+    width: 180px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .place label {
+    font-size: 10px;
+}
+
+.reporting-an-accident-on-the-way .day label {
+    font-size: 10px;
+}
+
+.reporting-an-accident-on-the-way .day-month-year input {
+    width: 100px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .day-month-year label {
+    font-size: 10px;
+}
+
+.reporting-an-accident-on-the-way .year label {
+    font-size: 10px;
+}
+    
+.reporting-an-accident-on-the-way .second-section {
+    min-height: 60px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .second-section div input {
+    width: 360px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .second-section div label {
+    font-size: 10px; 
+    width: 320px;
+}
+
+.reporting-an-accident-on-the-way .third-section {
+    min-height: 60px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .fourth-section {
+    min-height: 20px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .fourth-section input {
+    width: 120px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .fifth-section {
+    min-height: 50px; 
+    height: auto; 
+    display: inline-block;
+}
+
+.reporting-an-accident-on-the-way .fifth-section textarea {
+    width: 100%; 
+    border: none; 
+    outline: none; 
+    line-height: 1.8; 
+    font-style: italic; 
+    text-align: justify;
+}
+
+.reporting-an-accident-on-the-way .fifth-section label {
+    font-size: 12px;
+}
+
+.reporting-an-accident-on-the-way .sixth-section {
+    min-height: 10px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .seventh-section {
+    min-height: 50px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .seventh-section textarea {
+    width: 100%; 
+    border: none; 
+    outline: none; 
+    line-height: 1.8; 
+    font-style: italic; 
+    text-align: justify;
+}
+
+.reporting-an-accident-on-the-way .seventh-section label {
+    font-size: 12px;
+}
+
+.reporting-an-accident-on-the-way .eighth-section {
+    min-height: 100px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .eighth-section .accident-witness input {
+    width: 420px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .accident-witness input {
+    width: 420px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .accident-witness .person-label {
+    width: 370px;
+}
+
+.reporting-an-accident-on-the-way .accident-witness label {
+    font-size: 10px;
+}
+
+.reporting-an-accident-on-the-way .ninth-section {
+    min-height: 100px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .ninth-section input {
+    width: 420px; 
+    line-height: 1.8;
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .tenth-section {
+    min-height: 80px; 
+    height: auto;
+}
+
+.reporting-an-accident-on-the-way .tenth-section input {
+    width: 320px; 
+    border: none; 
+    border-bottom: 1px black dotted; 
+    outline: none;
+}
+
+.reporting-an-accident-on-the-way .tenth-section label {
+    font-size: 10px; 
+    width: 320px;
+}
+
+.reporting-an-accident-on-the-way .eleventh-section {
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 14%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+}
+
+.buttons button {
+    width: 180px;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #1A53BD;
+}
+
+.buttons input {
+    width: 180px;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #1A53BD;
+} 
+
+.buttons .btn {
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-weight: 700;
+    color: #1A53BD;
+}
+
+.buttons .btn:hover {
+    background-color: #044488;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+}
+
 
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
@@ -264,4 +344,1477 @@
     .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
-/* ----------------------------------------------------- */
+/* ----------------------------------------------- */
+/* eservice-reporting-an-employee-accident-at-work */
+/* -------------------------------------------=--- */
+
+.reporting-an-employee-accident .service-offer {
+    height: auto;
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+
+.reporting-an-employee-accident .first-section .victim-data {
+    display: inline-block;
+}
+
+.reporting-an-employee-accident .first-section .distance-one{
+    display: inline-block;
+}
+
+.reporting-an-employee-accident .first-section .box-place-data {
+    display: inline-block;
+}
+
+.reporting-an-employee-accident .first-section .person-data textarea {
+    height: 84px;
+    width: 300px;
+    outline: none;
+    border: none;
+    font-style: italic;
+    border-bottom: 1px black dotted; 
+}
+
+.reporting-an-employee-accident .first-section .person-data-description {
+    width: 300px;
+    font-size: 12px;
+}
+
+.reporting-an-employee-accident .first-section .input-place-data {
+    display: block;
+    width: 380px;
+}
+
+.reporting-an-employee-accident .first-section .description-place-data {
+    display: block;
+}
+
+.reporting-an-employee-accident .first-section .distance-one {
+    display: inline-block;
+    width: 310px;
+    height: 80px;
+}
+
+.reporting-an-employee-accident .first-section .date-input {
+    width: 100px;
+    border: none;
+    border-bottom: black 1px dotted;
+    outline: none;
+    font-style: italic;
+}
+
+.reporting-an-employee-accident .first-section .place-input {
+    width: 215px;
+    border: none;
+    border-bottom: black 1px dotted;
+    outline: none;
+    font-style: italic;
+}
+
+.reporting-an-employee-accident .description-place-data label {
+    font-size: 10px; 
+    width: 380px;
+}
+
+.reporting-an-employee-accident .second-section .distance {
+    width: 300px;
+}
+
+.reporting-an-employee-accident .second-section input {
+    width: 380px;
+    border: none;
+    border-bottom: black 1px dotted;
+    outline: none;
+    font-style: italic;
+    display: block;
+}
+
+.reporting-an-employee-accident .second-section .box-recipient {
+    width: 380px;
+    margin-left: auto;
+}
+
+.reporting-an-employee-accident .second-section .addressee {
+    font-size: 12px;
+    width: 380px;
+}
+
+.reporting-an-employee-accident .fourth-section input {
+    border: none;
+    border-bottom: black 1px dotted;
+    outline: none;
+    font-style: italic;
+    width: 100px;
+}
+
+.reporting-an-employee-accident .fifth-section textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.reporting-an-employee-accident .fifth-section label {
+    width: 998px;
+    font-size: 12px;
+}
+
+.reporting-an-employee-accident .seventh-section textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.reporting-an-employee-accident .seventh-section label {
+    width: 998px;
+    font-size: 12px;
+}
+
+.reporting-an-employee-accident .eighth-section {
+    width: 360px;
+}
+
+.reporting-an-employee-accident .eighth-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+    width: 300px;
+}
+
+.reporting-an-employee-accident .eighth-section label {
+    font-size: 12px;
+}
+
+.reporting-an-employee-accident .ninth-section .documents {
+    width: 640px;
+}
+
+.reporting-an-employee-accident .ninth-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+    width: 600px;
+}
+
+.reporting-an-employee-accident .tenth-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+    width: 220px;
+}
+
+.reporting-an-employee-accident .tenth-section label {
+    width: 220px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .first-section {
+    height: 200px;
+}
+
+.protocol-to-determine-the-circumstances .second-section input {
+    width: 25px;
+    text-align: center;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer {
+    width: 500px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer input {
+    width: 500px;
+    display: block;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer label {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data .nip {
+    display: inline-block;
+    width: 300px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data .nip-description {
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data .distnace-three {
+    display: inline-block;
+    width: 350px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data .pesel {
+    display: inline-block;
+    width: 340px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data .pesel-description {
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employer-data input {
+    width: 25px;
+    text-align: center;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employers-document {
+    width: 500px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employers-document input {
+    width: 500px;
+    display: block;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .third-section .employers-document label {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.protocol-to-determine-the-circumstances .third-section .kod-pkd {
+    width: 150px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .pkd-description{
+    width: 150px;
+}
+
+.protocol-to-determine-the-circumstances .third-section .kod-pkd input {
+    width: 25px;
+    text-align: center;
+}
+
+.protocol-to-determine-the-circumstances .fourth-section input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+    width: 430px;
+}
+
+.protocol-to-determine-the-circumstances .fourth-section .distance-four {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .fourth-section .person-description label {
+    width: 430px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fourth-section .no-distance {
+    width: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .verse {
+    height: 35px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section p {
+    display: inline;
+    margin-bottom: 0;
+} 
+
+.protocol-to-determine-the-circumstances .fifth-section .date-of-arrangements input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .date-of-arrangements input {
+    width: 250px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .time-of-accident input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .time-of-accident input {
+    width: 300px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-name input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-name input {
+    width: 415px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .living {
+    display: inline-block;
+    width: 120px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .living-text {
+    display: block;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .postal-code {
+    display: inline-block;
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .postal-code input {
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .postal-code label {
+    font-size: 12px;
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .locality {
+    display: inline-block;
+    margin-left: 30px;
+    width: 240px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .locality input {
+    width: 240px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .locality label {
+    width: 240px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .street {
+    display: inline-block;
+    margin-left: 30px;
+    width: 240px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .street input {
+    width: 240px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .street label {
+    width: 240px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .house-number {
+    display: inline-block;
+    margin-left: 30px;
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .house-number input {
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .house-number label {
+    width: 80px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .flat-number {
+    display: inline-block;
+    margin-left: 30px;
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .flat-number input {
+    width: 80px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data .flat-number label {
+    width: 80px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data-description {
+    height: 18px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data-description .person-living {
+    width: 117px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .person-data-description .postal-code-description {
+    width: 80px;
+    font-size: 12px;
+}
+
+/* ------------------- */
+
+.protocol-to-determine-the-circumstances .fifth-section .victim-data {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------------- */
+
+.protocol-to-determine-the-circumstances .fifth-section  .victim-pesel-box {
+    display: inline;
+    width: 330px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .victim-pesel  {
+    width: 330px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section  .victim-pesel-description {
+    width: 330px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .victim-pesel input {
+    width: 25px;
+}
+
+/* ------------------- */
+
+.protocol-to-determine-the-circumstances .fifth-section .distance-five {
+    display: inline;
+    width: 360px;
+    height: 75px;
+}
+
+/* ------------------- */
+
+.protocol-to-determine-the-circumstances .fifth-section .id-card-number {
+    display: inline;
+    width: 300px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .id-card-number input {
+    width: 300px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .id-card-number label {
+    display: block;
+    font-size: 12px;
+    width: 300px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .hired {
+    display: inline-block;
+    width: 140px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .hired-text {
+    display: block;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .company {
+    display: inline-block;
+    width: 320px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .company input {
+    width: 320px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .position {
+    display: inline-block;
+    width: 100px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .position-text {
+    display: block;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .in-position {
+    display: inline-block;
+    width: 240px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .in-position input {
+    width: 240px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .in-position label {
+    width: 240px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .job-code {
+    display: inline-block;
+    width: 180px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .job-code input {
+    width: 25px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .employee-data .job-code label {
+    width: 200px;
+    font-size: 12px;
+}
+
+/* ------------------ */
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .accident-reported {
+    display: inline-block;
+    width: 150px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .accident-text {
+    display: block;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .reported-by {
+    display: inline-block;
+    width: 580px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .reported-by input {
+    width: 580px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .in-day-text {
+    display: inline-block;
+    width: 60px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .in-day-text p {
+    display: block;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .in-day {
+    display: inline-block;
+    width: 180px;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .in-day input {
+    width: 180px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: black 1px dotted;
+}
+
+.protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .in-day label {
+    width: 180px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .sixth-section {
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.protocol-to-determine-the-circumstances .sixth-section p {
+    display: inline;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.protocol-to-determine-the-circumstances .sixth-section textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.protocol-to-determine-the-circumstances .seventh-section textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.protocol-to-determine-the-circumstances .eighth-section p {
+    display: inline;
+}
+
+.protocol-to-determine-the-circumstances .eighth-section div {
+    display: inline;
+}
+
+.protocol-to-determine-the-circumstances .eighth-section span {
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.protocol-to-determine-the-circumstances .eighth-section .accident-at-work {
+    display: block;
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .eighth-section textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+/* ---------------------  */
+
+.protocol-to-determine-the-circumstances .ninth-section div {
+    display: inline;
+}
+
+.protocol-to-determine-the-circumstances .ninth-section p {
+    display: inline;
+}
+
+.protocol-to-determine-the-circumstances .ninth-section span {
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+
+/* -------------------------  */
+
+.protocol-to-determine-the-circumstances .tenth-section {
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.protocol-to-determine-the-circumstances .tenth-section p {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.protocol-to-determine-the-circumstances .tenth-section textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.protocol-to-determine-the-circumstances .eleventh-section .signature {
+    display: inline-block;
+    width: 490px;
+}
+
+.protocol-to-determine-the-circumstances .eleventh-section .signature p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .eleventh-section .signature input {
+    display: inline-block;
+    width: 470px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .eleventh-section .signature label {
+    width: 470px;
+    font-size: 12px;
+}
+
+/* ----------------------- */
+
+.protocol-to-determine-the-circumstances .twelfth-section .ptotocol {
+    display: inline-block;
+}
+
+.protocol-to-determine-the-circumstances .twelfth-section .ptotocol p {
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .twelfth-section .caption {
+    display: inline-block;
+}
+
+.protocol-to-determine-the-circumstances .twelfth-section .caption input {
+    display: block;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+
+.protocol-to-determine-the-circumstances .twelfth-section .caption label {
+    display: block;
+    font-size: 12px;
+}
+
+
+/* ----------------------- */
+
+.protocol-to-determine-the-circumstances .thirteen-section textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section {
+    display: inline-block;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .family-member {
+    display: inline-block;
+    width: 460px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .family-member input {
+    display: block;
+    width: 460px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .family-member label {
+    display: block;
+    width: 460px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .date {
+    display: inline-block;
+    width: 250px;
+}
+
+
+.protocol-to-determine-the-circumstances .fifteenth-section .date input {
+    display: block;
+    width: 250px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .date label {
+    display: block;
+    width: 250px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .signature {
+    display: inline-block;
+    width: 250px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .signature input {
+    display: block;
+    width: 250px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section .signature label {
+    display: block;
+    width: 250px;
+    font-size: 12px;
+}
+
+.protocol-to-determine-the-circumstances .fifteenth-section input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+/* ----------------------- */
+
+.protocol-to-determine-the-circumstances .sixteenth-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .protocol-text {
+    display: inline-block;
+    width: 220px;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .protocol-text p {
+    display: block;
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .date {
+    display: inline-block;
+    width: 290px;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .date input {
+    width: 290px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .date label {
+    font-size: 12px;
+    width: 290px;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .employer-signature {
+    display: inline-block;
+    margin-left: 30px;
+    width: 440px;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .employer-signature input {
+    width: 440px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .employer-signature label {
+    width: 440px;
+    font-size: 12px;
+}
+
+
+/* -----------------------  */
+
+.protocol-to-determine-the-circumstances .seventeenth-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .protocol-text {
+    display: inline-block;
+    width: 270px;
+}
+
+.protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .protocol-text p {
+    display: block;margin-bottom: 0;
+}
+
+
+.protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .date {
+    display: inline-block;
+    width: 720px;
+}
+
+.protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .date input {
+    width: 720px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .date label {
+    font-size: 12px;
+    width: 720px;
+}
+
+/* -------------------------- */
+
+.protocol-to-determine-the-circumstances .eighteenth-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .protocol-text {
+    display: inline-block;
+    width: 300px;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .protocol-text p {
+    display: block;
+    margin-bottom: 0;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .date {
+    display: inline-block;
+    width: 320px;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .date input {
+    width: 320px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .date label {
+    font-size: 12px;
+    width: 320px;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .employer-signature {
+    display: inline-block;
+    margin-left: 30px;
+    width: 320px;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .employer-signature input {
+    width: 320px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .employer-signature label {
+    width: 320px;
+    font-size: 12px;
+}
+
+/* ------------------------------ */
+
+.protocol-to-determine-the-circumstances .nineteenth-section textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.protocol-to-determine-the-circumstances .twentyth-section .instruction {
+    min-height: 45px;
+    height: auto;
+    font-size: 15px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.protocol-to-determine-the-circumstances .twentyth-section .instruction .number {
+    min-height: 45px;
+    height: auto;
+    width: 5%;
+    float: left;
+}
+
+.protocol-to-determine-the-circumstances .twentyth-section .instruction .note {
+    min-height: 45px;
+    height: auto;
+    width: 95%;
+    float: right;
+}
+ 
+.protocol-to-determine-the-circumstances .twentyth-section .horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.protocol-to-determine-the-circumstances .twenty-first-section {
+    text-align: justify;
+}
+
+.protocol-to-determine-the-circumstances .twenty-first-section p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------------------------- */
+/* eservice-notice-of-completion-of-construction */
+/* ----------------------------------------------------------- */
+
+.completion-of-construction .first-section .investor {
+    display: inline-block;
+    width: 300px;
+}
+
+.completion-of-construction .first-section .investor input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.completion-of-construction .first-section .investor label {
+    width: 300px;
+    font-size: 12px;
+}
+
+.completion-of-construction .first-section .distance {
+    display: inline-block;
+    width: 380px;
+}
+
+.completion-of-construction .first-section .place-data {
+    display: inline-block;
+    width: 300px;
+}
+
+.completion-of-construction .first-section .place-data input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.completion-of-construction .first-section .place-data label {
+    width: 300px;
+    font-size: 12px;
+}
+
+/* -------------------------- */
+
+.completion-of-construction .second-section .investor {
+    display: inline-block;
+    width: 300px;
+}
+
+.completion-of-construction .second-section .investor input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.completion-of-construction .second-section .investor label {
+    width: 300px;
+    font-size: 12px;
+}
+
+.completion-of-construction .second-section .distance {
+    display: inline-block;
+    width: 380px;
+}
+
+.completion-of-construction .second-section .place-data {
+    display: inline-block;
+    width: 300px;
+}
+
+.completion-of-construction .second-section .place-data input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.completion-of-construction .second-section .place-data label {
+    width: 300px;
+    font-size: 12px;
+}
+
+.completion-of-construction .third-section {
+    min-height: 160px;
+}
+
+.completion-of-construction .third-section .distace {
+    width: 450px;
+    float: left;
+    height: auto;
+}
+
+.completion-of-construction .third-section .fire-dept {
+    width: 500px;
+    float: right;
+}
+
+.completion-of-construction .third-section .fire-dept h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.completion-of-construction .fourth-section {
+    margin-bottom: 20px;
+}
+
+
+.completion-of-construction .fourth-section p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.completion-of-construction .fourth-section textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 21px;
+}
+
+.completion-of-construction .fourth-section label {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+} 
+
+.completion-of-construction .fifth-section {
+    font-size: 22px;
+}
+
+.completion-of-construction .fifth-section p {
+    text-decoration: underline;
+}
+
+.completion-of-construction .fifth-section .line {
+    margin-bottom: 5px;
+}
+
+.completion-of-construction .fifth-section input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 21px;
+    border-bottom: 1px dotted black;
+}
+
+.completion-of-construction .fifth-section .item-a input {
+    width: calc(1002px - 230px);
+}
+
+.completion-of-construction .fifth-section .item-b input {
+    width: calc(1002px - 245px);
+}
+
+.completion-of-construction .fifth-section .item-c input {
+    width: calc(1002px - 113px);
+}
+
+.completion-of-construction .fifth-section .item-d input {
+    width: calc(1002px - 123px);
+}
+
+.completion-of-construction .fifth-section .item-e input {
+    width: calc(1002px - 316px);
+}
+
+.completion-of-construction .fifth-section .item-f input {
+    width: calc(1002px - 316px);
+}
+
+.completion-of-construction .fifth-section .item-g input {
+    width: calc(1002px - 296px);
+}
+
+.completion-of-construction .fifth-section textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.completion-of-construction .sixth-section .distance {
+    width: 700px;
+    float: left;
+}
+
+.completion-of-construction .sixth-section {
+    height: 80px;
+}
+
+.completion-of-construction .sixth-section .applicant-signature {
+    width: 300px;
+    float: right;
+}
+
+.completion-of-construction .sixth-section .applicant-signature input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 21px;
+    border-bottom: 1px dotted black;
+}
+
+.completion-of-construction .sixth-section .applicant-signature label {
+    width: 300px;
+    font-size: 12px;
+}
+
+.completion-of-construction .seventh-section {
+    padding-bottom: 20px;
+}
+
+.completion-of-construction .seventh-section p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.completion-of-construction .seventh-section .attachments {
+    text-decoration: underline;
+}
+
+.completion-of-construction .seventh-section .item {
+    text-indent: 50px;
+}
+
+/* ----------------------------------------------------------- */
+/* eservice-application-form-a-photovoltaic-system */
+/* ----------------------------------------------------------- */
+
+.photovoltaic-system .first-section .inwestor {
+    width: 300px;
+    display: inline-block;
+    height: 48px;
+}
+
+.photovoltaic-system .first-section .inwestor input {
+    font-size: 19px;
+    width: 300px;
+}
+
+.photovoltaic-system .first-section .inwestor label {
+    font-size: 12px;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .first-section .distance {
+    width: 380px;
+    height: 48px;
+    display: inline-block;
+}
+
+.photovoltaic-system .first-section .place-date {
+    width: 300px;
+    height: 48px;
+    display: inline-block;
+}
+
+.photovoltaic-system .first-section .place-date input {
+    width: 300px;
+}
+
+.photovoltaic-system .first-section .place-date label {
+    width: 300px;
+    font-size: 12px; 
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .first-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.photovoltaic-system .second-section {
+    height: 170px;
+}
+
+.photovoltaic-system .second-section .inwestors-address {
+    width: 300px;
+}
+
+.photovoltaic-system .second-section .inwestors-address .inwestor {
+    width: 300px;
+    height: 48px;
+}
+
+.photovoltaic-system .second-section .inwestors-address .inwestor input {
+    width: 300px;
+}
+
+.photovoltaic-system .second-section .inwestors-address .inwestor label {
+    width: 300px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .second-section .inwestors-address input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.photovoltaic-system .second-section .distance {
+    width: 680px;
+    height: 48px;
+    display: inline-block;
+}
+
+
+
+.photovoltaic-system .third-section .distance {
+    width: 500px;
+    display: inline-block;
+}
+
+.photovoltaic-system .third-section .addressee {
+    width: 380px;
+    display: inline-block;
+}
+
+.photovoltaic-system .third-section .addressee p {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.photovoltaic-system .fourth-section .investment-data .inwestor {
+    width: 1002px;
+    height: 48px;
+}
+
+.photovoltaic-system .fourth-section .investment-data .inwestor input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .fourth-section .investment-data .inwestor label {
+    width: 1002px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .fourth-section .text-paragraph p {
+    text-indent: 40px;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .fourth-section p {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .fifth-section {
+    width: 1002px;
+}
+
+
+
+.photovoltaic-system .fifth-section tr, td {
+    border: 2px black solid;
+}
+
+.photovoltaic-system .fifth-section input {
+    width: 100px;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.photovoltaic-system .fifth-section .sixth-row textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.photovoltaic-system .fifth-section select {
+    border: none;
+    outline: none;
+    width: 60%;
+    font-size: 19px;
+}
+
+
+.photovoltaic-system .sixth-section .inwestor {
+    width: 300px;
+    display: inline-block;
+}
+
+.photovoltaic-system .sixth-section .inwestor input {
+    font-size: 19px;
+    width: 300px;
+}
+
+.photovoltaic-system .sixth-section .inwestor label {
+    font-size: 12px;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .sixth-section .distance {
+    width: 380px;
+    display: inline-block;
+}
+
+.photovoltaic-system .sixth-section .place-date {
+    width: 300px;
+    display: inline-block;
+}
+
+.photovoltaic-system .sixth-section .place-date input {
+    width: 300px;
+}
+
+.photovoltaic-system .sixth-section .place-date label {
+    width: 300px;
+    font-size: 12px; 
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .sixth-section input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+.photovoltaic-system .seventh-section {
+    width: 1002px;
+}
+
+.photovoltaic-system .seventh-section p {
+    margin-bottom: 0;
+}
+
+.photovoltaic-system .seventh-section .hor-line {
+    border-bottom: black 1px solid;
+    width: 20%;
+}

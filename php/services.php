@@ -1090,31 +1090,31 @@
 										<td> 1. </td>
 										<td> Druk. Zgłoszenie wypadku przy pracy pracownika. </td>
 										<!-- Reporting an employee accident at work. -->
-										<td> <a href="#" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td> <a href="eservice-reporting-an-employee-accident-at-work.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 2. </td>
 										<td>  Druk. Protokół ustalenia okoliczności i przyczyn wypadku przy pracy. </td>
 										<!-- Protocol to determine the circumstances and causes of the accident at work. -->
-										<td> <a href="eservice-protocol-determine-causes-of-accident.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td> <a href="eservice-protocol-to-determine-the-circumstances-and-causes-of-the-accident-at-work.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 3. </td>
 										<td>  Druk. Zgłoszenie wypadku w drodze do pracy (z pracy). </td>
 										<!-- Reporting an accident on the way to work (from work) -->
-										<td> <a href="eservice-reporting-an-accident-on-the-way-to-work-from work.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td> <a href="eservice-reporting-an-accident-on-the-way-to-work-from-work.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 4. </td>
 										<td>  Druk. Zawiadomienie o zakończeniu budowy. </td>
 										<!-- Notice of completion of construction. -->
-										<td> <a href="#" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td> <a href="eservice-notice-of-completion-of-construction.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 									<tr>
 										<td> 5. </td>
-										<td>  Druk. Wzór zgłoszenia instalacji fotowoltanicznej. </td>
+										<td>  Druk. Wzór zgłoszenia instalacji fotowoltaicznej. </td>
 										<!-- Application form for a photovoltaic system -->
-										<td> <a href="eservice-application-form-for-photovoltaic-system.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
+										<td> <a href="eservice-application-form-for-a-photovoltaic-system.php" target="_blank"><input class="btn btn-primary" type="button" value="Wypełnij"/></a></td>
 									</tr>
 								</tbody>
 							</table>

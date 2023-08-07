@@ -73,23 +73,21 @@
                             }
                         ?>
                     </li>
-                    <li class="nav-item">
                         <?php 
                             if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
                                 if(isset($_SESSION['name']) && $_SESSION['name'] == 'admin'){
-                                    echo '<span><a href="php/my-account-admin.php">moje konto</a></span>';
+                                    echo ' <li class="nav-item"><span><a href="php/my-account-admin.php">moje konto</a></span></li>';
                                 } else if(isset($_SESSION['name']) && $_SESSION['name'] != 'admin'){
-                                    echo '<span><a class="nav-link text-white" href="php/my-account-admin.php">moje konto</a></span>';
+                                    echo ' <li class="nav-item"><span><a class="nav-link text-white" href="php/my-account-admin.php">moje konto</a></span></li>';
                                 } 
                             } else {
                                 if(isset($_SESSION['name']) && $_SESSION['name'] == 'admin'){
-                                    echo '<span><a class="nav-link text-white" href="my-account-admin.php">moje konto</a></span>';
+                                    echo ' <li class="nav-item"><span><a class="nav-link text-white" href="my-account-admin.php">moje konto</a></span></li>';
                                 } else if(isset($_SESSION['name']) && $_SESSION['name'] != 'admin'){
-                                    echo '<span><a class="nav-link text-white" href="my-account.php">moje konto</a></span>';
+                                    echo ' <li class="nav-item"><span><a class="nav-link text-white" href="my-account.php">moje konto</a></span></li>';
                                 } 
                             }
                         ?>
-                    </li>
                     <li class="nav-item">
                         <?php 
                             if(!empty($_SESSION['id'])){

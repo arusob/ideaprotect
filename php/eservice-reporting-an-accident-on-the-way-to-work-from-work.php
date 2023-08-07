@@ -41,16 +41,17 @@
 			<?php
 				require('./navbar.php');
 			?>
-			<section class="reporting-a-work-accident">
+			<section class="reporting-an-accident-on-the-way">
 				<div class="bg-con-1 service-offer">
-					<h1 class="text-center headline non-printable">Usługa e-formularz</h1>
-					<h5 class="text-center pt-3 pb-3 non-printable">Formularz: Zgłoszenie wypadku w drodze do pracy (z pracy). Format A4. </h5>
+
+					<h1 class="text-center headline non-printable"> Usługa e-formularz </h1>
+					<h5 class="text-center pt-3 pb-3 non-printable"> Zgłoszenie wypadku w drodze do pracy (z pracy). </h5>
 					
 					<div id="printableArea" class="mx-auto">		
-					
 						<form id="content" class="printableArea px-auto mx-auto">
 							
 							<div class="white-paper">
+
 								<!-- SEKCJA 1  -->
 								<div class="col mb-0 pb-0 py-3 mx-auto first-section">
 									<div class="victim-data">
@@ -149,7 +150,7 @@
 								</div>
 								
 								<!-- | SEKCJA 10 | -->
-								<div class="col text-right tenth-section mb-5 mt-5 pb-5">
+								<div class="col-lg-12 text-right tenth-section mb-5 mt-5 pb-5">
 									<div>
 										<input type="text" name="protocolNumberSecond">
 									</div>
@@ -160,15 +161,19 @@
 
 							</div>
 
-							<!-- | BUTTONS | -->
-							<div class="col-lg-12 text-right pt-4 eleventh-section actions">
-								<input class="non-printable btn-success mr-3" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
-								<button class="non-printable btn-danger" type="submit">Pobierz pdf</button>  
-							</div>
 							
 						</form>
 						
-					</div>		
+					</div>	
+					
+					<!-- | BUTTONS | -->
+					<div class="actions buttons text-center">
+						<div class="mx-auto">
+							<input class="non-printable btn btn-light mr-3" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
+							<button class="non-printable btn btn-light" type="submit">Pobierz pdf</button> 
+						</div>
+					</div>
+					
 				</div>
 			</section>
 			<?php 
