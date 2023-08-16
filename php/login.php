@@ -100,8 +100,11 @@
                                             <button type="submit" name="submit">Zaloguj</button>
                                         </div>
                                     </form>
-                                    <div class="pt-2">Nie posiadasz konta? 
+                                    <div class="mt-3 mb-3">Nie posiadasz konta? 
                                         <a href="registration.php">Rejestracja</a>
+                                        <div class="row mt-2">
+                                            <a href="../index.php" class="mx-auto">Wróć na stronę główną </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

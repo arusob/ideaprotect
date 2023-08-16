@@ -1,5 +1,4 @@
 
-
 .contract-page .section-one p {
     display: inline;
 }
@@ -64,9 +63,10 @@
 .contract-page .section-one .buyer .address label {
     width: 100%;
 }
-/* ------------------ */
+
 .contract-page .section-one .buyer .text-between p {
     display: block;
+    margin-bottom: 0;
 }
 
 .contract-page .section-two .executive input {
@@ -99,12 +99,55 @@
     width: 100%;
 }
 
+.contract-page .section-two .text-between p {
+    display: block;
+    margin-bottom: 0;
+}
 
+.contract-page .section-six .amount {
+    width: 120px;
+}
 
+.contract-page .section-six .amount {
+    width: 120px;
+}
 
+.contract-page .section-six .amount-number {
+    width: 280px;
+}
 
+.contract-page .section-six .purchaser-text {
+    margin-bottom: 0;
+}
 
-/* ------------------------------------------------------- */
+.contract-page .section-six .purchaser-name {
+    display: block;
+    width: 50%;
+    height: 36px;
+}
+
+.contract-page .section-six .purchaser-address {
+    display: block;
+    width: 50%;
+    height: 36px;
+}
+
+.contract-page .section-seven .indention {
+    margin-left: 25px;
+}
+
+.contract-page .section-nine input {
+    width: 120px;
+    text-align: center;
+}
+
+.contract-page .section-thirteen p {
+    margin-bottom: 0;
+}
+
+.contract-page .section-thirteen .indention {
+    margin-left: 25px;
+}
 
 .summary-page .headline {
     line-height: 150%;
@@ -121,7 +164,6 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
     font-size: 17px;
-    /* background: #1040c4; */
     color: #fff;
     cursor: pointer;
     user-select: none;
@@ -155,7 +197,16 @@
     background-color: white; 
     color: black; 
     padding: 20px 25px 20px 25px; 
-    min-height: 1350px;
+    min-height: 3200px;
+    height: auto;
+    margin: 0;
+}
+
+.attachment {
+    background-color: white; 
+    color: black; 
+    padding: 20px 25px 20px 25px; 
+    min-height: 1550px;
     height: auto;
     margin: 0;
 }
@@ -197,37 +248,41 @@
     background-color: #06315f;
 }
 
-.th-1, .td-1 {
-    width: 3%;
+.summary-page thead th {
+    border: 1px solid black;
+    text-align: center;
 }
 
-.th-2, .td-2 {
-    width: 72%;
+.summary-page .th-1{
+    width: 78%;
+    text-align: center;
 }
 
-.th-3, .td-3 {
-    width: 18%;
+.summary-page .td-1 {
+    width: 78%;
 }
 
-.th-4, .td-4 {
+.summary-page .th-2 {
+    width: 15%;
+    text-align: center;
+}
+
+.summary-page .td-2 {
+    width: 15%;
+}
+
+.summary-page .th-3, .td-3 {
     width: 7%;
+    text-align: center;
 }
 
-.td-4 input {
-    width: 100%;
-}
-
-.summary > th, td{
+.summary-page > th, td{
     border: 1px solid black;
 } 
 
 .order-completed {
     color: green;
 }
-
-
-
-/* ---------------------------------------------- */
 
 .printable { 
     display: none;
@@ -237,9 +292,6 @@
     .non-printable { display: none; }
     .printable { display: block;}
 }
-
-/* ---------------------------------------------- */
-/* ---------------------------------------------- */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .summary-page .content-table {margin: 25px 0; font-size: 16px; min-width: 100%;}
@@ -292,4 +344,72 @@
     .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
-/* ----------------------------------------------------- */
+.timetable #date-info {
+    display: block;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.timetable thead th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.timetable .td-1 {
+    text-align: center;
+}
+
+.timetable .td-3 {
+    text-align: center;
+}
+
+.timetable .th-1, .td-1 {
+    width: 8%;
+}
+
+.timetable .th-2, .td-2 {
+    width: 72%;
+}
+
+.timetable .th-3, .td-3 {
+    width: 20%;
+}
+
+.buttons button {
+    width: 180px;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #1A53BD;
+}
+
+.buttons input {
+    width: 180px;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #1A53BD;
+} 
+
+.buttons .btn {
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 26px;
+    border: #044488 solid 2px;
+    width: 160px;
+    font-weight: 700;
+    color: #1A53BD;
+}
+
+.buttons .btn:hover {
+    background-color: #044488;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+}

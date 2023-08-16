@@ -111,7 +111,10 @@
                         <button type="submit" name="submit">Zarerejstruj</button>
                     </div>
                     </form>
-                    <span>Posiadasz konto?</span><a href="login.php">Logowanie</a>
+                    <p class="mt-3"><span>Posiadasz konto? </span><a href="login.php">Zaloguj się</a></p>
+                    <div class="row">
+                        <a href="../index.php" class="mx-auto">Wróć na stronę główną </a>
+                    </div>
                 </div>
                 </div>
             </div>

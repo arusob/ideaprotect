@@ -3,19 +3,15 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
 		<title> ideaprotect | strona główna </title>
 		<link rel="icon" type="image/x-icon" href="../img/sygnet-ideaprotect-n-white.png">
-
 		<meta name="description" content="Usługi inżynieryjne">
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
-
 		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/cookies-policy.css">
-		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
@@ -30,11 +26,9 @@
 	</head>
 	<body>
 		<main class="pr-0 mr-0">
-			<!--| NAVIGATION |-->
 			<?php
 				require('php/navbar.php');
 			?>
-			<!--| CONTENT |-->
 			<section class="home-page">
 				<div class="row row-content bg-con-1 welcome">
 					<div class="col-md-12 part-1">
@@ -154,7 +148,6 @@
 						<h1 class="text-center headline"> Jak pracujemy ? </h1>
 					</div>
 					<div class="row process-box">
-
 						<div class="col-md-4">
 							<div class="position-relative px-3 my-4">
 								<div class="text-center"> 
@@ -166,7 +159,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="col-md-4">
 							<div class="position-relative px-3 my-4">
 								<div class="text-center">
@@ -178,7 +170,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="col-md-4" >
 							<div class="position-relative px-3 my-4">
 								<div class="text-center">
@@ -190,7 +181,6 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</section>
 				<div class="row row-content bg-con-1 area">
@@ -217,7 +207,6 @@
 					</div>	
 				</div>	
 			</section>
-			<!-- | COOKIES - POPUP |  -->
 			<div class="cookie-container text-justify-center">
 				<div class="row cookie-popup-inside">
 					<div class="col-sm-8 text-area-politics">
@@ -240,14 +229,11 @@
 					</div>
 				</div>
 			</div>
-			<!-- | FOOTER | -->
 			<?php 
 				require('php/footer.php');
 			?>
-			<!-- | FOOTER-END | -->
 		</main>	
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
- 		<!--| BOOTSTRAP 5.0 & JAVASCRIPT |-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>					
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap/bootstrap.min.js"></script>

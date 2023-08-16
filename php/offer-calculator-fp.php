@@ -9,32 +9,26 @@
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
-
 		<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/calculator.css">
-		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap">
-
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
-
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="../js/bootstrap/bootstrap.min.js"></script>
-
 		<script defer src="../js/script-scrolltop.js"></script>
 		<script defer src="../js/navigation-horizontal-tabs.js"></script>
 		<script defer src="../js/script.js"></script>
-
 	</head>
 	<body>
 		<main class="pr-0 mr-0">
@@ -127,189 +121,6 @@
 												</tr>
 											</tbody>
 										</table>
-										
-										<h4> Gaśnice, agregaty gaśnicze. </h4>
-										<table class="content-table">
-											<thead>
-												<tr>
-													<th class="th-1"> Lp. </th>
-													<th class="th-2"> Nazwa usługi </th>
-													<th class="th-3"> PLN / j.m. </th>
-													<th class="th-4"> ilość </th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="td-1"> 11. </td>
-													<td class="td-2"> Przegląd okresowy gaśnic (proszkowe, śniegowe, pianowe) 6kg. </td>
-													<td class="td-3"> 10,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="gasnica_6"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 12. </td>
-													<td class="td-2"> Przegląd okresowy gaśnic (proszkowe, śniegowe, pianowe) 4kg. </td>
-													<td class="td-3"> 8,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="gasnica_4"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 13. </td>
-													<td class="td-2"> Przegląd okresowy gaśnic (proszkowe, śniegowe, pianowe) 2kg i mniejsze. </td>
-													<td class="td-3"> 7,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="gasnica_2"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 14. </td>
-													<td class="td-2"> Legalizacja gaśnic (5-cio letnia). </td>
-													<td class="td-3"> od 50,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="gasnica_5lat"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 15. </td>
-													<td class="td-2"> Legalizacja UDT dla zbiorników gaśnic. </td>
-													<td class="td-3"> od 90,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="gasnicace_UDT"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 16. </td>
-													<td class="td-2"> Przegląd okresowy agregatów gaśniczych. </td>
-													<td class="td-3"> od 80,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="agregaty"></td>
-												</tr>
-											</tbody>
-										</table>
-
-										<h4> Systemy oddymiania, drzwi przeciwpożarowe, kurtyny, grodzie. </h4>
-										<table class="content-table">
-											<thead>
-												<tr>
-													<th class="th-1"> Lp. </th>
-													<th class="th-2"> Nazwa usługi </th>
-													<th class="th-3"> PLN / j.m. </th>
-													<th class="th-4"> ilość </th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="td-1"> 17. </td>
-													<td class="td-2"> Przegląd okresowy systemu oddymiania (okna oddymiające dachowe i ścienne). </td>
-													<td class="td-3"> od 35,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="oddym_okna"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 18. </td>
-													<td class="td-2"> Przegląd okresowy systemu oddymiania (wentylatory oddymiające). </td>
-													<td class="td-3"> od 35,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="wnetylatory_oddym"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 19. </td>
-													<td class="td-2"> Przegląd okresowy systemu oddymiania (klapy odcinające w kanałach wentylacyjnych). </td>
-													<td class="td-3"> od 35,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="klapy_odcin_w_kanalach"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 20. </td>
-													<td class="td-2"> Przegląd okresowy drzwi ewakuacyjnych (ze zwalniaczami antypanicznymi <br>i dostępem chronionym). </td>
-													<td class="td-3"> 55,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="drzwi_ewakuac"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 21. </td>
-													<td class="td-2"> Przegląd okresowy drzwi oddzielenia pożarowego (stalowe, drewniane, profilowe). </td>
-													<td class="td-3"> od 28,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="drzwi_oddziel_pozarowego"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 22. </td>
-													<td class="td-2"> Przegląd okresowy bram, kurtyn oddzielenia pożarowego. </td>
-													<td class="td-3"> od 40,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="bramy_oddziel_pozarowego"></td>
-												</tr>
-											</tbody>
-										</table>
-
-										<h4> System sygnalizacji pożarowej. Dźwiękowy system ostrzegawczy. </h4>
-										<table class="content-table">
-											<thead>
-												<tr>
-													<th class="th-1"> Lp. </th>
-													<th class="th-2"> Nazwa usługi </th>
-													<th class="th-3"> PLN / j.m. </th>
-													<th class="th-4"> ilość </th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="td-1"> 23. </td>
-													<td class="td-2"> Przegląd okresowy systemu sygnalizacji pożarowej. Centrale sygnalizacji pożaru.<br> 
-																	  (Polon-Alfa, Bosh, Schrack, Satel, Inim Electronics, Awex, inne). </td>
-													<td class="td-3"> od 895,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="syst_sygn_poz"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 24. </td>
-													<td class="td-2"> Przegląd okresowy instalacji sygnalizacji pożarowej. Czujki wykrywające pożar <br>(dymu, ciepła, liniowe). </td>
-													<td class="td-3"> 20,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="czujki"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 25. </td>
-													<td class="td-2"> Przegląd okresowy ręcznego ostrzegacza pożarowego. </td>
-													<td class="td-3"> od 80,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="reczny_ostrzeg_pozar"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 26. </td>
-													<td class="td-2"> Przegląd okresowy dźwiękowego systemu ostrzegawczego. </td>
-													<td class="td-3"> od 500,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="dzwiek_syst_ostrz"></td>
-												</tr>
-											</tbody>
-										</table>
-										<h4> Oświetlenie awaryjne i ewakuacyjne. Przeciwpożarowy wyłącznik prądu. </h4>
-										<table class="content-table">
-											<thead>
-												<tr>
-													<th class="th-1"> Lp. </th>
-													<th class="th-2"> Nazwa usługi </th>
-													<th class="th-3"> PLN / j.m. </th>
-													<th class="th-4"> ilość </th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="td-1"> 27. </td>
-													<td class="td-2"> Przegląd okresowy instalacji oświetlenia awaryjnego. </td>
-													<td class="td-3"> 35,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="osw_awar"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 28. </td>
-													<td class="td-2"> Przegląd okresowy instalacji oświetlenia ewakuacyjnego. </td>
-													<td class="td-3"> 35,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="osw_ewak"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 29. </td>
-													<td class="td-2"> Przegląd okresowy przeciwpożarowego wyłącznika prądu. </td>
-													<td class="td-3"> 100,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="ppoz_wyl_pradu"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 30. </td>
-													<td class="td-2"> Przegląd okresowy systemu detekcji gazów (garaże, czujniki CO i LPG). </td>
-													<td class="td-3"> od 35,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="syst_detekcji_gazow"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 31. </td>
-													<td class="td-2"> Przegląd konserwacyjny biernego systemu ochrony przeciwpożarowej <br>
-																	  (np. masy izolacyjnej przy przepustach kablowych). </td>
-													<td class="td-3"> od 10,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="masa_izolacyjna"></td>
-												</tr>
-											</tbody>
-										</table>
 									</div>
 									<div id="tab-2" class="b-tab">
 										<h4> Dokumentacja techniczna i projektowa dot. ochrony przeciwpożarowej. </h4>
@@ -385,45 +196,7 @@
 												</tr>
 											</tbody>
 										</table>
-										<h4> Dokumentacja techniczna dot. ochrony przeciwybuchowej. </h4>
-										<table class="content-table">
-											<thead>
-												<tr>
-													<th class="th-1"> Lp. </th>
-													<th class="th-2"> Nazwa usługi </th>
-													<th class="th-3"> PLN / j.m. </th>
-													<th class="th-4"> ilość </th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="td-1"> 10. </td>
-													<td class="td-2"> Ocena zagrożenia wybuchem (np. procesy podczas produkcji, magazynowania, transportu). </td>
-													<td class="td-3"> od 2950,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="OZW"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 11. </td>
-													<td class="td-2"> Ocena ryzyka wybuchu (np. pary, pył, gaz). </td>
-													<td class="td-3"> od 1950,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="ORW"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 12. </td>
-													<td class="td-2"> Dokument zabezpieczenia przed wybuchem (np. procesy podczas produkcji, magazynowania, transportu). </td>
-													<td class="td-3"> od 2950,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="DZPW"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 13. </td>
-													<td class="td-2"> Strefy zagrożenia wybuchem (graficzne przedstawienie przestrzeni). </td>
-													<td class="td-3"> od 1950,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="SZW"></td>
-												</tr>
-											</tbody>
-										</table>
 									</div>
-
 									<div id="tab-3" class="b-tab">
 										<h4> Montaż hydrantów. </h4>
 										<table class="content-table">
@@ -529,43 +302,8 @@
 												</tr>
 											</tbody>
 										</table>
-										<h4> Montaż oświetlenia ewakuacyjnego i awaryjnego. </h4>
-										<table class="content-table">
-											<thead>
-												<tr>
-													<th class="th-1"> Lp. </th>
-													<th class="th-2"> Nazwa usługi </th>
-													<th class="th-3"> PLN / j.m. </th>
-													<th class="th-4"> ilość </th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="td-1"> 13. </td>
-													<td class="td-2"> Lampa oświetlenia awaryjnego (montaż na suficie). </td>
-													<td class="td-3"> 140,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="montaz_lampa_osw_awar"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 14. </td>
-													<td class="td-2"> Lampa oświetlenia ewakuacyjnego (montaż na ścianie). </td>
-													<td class="td-3"> 140,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="montaz_lampa_osw_ewak"></td>
-												</tr>
-												<tr>
-													<td class="td-1"> 15. </td>
-													<td class="td-2"> Montaż masy przeciwpożarowej ochrony biernej <br>
-													(np. przy szachtach, kanałach, otworach instalacyjnych - typu Promat lub inne). </td>
-													<td class="td-3"> 70,00 / szt. </td>
-													<td class="td-4"><input type="number" min="0" name="montaz_masy_ochronnej"></td>
-												</tr>
-											</tbody>
-										</table>
-
 									</div>
-
 								</div>
-									
 								<div class="text-right mb-0 pt-5 pb-5">
 									<input class="rabat" name="checkboxRabat" type="checkbox"> Nalicz rabat
 									<input class="mr-5" name="rabat" type="number" value="Wpisz rabat" min="0" max="35">%
@@ -585,6 +323,5 @@
 			?>
 		</main>				
 		<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
-		<!-- <script>$(“#viewPdf”).click()</script> -->
 	</body>
 </html>

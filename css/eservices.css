@@ -1,8 +1,4 @@
 
-/* ----------------------------------------------------------- */
-/* eservice-reporting-an-accident-on-the-way-to-work-from-work */
-/* ----------------------------------------------------------- */
-
 .headline {
     line-height: 150%;
     padding-top: 2rem;
@@ -29,8 +25,6 @@ form {
     background-color: white;
 }
 
-/* ---------------------------------------------- */
-
 .printable { 
     display: none;
 }
@@ -43,9 +37,6 @@ form {
         display: block;
     }
 }
-
-/* ---------------------------------------------- */
-/* ---------------------------------------------- */
 
 #printableArea {
     width: 1082px;
@@ -60,7 +51,6 @@ form {
     font-family: Times New Roman, Times, serif;
 }
 
-/* ---------------------------------------------- */
 .reporting-an-accident-on-the-way .first-section {
     margin-top: 0; 
     margin-bottom: 0; 
@@ -308,10 +298,6 @@ form {
     border: #ffffff solid 2px;
 }
 
-
-/* ---------------------------------------------- */
-/* ---------------------------------------------- */
-
 @media (min-width: 1200px) and (max-width: 1399px) {
     .service-offer h4 {font-size: 20px; line-height: 140%; margin: 0 5px;}
 } 
@@ -343,10 +329,6 @@ form {
     .services-page .headline  {font-size: 35px;}
     .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
-
-/* ----------------------------------------------- */
-/* eservice-reporting-an-employee-accident-at-work */
-/* -------------------------------------------=--- */
 
 .reporting-an-employee-accident .service-offer {
     height: auto;
@@ -516,7 +498,7 @@ form {
 }
 
 .protocol-to-determine-the-circumstances .first-section {
-    height: 200px;
+    height: 180px;
 }
 
 .protocol-to-determine-the-circumstances .second-section input {
@@ -779,14 +761,10 @@ form {
     font-size: 12px;
 }
 
-/* ------------------- */
-
 .protocol-to-determine-the-circumstances .fifth-section .victim-data {
     display: flex;
     flex-direction: row;
 }
-
-/* ------------------- */
 
 .protocol-to-determine-the-circumstances .fifth-section  .victim-pesel-box {
     display: inline;
@@ -806,15 +784,11 @@ form {
     width: 25px;
 }
 
-/* ------------------- */
-
 .protocol-to-determine-the-circumstances .fifth-section .distance-five {
     display: inline;
     width: 360px;
     height: 75px;
 }
-
-/* ------------------- */
 
 .protocol-to-determine-the-circumstances .fifth-section .id-card-number {
     display: inline;
@@ -897,8 +871,6 @@ form {
     width: 200px;
     font-size: 12px;
 }
-
-/* ------------------ */
 
 .protocol-to-determine-the-circumstances .fifth-section .accident-reported-box .accident-reported {
     display: inline-block;
@@ -1005,8 +977,6 @@ form {
     font-style: italic;
 }
 
-/* ---------------------  */
-
 .protocol-to-determine-the-circumstances .ninth-section div {
     display: inline;
 }
@@ -1020,9 +990,6 @@ form {
     border: 1px solid black;
     padding: 5px 10px;
 }
-
-
-/* -------------------------  */
 
 .protocol-to-determine-the-circumstances .tenth-section {
     border: 2px solid black;
@@ -1068,8 +1035,6 @@ form {
     font-size: 12px;
 }
 
-/* ----------------------- */
-
 .protocol-to-determine-the-circumstances .twelfth-section .ptotocol {
     display: inline-block;
 }
@@ -1096,9 +1061,10 @@ form {
     font-size: 12px;
 }
 
-
-/* ----------------------- */
-
+.protocol-to-determine-the-circumstances .thirteen-section p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 .protocol-to-determine-the-circumstances .thirteen-section textarea {
     display: block;
     width: 100%;
@@ -1167,11 +1133,9 @@ form {
     border-bottom: 1px solid black;
 }
 
-/* ----------------------- */
-
 .protocol-to-determine-the-circumstances .sixteenth-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .protocol-to-determine-the-circumstances .sixteenth-section .protocol-approved .protocol-text {
@@ -1221,12 +1185,9 @@ form {
     font-size: 12px;
 }
 
-
-/* -----------------------  */
-
 .protocol-to-determine-the-circumstances .seventeenth-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .protocol-text {
@@ -1237,7 +1198,6 @@ form {
 .protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .protocol-text p {
     display: block;margin-bottom: 0;
 }
-
 
 .protocol-to-determine-the-circumstances .seventeenth-section .protocol-approved .date {
     display: inline-block;
@@ -1257,11 +1217,9 @@ form {
     width: 720px;
 }
 
-/* -------------------------- */
-
 .protocol-to-determine-the-circumstances .eighteenth-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .protocol-to-determine-the-circumstances .eighteenth-section .protocol-approved .protocol-text {
@@ -1311,7 +1269,10 @@ form {
     font-size: 12px;
 }
 
-/* ------------------------------ */
+.protocol-to-determine-the-circumstances .nineteenth-section p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 .protocol-to-determine-the-circumstances .nineteenth-section textarea {
     width: 100%;
@@ -1351,14 +1312,10 @@ form {
 }
 
 .protocol-to-determine-the-circumstances .twenty-first-section p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
-
-/* ----------------------------------------------------------- */
-/* eservice-notice-of-completion-of-construction */
-/* ----------------------------------------------------------- */
 
 .completion-of-construction .first-section .investor {
     display: inline-block;
@@ -1400,8 +1357,6 @@ form {
     width: 300px;
     font-size: 12px;
 }
-
-/* -------------------------- */
 
 .completion-of-construction .second-section .investor {
     display: inline-block;
@@ -1590,10 +1545,6 @@ form {
     text-indent: 50px;
 }
 
-/* ----------------------------------------------------------- */
-/* eservice-application-form-a-photovoltaic-system */
-/* ----------------------------------------------------------- */
-
 .photovoltaic-system .first-section .inwestor {
     width: 300px;
     display: inline-block;
@@ -1678,8 +1629,6 @@ form {
     display: inline-block;
 }
 
-
-
 .photovoltaic-system .third-section .distance {
     width: 500px;
     display: inline-block;
@@ -1730,8 +1679,6 @@ form {
 .photovoltaic-system .fifth-section {
     width: 1002px;
 }
-
-
 
 .photovoltaic-system .fifth-section tr, td {
     border: 2px black solid;
