@@ -419,6 +419,11 @@
 							</div>
 						</div>
 					</div>
+					<div class="actions buttons text-center mt-2 mb-2">
+						<div>
+							<input class="non-printable btn btn-light mr-3" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
+						</div>
+					</div>
 				</div>
 			</section>
 			<?php
@@ -719,10 +724,5 @@
 			?>
 		</main>
 	</body>
-	<?php 
-		if(!empty($_POST["summary"])) {
-			echo '<script>setTimeout(function(){document.querySelector("#viewPdf").click()}, 500);</script>';
-		}
-	?>
 </html>
 
