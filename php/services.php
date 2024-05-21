@@ -38,17 +38,17 @@
 					<h1 class="text-center headline">Nasza oferta</h1>
 					<div class="row">		
 						<div class="col-12 col-xs-12 col-sm-3 col-md-3 col-lg-3 tabs-container">
-							<label for="tab1"> Przeglądy urzadzeń ppoż. </label>
-							<label for="tab2"> Dokumentacja techn. ppoż. </label>
+							<label for="tab1"> Przeglądy urzadzeń </label>
+							<label for="tab2"> Dokumentacja techniczna </label>
 							<label for="tab3"> Montaż zabezpieczeń </label>
 							<label for="tab4"> Usługi BHP </label>
 							<label for="tab5"> Dokumentacja BHP </label>
-							<label for="tab6"> Szkolenia BHP & PPOŻ. </label>
+							<label for="tab6"> Szkolenia </label>
 							<label class="e-service" for="tab7"> Kalkulator ofert online </label>
 							<label class="e-service" for="tab8"> Usługa e-formularz </label>
 						</div>
 						<input name="tab" id="tab1" type="radio" checked />
-						<div class="col-12 col-xs-12 col-sm-9 col-md-8 col-lg-9 tab-content tab-1">
+						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content">
 							<h4> Hydranty, zestawy hydroforowe i pompownie. </h4>
 							<table class="content-table">
 								<thead>
@@ -593,8 +593,6 @@
 
 						<input name="tab" id="tab7" type="radio" />
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content calc-box">
-							<h4> Kalulator online  </h4>
-							
 							<div class="row">
 								<a href="offer-calculator-fp.php" class="col-lg-5 text-center headline calculator">
 									Kalulator online <br> dla oferty z zakresu ochrony przeciwpożarowej</a>

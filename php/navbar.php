@@ -76,7 +76,7 @@
                         <?php 
                             if('/ideaprotect/index.php'==$_SERVER['PHP_SELF']){
                                 if(isset($_SESSION['name']) && $_SESSION['name'] == 'admin'){
-                                    echo ' <li class="nav-item"><span><a href="php/my-account-admin.php">moje konto</a></span></li>';
+                                    echo ' <li class="nav-item"><span><a class="nav-link text-white" href="php/my-account-admin.php">moje konto</a></span></li>';
                                 } else if(isset($_SESSION['name']) && $_SESSION['name'] != 'admin'){
                                     echo ' <li class="nav-item"><span><a class="nav-link text-white" href="php/my-account-admin.php">moje konto</a></span></li>';
                                 } 

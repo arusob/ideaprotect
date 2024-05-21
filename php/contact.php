@@ -41,11 +41,11 @@
 				require('./navbar.php');
 			?>
 			<section class="contact-page">
-				<div class="row row-content bg-con-1">					
-					<div class="col-12 col-md-12 d-block">
-						<h1 class="text-center headline font-weight-bold"> Kontakt </h1>
-					</div>
+				<div class="row row-content bg-con-1 contact-container">					
 					<div class="col-12 col-md-12 container-message">
+						<div class="col-12 col-md-12 d-block">
+							<h1 class="text-center headline font-weight-bold"> Kontakt </h1>
+						</div>
 						<div class="row contact-area">
 							<div class="col-12 col-lg-4 box-info">
 								<img class="img" src="../img/customer-service-ideaprotect.png">
@@ -140,11 +140,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="row row-content bg-con-1 social-media-contact pb-5">
+				<div class="row row-content bg-con-1 social-media-contact">
 					<div class="col-md-12 d-block">
 						<h1 class="text-center headline font-weight-bold"> Jesteśmy dostępni na: </h1>
 					</div>
-					<div class="col-md-12 pb-5">
+					<div class="col-md-12">
 						<div class="row social-media">
 							<div class="col-12 col-sm-6 col-xl-3"><a href="https://www.facebook.com/ideaprotect" target="_blank"><img src="../img/icon-messenger.png" class="dotimg-st"></div></a>
 							<div class="col-12 col-sm-6 col-xl-3"><a href="https://web.telegram.org/?legacy=1#/im?p=@arusob" target="_blank"><img src="../img/icon-telegram.png" class="dotimg"></div></a>

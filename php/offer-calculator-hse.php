@@ -330,12 +330,12 @@
 									</div>		
 								</div>
 
-								<div class="text-right mb-0 pt-5 pb-5">
+								<div class="text-right mb-0 pt-5 pb-2">
 									<input class="rabat" name="checkboxRabat" type="checkbox"> Nalicz rabat
-									<input class="mr-5" name="rabat" type="number" value="Wpisz rabat" min="0" max="35">%
-									<input class="btn btn-success mr-3" id="viewPdf" name="summary" type="submit" disabled value="Generuj koszotrys">
+									<input class="mr-1" name="rabat" type="number" value="Wpisz rabat" min="0" max="35">%
+									<input class="btn btn-success ml-4" id="viewPdf" name="summary" type="submit" disabled value="Utwórz koszotrys">
 								</div>
-								<div class="text-right mb-0 pt-5 pb-5">
+								<div class="text-right mb-0 pt-1 pb-5">
 									<span> Utwórz umowę na podstawie kosztorysu wraz z harmonogramem prac*.</span>
 									<input class="btn btn-warning ml-3" id="viewDocs" name="contract" disabled type="submit" value="Utwórz umowę">
 								</div>

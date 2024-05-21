@@ -31,7 +31,7 @@
 			?>
 			<section class="home-page">
 				<div class="row row-content bg-con-1 welcome">
-					<div class="col-md-12 part-1">
+					<div class="col-md-12">
 						<div class="motto">										
 							<h1 class="slogan"> Pomagamy firmom tworzyć lepsze warunki bezpieczeństwa </h1>
 							<div class="slogan-box">
@@ -143,7 +143,7 @@
 						</div>
 					</div>
 				</div>
-				<section class="row row-content bg-con-2 process" id="process">
+				<div class="row row-content bg-con-2 process" id="process">
 					<div class="col-md-12 d-block">
 						<h1 class="text-center headline"> Jak pracujemy ? </h1>
 					</div>
@@ -182,7 +182,7 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
 				<div class="row row-content bg-con-1 area">
 					<div class="col-lg-12 d-block">
 						<h1 class="text-center headline">Obszar działania naszej firmy</h1>

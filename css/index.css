@@ -1,4 +1,5 @@
 .welcome {
+    min-height: 860px;
     background-image: url(../img/architect-working.jpg);
     background-size: cover;
     align-items: center;
@@ -135,14 +136,14 @@
 /* ---------------------------------------------------------- */
 
 .offer {
+    min-height: 860px;
     align-items: center;
-    padding-bottom: 4rem;
 }
 
 .offer .headline {
     line-height: 150%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-weight: bold;
 }
 
@@ -201,7 +202,7 @@
 /* -------------------------------------------- */
 
 .values {
-    padding-bottom: 4rem;
+    min-height: 860px;
 }
 
 .values img{
@@ -211,7 +212,6 @@
 
 .values .headline {
     padding-top: 4rem;
-    padding-bottom: 4rem;
     font-weight: bold;
     line-height: 150%;
 }
@@ -296,8 +296,8 @@
 /* -------------------------------------------------------- */
 
 .process {
+    min-height: 860px;
     align-items: center;
-    padding-bottom: 4rem;
 }
 
 .process .headline {
@@ -317,20 +317,23 @@
     padding: 4rem 1rem 1rem 1rem;
 }
 
-span {
-    width: 60px; 
-    height: 60px;
-    /* padding: 17px 20px; */
-    top: 30px; 
-    /* border: 1px white solid; */
-    border-radius: 50%;
-    border-width: 4px !important; 
-    /* background-color: #1e22d8; */
-    align-items: center;
-    justify-content: center;
+.process-box .step
+{
+background: #06315f;
+border-radius: 2.0em;
+-moz-border-radius: 2.0em;
+-webkit-border-radius: 2.0em;
+color: #ffffff;
+display: inline-block;
+font-weight: bold;
+line-height: 2.6em;
+margin-right: 5px;
+text-align: center;
+width: 2.6em;
+margin-bottom: -50px;
+padding-bottom: -50px;
+font-size: 21px !important;
 }
-
-
 
 /* -------------------------------------------------------- */
 /* -------------------------------------------------------- */
@@ -388,13 +391,12 @@ span {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 .area {
+    min-height: 860px;
     align-items: center;
-    padding-bottom: 4rem;
 }
 
 .area .headline {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
     font-weight: bold;
     line-height: 150%;
 } 
@@ -408,6 +410,10 @@ span {
 
 .img-map {
     width: 70%; 
+}
+
+.area .row {
+    padding-bottom: 4rem;
 }
 
 /* ------------------------------------------------------ */

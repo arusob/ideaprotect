@@ -149,6 +149,9 @@
     margin-left: 25px;
 }
 
+/* ------------------------------ */
+/* ------------------------------ */
+
 .summary-page .headline {
     line-height: 150%;
     padding-top: 3rem;
@@ -208,7 +211,7 @@
     padding: 20px 25px 20px 25px; 
     min-height: 1550px;
     height: auto;
-    margin: 0;
+    margin: 60px 0 20px 0;
 }
 
 .calc-result h1 {
@@ -254,25 +257,25 @@
 }
 
 .summary-page .th-1{
-    width: 78%;
+    width: 75%;
     text-align: center;
 }
 
 .summary-page .td-1 {
-    width: 78%;
+    width: 75%;
 }
 
 .summary-page .th-2 {
-    width: 15%;
+    width: 20%;
     text-align: center;
 }
 
 .summary-page .td-2 {
-    width: 15%;
+    width: 20%;
 }
 
 .summary-page .th-3, .td-3 {
-    width: 7%;
+    width: 5%;
     text-align: center;
 }
 
@@ -344,6 +347,9 @@
     .service-offer h4 {font-size: 15px; line-height: 140%; margin: 0 5px;}
 }
 
+/* ------------------------------ */
+/* ------------------------------ */
+
 .timetable #date-info {
     display: block;
     font-weight: 100;
@@ -413,3 +419,4 @@
     color: #ffffff;
     border: #ffffff solid 2px;
 }
+

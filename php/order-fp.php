@@ -11,8 +11,10 @@
 		<meta name="keywords" content="urządzenia przeciwpożarowe, systemy, instalacje, centrale sygnalizacji pożarowej">
 		<meta name="author" content="Arkadiusz Sobczyk">
 		<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
 		<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/calculator-summary.css">
+
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap">
@@ -24,6 +26,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+		
 		<script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>				
 		<script defer src="../js/bootstrap/bootstrap.min.js"></script>
 		<script defer src="../js/print-document.js"></script>
@@ -94,8 +97,8 @@
 				if(isset($contract)) {
 					?>
 						<section class="contract-page">
-							<div class="row-content bg-con-1 service-offer pt-5 pb-5">
-								<div class="calc-result printableArea" >
+							<div class="row-content bg-con-1 service-offer pt-2 pb-2">
+								<div class="attachment printableArea" >
 									<h4 class="headline text-center pb-4 pt-4"> Umowa na wykonanie usług <br>z zakresu ochrony przeciwpożarowej </h4>
 									<div class="distance"></div>
 									<table  class="col-lg-12 summary" cellpadding="5" cellspacing="10">
@@ -250,9 +253,9 @@
 				}
 			?>
 			<section class="summary-page">
-				<div class="row-content bg-con-1 service-offer pt-1 pb-1">
+				<div class="row-content bg-con-1 service-offer pt-2 pb-2">
 					<div class="attachment printableArea">
-						<h5 class="text-center pt-2 pb-4"> Załącznik nr 1. Zestawienie kosztorysu usługowego </h5>
+						<h5 class="pt-2 pb-4"> Załącznik nr 1. Zestawienie kosztorysu usługowego </h5>
 						<div class="distance"></div>
 						<table  class="col-lg-12 summary" cellpadding="5" cellspacing="10">
 							<thead>
@@ -423,9 +426,9 @@
 				$orderCounter = 1;
 			?>
 			<section class="timetable">
-				<div class="row-content bg-con-1 service-offer pt-5 pb-5">
+				<div class="row-content bg-con-1 service-offer pt-2 pb-2">
 					<div class="attachment printableArea" >
-						<h5 class="text-center pt-2 pb-4"> Załącznik nr 2. Harmonogram prac. </h5>
+						<h5 class="pt-0 pb-4"> Załącznik nr 2. Harmonogram prac. </h5>
 						<div class="distance"></div>
 						<table  class="col-lg-12 summary" cellpadding="5" cellspacing="10">
 							<thead>
@@ -701,7 +704,7 @@
 							?>
 						</table>
 					</div>
-					<div class="actions buttons text-center mt-5">
+					<div class="actions buttons text-center mt-5 mb-5">
 						<div>
 							<input class="non-printable btn btn-light mr-3" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
 						</div>

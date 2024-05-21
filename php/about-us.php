@@ -41,20 +41,20 @@
 			<section class="about-us-page">
 				<div class="row row-content bg-con-1 company">
 					<div class="row d-block">
-						<h1 class="text-center font-weight-bold headline py-5"> O nas </h1>
+						<h1 class="text-center font-weight-bold headline"> O nas </h1>
 					</div>
 					<div class="row">	
 						<div class="col-xl-6 col-xxl-8 about-us-text">
-							<h2 class="pb-4"> Idea </h2>
-							<p class="text-justify pb-5">
-								Z pomysłu narodziła się nazwa złożona z idei i celu jaki ma przyświecać naszej działalności. 
-								Słowa „idea” i „protect” (od angielskich słów „pomysł” oraz „ochrona”) połączone ze sobą stworzyły nazwę naszej marki. 
-								Kierunek naszej działalności jest jasno sprecyzowany w tej nazwie. 
+							<h2> Idea </h2>
+							<p class="text-justify">
+								Nazwa naszej marki narodziła się z połączenia słów - „idea” i&nbsp;„protect” 
+								z ang. „pomysł” i „ochrona”. Połączone ze sobą stworzyły cel jaki relizujemy na codzień. 
+								Jest nim bezpieczeństwo w Państwa firmach, organizacjach i&nbsp;instytucjach. 
 							</p>	
-							<h2 class="pb-4"> Cel bezpieczeństwo </h2>
-							<p class="text-justify pb-5">	
-								Dostarczanie bezpieczeństwa dla firm i organizacji to nasza wiodąca działalność.
-								Doświadczenie zdobyte w firmach i instytucjach na co dzień działających w obrzarze bezpieczeństwa pozwoliło nam przełożyć zdobyte 
+							<h2 class="pt-5"> Cel bezpieczeństwo </h2>
+							<p class="text-justify">	
+								Podnoszenie warunków bezpieczeństwa firm i organizacji to nasza wiodąca działalność.
+								Doświadczenie zdobyte w firmach i&nbsp;wielu projektach na co dzień działających w branży pozwoliło nam przełożyć zdobyte 
 								umiejętności na własne „know how”.
 							</p>
 						</div>
@@ -65,25 +65,30 @@
 				</div>
 				<div class="row row-content bg-con-2 organization">
 					<div class="row d-block">
-						<h1 class="text-center font-weight-bold headline py-5"> Organizacja </h1>
+						<h1 class="text-center font-weight-bold headline"> Organizacja </h1>
 					</div>
 					<div class="row">	
 						<div class="col-xl-4">
 							<img class="img-fluid" src="../img/saftey-inspector.jpg">
 						</div>							
 						<div class="col-xl-8 about-us-text">
-							<h2 class="pb-4"> Marka </h2>
-							<p class="text-justify pb-5">Tworząc markę na rynku krajowym w obszarze bezpieczeństwa pożarowego oraz bezpieczeństwa i higieny pracy chcemy kierować się 
-								innowacyjnym podejściem do pokonywania problemów. 
-								Dlatego od początku działności stawiamy na duży poziom cyfryzacji i automatyzacji procesów.
+							<h2> Marka </h2>
+							<p class="text-justify">Tworząc markę z obszaru inżynierii bezpieczeństwa pożarowego oraz BHP dla rynku krajowego chcemy kierować się 
+								innowacyjnym podejściem do rozwiązywania problemów. 
+								Dlatego od początku działności stawiamy na duży poziom cyfryzacji i&nbsp;usprawniania procesów pracy.
 							</p>
-							<h2 class="pb-4"> Kultura </h2>
-							<p class="text-justify pb-5">Odpowiednia kultura realizacji procesów w organizacji przyczynia się bezpośrednio do lepszego bezpieczeństwa środowiska 
-								w którym przebywamy na co dzień. Usługi które dostarczamy Państwu są przede wszystkim realizacją obowiązków polskiego i unijnego prawa 
-								dotyczącego ochrony przeciwpożarowej oraz bezpieczeństwa i higieny pracy. W celu sprostania oczekiwaniom w zakresie standardu jakości 
+						</div>
+						<div class="col-xl-8 about-us-text">
+							<h2> Kultura </h2>
+							<p class="text-justify">Odpowiednia kultura realizacji zadań w organizacji przyczynia się bezpośrednio do lepszego bezpieczeństwa środowiska 
+								w którym przebywamy. Usługi które dostarczamy Państwu są przede wszystkim realizacją obowiązków polskiego i&nbsp;unijnego prawa 
+								dotyczącego ochrony przeciwpożarowej oraz bezpieczeństwa i&nbsp;higieny pracy. W celu sprostania oczekiwaniom w zakresie jakości 
 								stosujemy normy krajowe i zagraniczne.
 							</p>
 						</div>
+						<div class="col-xl-4">
+							<img class="img-fluid" src="../img/work-culture.jpg">
+						</div>	
 					</div>
 				</div>
 				<div class="row row-content bg-con-1 team">					

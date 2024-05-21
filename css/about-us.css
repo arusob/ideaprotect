@@ -1,18 +1,29 @@
-.about-us-page .company {
-    padding-top: 2rem;
-    padding-bottom: 8rem;
+.company {
+    min-height: 860px;
 }
 
-.about-us-page .headline {
-    padding-top: 2rem; 
-    padding-bottom: 1rem;
+.company .headline {
+    padding-top: 4rem; 
 }
+
+.company p {
+    font-size: 19px !important;
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */ 
 
 .organization {
-    min-height: 52rem;
+    min-height: 860px;
 }
 
+.organization .headline {
+    padding-top: 4rem; 
+}
 
+.organization p {
+    font-size: 19px !important;
+}
 
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */
@@ -57,7 +68,7 @@
 /* ----------------------------------------------------- */
 
 .team {
-    padding-bottom: 4rem;
+    min-height: 860px;
 }
 
 .team-container {
@@ -170,7 +181,7 @@
     margin: 0;
     background: #2f2f2f;
     position: absolute;
-    bottom: -100px;
+    bottom: 0;
     left: 0;
     transition: all 0.5s ease 0s;
 }
@@ -179,7 +190,6 @@
     padding-left:13px; 
     padding-right:13px;
 }
-
 
 .our-team:hover .social{ bottom: 0; }
 .our-team .social li{ display: inline-block;}
@@ -253,13 +263,11 @@
 /* ------------------------------------------------------ */
 
 .trust-us{
-    min-height: 52rem; 
-    padding-bottom: 4rem;
+    min-height: 860px; 
 }
 
 .trust-us .headline {
     padding-top: 4rem;
-    padding-bottom: 4rem;
 }
 
 .trust-us img{
@@ -286,8 +294,7 @@
 /* ---------------------------------------------------- */
 
 .bussines-in-numbers{
-    min-height: 52rem; 
-    padding-bottom: 4rem;
+    min-height: 860px;
 }
 
 .bussines-in-numbers .headline{
