@@ -44,7 +44,7 @@
 							<label for="tab4"> Usługi BHP </label>
 							<label for="tab5"> Dokumentacja BHP </label>
 							<label for="tab6"> Szkolenia </label>
-							<label class="e-service" for="tab7"> Kalkulator ofert online </label>
+							<label class="e-service" for="tab7"> Kalkulator ofert </label>
 							<label class="e-service" for="tab8"> Usługa e-formularz </label>
 						</div>
 						<input name="tab" id="tab1" type="radio" checked />
@@ -448,7 +448,7 @@
 									</tr>
 									<tr>
 										<td> 2. </td>
-										<td> Wykaz osób wyznaczonych do zwalczania pożarów oraz osób <br/>do prowadzenia ewakuacji zakladu. </td>
+										<td> Wykaz osób wyznaczonych do zwalczania pożarów oraz osób <br/>do prowadzenia ewakuacji zakładu. </td>
 										<td> 90,00 </td>
 										<td> szt. </td>
 									</tr>
@@ -460,7 +460,7 @@
 									</tr>
 									<tr>
 										<td> 4. </td>
-										<td> Wykaz prac szczególnie niebezpiecznych występujących w zakaładzie pracy. </td>
+										<td> Wykaz prac szczególnie niebezpiecznych występujących w zakładzie pracy. </td>
 										<td> 190,00 </td>
 										<td> szt. </td>
 									</tr>
@@ -592,15 +592,15 @@
 						</div>
 
 						<input name="tab" id="tab7" type="radio" />
+						
 						<div class="container-sm col-xs-12 col-sm-12 col-lg-9 tab-content calc-box">
+							
 							<div class="row">
-								<a href="offer-calculator-fp.php" class="col-lg-5 text-center headline calculator">
-									Kalulator online <br> dla oferty z zakresu ochrony przeciwpożarowej</a>
+								<a href="offer-calculator-fp.php" class="col-lg-5 text-center headline calculator"> Usługi <br>z zakresu ochrony przeciwpożarowej</a>
 								<div class="col-lg-2"></div>
-								<a href="offer-calculator-hse.php" class="col-lg-5 text-center headline calculator">
-									Kalulator online <br> dla oferty z zakresu usług BHP</a>
-
+								<a href="offer-calculator-hse.php" class="col-lg-5 text-center headline calculator"> Usługi <br>z zakresu BHP</a>
 							</div>
+
 						</div>
 
 						<input name="tab" id="tab8" type="radio" />

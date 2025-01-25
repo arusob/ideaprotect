@@ -97,9 +97,9 @@
 				if(isset($contract)) {
 					?>
 						<section class="contract-page">
-							<div class="row-content bg-con-1 service-offer pt-2 pb-2">
-								<div class="attachment printableArea" >
-									<h4 class="headline text-center pb-4 pt-4"> Umowa na wykonanie usług <br>z zakresu ochrony przeciwpożarowej </h4>
+							<div class="row-content bg-con-1 service-offer contract-sheet">
+								<div class="printableArea contract-area">
+									<h4 class="headline text-center pb-4 pt-2"> Umowa na wykonanie usług <br>z zakresu ochrony przeciwpożarowej </h4>
 									<div class="distance"></div>
 									<table  class="col-lg-12 summary" cellpadding="5" cellspacing="10">
 										<div class="white-paper">							
@@ -236,13 +236,11 @@
 												<p class="text-center">§ 9 (strony Umowy) </p>
 												<p>Umowa sporządzona została w <u>dwóch jednobrzmiących egzemplarzach</u>, po jednym dla każdej ze stron.</p>
 											</div>
-											<div class="col-lg-12 section-thirteen mb-4">
+											<div class="col-lg-12 section-thirteen ">
 												<p class="text-center">§ 10</p>
 												<p> Integralną część umowy stanowią załączniki nr 1 i nr 2.</p>
 												<p class="indention"> Załącznik nr 1. Zestawienie kosztorysu usługowego. </p>
 												<p class="indention"> Załącznik nr 2. Harmonogram prac. </p>
-											</div>
-											<div class="col-lg-12 section-eight">
 											</div>
 										</div>
 									</table>
@@ -253,10 +251,10 @@
 				}
 			?>
 			<section class="summary-page">
-				<div class="row-content bg-con-1 service-offer pt-2 pb-2">
+				<div class="row-content bg-con-1 service-offer pt-5 pb-2">
+					<div class="distance-cost-estimate"></div>
 					<div class="attachment printableArea">
-						<h5 class="pt-2 pb-4"> Załącznik nr 1. Zestawienie kosztorysu usługowego </h5>
-						<div class="distance"></div>
+						<h5 class="pt-2 pb-2"> Załącznik nr 1. Kosztorys usług dotyczących ochrony przeciwpożarowej </h5>
 						<table  class="col-lg-12 summary" cellpadding="5" cellspacing="10">
 							<thead>
 								<tr>
@@ -412,17 +410,6 @@
 								}
 							?>
 						</table>
-						<div>
-							<div class="col-6 float-left">
-								<a href="offer-calculator-fp.php">Powrót do kalkulatora ofert</a>
-								<input id="viewPdf" class="non-printable pt-0 mt-0 pb-0 mb-0 d-none" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
-							</div>
-						</div>
-					</div>
-					<div class="actions buttons text-center mt-2 mb-2">
-						<div>
-							<input class="non-printable btn btn-light mr-3" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
-						</div>
 					</div>
 				</div>
 			</section>
@@ -432,8 +419,8 @@
 			?>
 			<section class="timetable">
 				<div class="row-content bg-con-1 service-offer pt-2 pb-2">
-					<div class="attachment printableArea" >
-						<h5 class="pt-0 pb-4"> Załącznik nr 2. Harmonogram prac. </h5>
+					<div class="timetable-sheet printableArea" >
+						<h5 class="pt-2 pb-2"> Załącznik nr 2. Harmonogram prac. </h5>
 						<div class="distance"></div>
 						<table  class="col-lg-12 summary" cellpadding="5" cellspacing="10">
 							<thead>
@@ -709,16 +696,19 @@
 							?>
 						</table>
 					</div>
-					<div class="actions buttons text-center mt-5 mb-5">
-						<div>
-							<input class="non-printable btn btn-light mr-3" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
-						</div>
-					</div>
 				</div>
 			</section>
 			<?php						
 				}
 			?>
+			<div class="actions buttons bg-con-1 row-content">
+				<div class="back-offer">
+					<a href="offer-calculator-fp.php" class="non-printable "> << Powrót do kalkulatora ofert</a>
+				</div>
+				<div class="text-center">
+					<input class="non-printable btn btn-light mt-4 mb-4" type="button" onclick="printDiv('printableArea')" value="Podgląd pdf" />
+				</div>
+			</div>
 			<?php 
 				require('footer.php');
 			?>

@@ -139,7 +139,7 @@
 											<tbody>
 												<tr>
 													<td class="td-1"> 1. </td>
-													<td class="td-2"> Instrukcja bezpieczeństwa pożarowego budynku. Strfa głównie ZL I, <br>
+													<td class="td-2"> Instrukcja bezpieczeństwa pożarowego budynku. Strefa głównie ZL I, <br>
 													(np. centrum handlowe, duże sklepy, teatry, kina, szkoły - sale ponad 50 osób). </td>
 													<td class="td-3"> od 2000,00 / szt.</td>
 													<td class="td-4"><input type="number" min="0" name="IBP_ZL1"></td>

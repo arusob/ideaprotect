@@ -188,7 +188,7 @@
 												</tr>
 												<tr>
 													<td class="td-1"> 2. </td>
-													<td class="td-2"> Wykaz osób wyznaczonych do zwalczania pożarów oraz osób <br/>do prowadzenia ewakuacji zakladu. </td>
+													<td class="td-2"> Wykaz osób wyznaczonych do zwalczania pożarów oraz osób <br/>do prowadzenia ewakuacji zakładu. </td>
 													<td class="td-3"> 90,00 / szt. </td>
 													<td class="td-4"><input type="number" min="0" name="wykaz_os_gasz_pozar"></td>
 												</tr>
@@ -259,7 +259,7 @@
 												</tr>
 												<tr>
 													<td class="td-1"> 4. </td>
-													<td class="td-2"> Szkolenie dla pracowników portiernii, dozorców 24h z zakresu obsługi central pożarowych. </td>
+													<td class="td-2"> Szkolenie dla pracowników portierni, dozorców 24h z zakresu obsługi central pożarowych. </td>
 													<td class="td-3"> 80,00 / szt. </td>
 													<td class="td-4"><input type="number" min="0" name="szkol_obslugi_csp"></td>
 												</tr>

@@ -105,7 +105,7 @@ input[name="tab"]:checked + .tab-content{
 
 .calculator {
     border: solid white 1px; 
-    padding: 70px 20px 20px 20px; 
+    padding: 90px 20px 20px 20px; 
     height: 300px; 
     font-size: 27px; 
     color: white;
